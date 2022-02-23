@@ -3,7 +3,7 @@ File:           window.py
 Description:    handles window automation on Windows Automation
 
 Author(s):      Kevin Green
-Last Revised:   11 Feb 2022
+Last Revised:   14 Feb 2022
 """
 
 # Built-In Modules
@@ -16,6 +16,12 @@ import win32gui
 
 class WindowHandler:
     def _get_all_windows(self):
+        """Gets visible named windows that are open on the host system.
+
+        Returns:
+            The of windows that were found.
+
+        """
         def _callback(hwnd, context):
             if win32gui.IsWindowVisible(hwnd):  # Makes sure that the window is visible
                 if win32gui.GetWindowText(hwnd) != "":  # Makes sure the window has a title
@@ -26,8 +32,15 @@ class WindowHandler:
         return windows
 
     def find_window(self, title, limit=None):
-        # Returns all windows that match the title
-        # If a limit is set, it will return the first n of these windows that are found
+        """Finds all windows whose titles match the regex given.
+
+        Args:
+            title : Regex string for the window that is being located.
+            limit : The maximum number of windows to return. Forces the function to return the first n windows.
+
+        Returns:
+            A list of windows that matched the title regex.
+        """
         found_windows = []
         num_found = 0
         available_windows = self._get_all_windows()
@@ -40,28 +53,67 @@ class WindowHandler:
         return found_windows
 
     def get_current_window(self):
+        """Gets the currently active window that is in the foreground of the system.
+
+        Returns:
+            Window object of the currently active window.
+        """
         hwnd = win32gui.GetForegroundWindow()
         return Window(hwnd)
 
     def set_current_window(self, window):
+        """Sets the given window to the active window for the system.
+
+        Args:
+            window: Window that should be set as the current window.
+        """
         win32gui.SetForegroundWindow(window.hwnd)
         window.refresh_info()
 
     def move_window(self, window, x, y):
+        """Moves the given window to the given coordinates
+
+        Args:
+            window: The window to be moved
+            x: The x location for the top-left corner of the window
+            y: The y location for the top-left corner of the window
+        """
         win32gui.MoveWindow(window.hwnd, x - 7, y - 7, window.width, window.height, True)
         window.refresh_info()
 
     def resize_window(self, window, width, height):
+        """Resizes the given window to the given dimensions
+
+        Args:
+            window: The window to be resized
+            width: The new width of the window
+            height: The new height of the window
+        """
         win32gui.MoveWindow(window.hwnd, window.coordinates[0], window.coordinates[1], width, height, True)
         window.refresh_info()
 
     def maximize_window(self, window):
+        """Maximizes the given window
+
+        Args:
+            window: The window to maximize
+        """
         win32gui.ShowWindow(window.hwnd, win32con.SW_MAXIMIZE)
 
     def minimize_window(self, window):
+        """Minimizes the given window
+
+        Args:
+            window: The window to minimize
+        """
         win32gui.ShowWindow(window.hwnd, win32con.SW_MINIMIZE)
 
     def close_window(self, window):
+        """Close the given window entirely
+
+        Args:
+            window: The window to close
+        """
         win32gui.PostMessage(window.hwnd, win32con.WM_CLOSE, 0, 0)
 
 class Window:
@@ -74,11 +126,14 @@ class Window:
         self.refresh_info()
 
     def refresh_info(self):
+        """Gets the most updated information for a window
+        """
         self.title = win32gui.GetWindowText(self.hwnd)
         self.coordinates = win32gui.GetWindowRect(self.hwnd)
         self.width = self.coordinates[2] - self.coordinates[0]
         self.height = self.coordinates[3] - self.coordinates[1]
 
+# Temporary Testing During Development
 if __name__ == "__main__":
     WindowHandler()._get_all_windows()
     windows = WindowHandler().find_window(".*Visual Studio Code.*")
