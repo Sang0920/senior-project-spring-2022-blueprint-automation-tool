@@ -3,7 +3,7 @@ File:           window.py
 Description:    handles window automation on Windows Automation
 
 Author(s):      Kevin Green
-Last Revised:   14 Feb 2022
+Last Revised:   24 Feb 2022
 """
 
 # Built-In Modules
@@ -99,6 +99,7 @@ class WindowHandler:
             window: The window to maximize
         """
         win32gui.ShowWindow(window.hwnd, win32con.SW_MAXIMIZE)
+        window.refresh_info()
 
     def minimize_window(self, window):
         """Minimizes the given window
@@ -107,6 +108,7 @@ class WindowHandler:
             window: The window to minimize
         """
         win32gui.ShowWindow(window.hwnd, win32con.SW_MINIMIZE)
+        window.refresh_info()
 
     def close_window(self, window):
         """Close the given window entirely
@@ -115,6 +117,7 @@ class WindowHandler:
             window: The window to close
         """
         win32gui.PostMessage(window.hwnd, win32con.WM_CLOSE, 0, 0)
+        window.refresh_info()
 
 class Window:
     def __init__(self, hwnd):
