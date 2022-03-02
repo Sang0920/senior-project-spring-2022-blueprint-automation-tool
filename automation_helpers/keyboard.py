@@ -16,6 +16,7 @@ import win32clipboard
 import win32con
 from ctypes import wintypes
 
+from .boilerplate import Input, KeyboardInput, user32
 
 class KeyboardException(Exception):
     def __init__(self, message):
@@ -123,11 +124,13 @@ class KeyboardHandler:
 
     def press(self, key):
         hex_key = self._translate_key(key)
-        win32api.keybd_event(hex_key, 0, 0, 0)
+        x = Input(type=1, ki=KeyboardInput(wVk=hex_key))
+        user32.SendInput(1, ctypes.byref(x), ctypes.sizeof(x))
 
     def release(self, key):
         hex_key = self._translate_key(key)
-        win32api.keybd_event(hex_key, 0, win32con.KEYEVENTF_KEYUP, 0)
+        x = Input(type=1, ki=KeyboardInput(wVk=hex_key, dwFlags=win32con.KEYEVENTF_KEYUP))
+        user32.SendInput(1, ctypes.byref(x), ctypes.sizeof(x))
 
     def press_and_release(self, key, hold_time=0):
         self.press(key)
@@ -165,6 +168,6 @@ class KeyboardHandler:
         self.release('v')
         self.release('ctrl')
 
-print(KeyboardHandler().keys)
+# print(KeyboardHandler().keys)
 # KeyboardHandler().paste("test")
 # KeyboardHandler().write("test2")
