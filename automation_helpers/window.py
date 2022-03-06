@@ -11,6 +11,7 @@ import re
 import time
 
 # Installed Modules
+import win32com.client
 import win32con
 import win32gui
 
@@ -67,6 +68,8 @@ class WindowHandler:
         Args:
             window: Window that should be set as the current window.
         """
+        shell = win32com.client.Dispatch('WScript.Shell')
+        shell.SendKeys('%')
         win32gui.SetForegroundWindow(window.hwnd)
         window.refresh_info()
 

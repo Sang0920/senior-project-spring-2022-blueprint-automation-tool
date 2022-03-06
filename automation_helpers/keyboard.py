@@ -3,7 +3,6 @@ File:           keyboard.py
 Description:    handles keyboard automation for Windows
 
 Author(s):      Kevin Green
-Last Revised:   24 Feb 2022
 """
 
 # Built-In Modules
@@ -132,12 +131,12 @@ class KeyboardHandler:
         x = Input(type=1, ki=KeyboardInput(wVk=hex_key, dwFlags=win32con.KEYEVENTF_KEYUP))
         user32.SendInput(1, ctypes.byref(x), ctypes.sizeof(x))
 
-    def press_and_release(self, key, hold_time=0):
+    def press_and_release(self, key, hold_time=0.1):
         self.press(key)
         sleep(hold_time)
         self.release(key)
 
-    def write(self, message, hold_time=0, pause_between=0):
+    def write(self, message, hold_time=0.1, pause_between=0.1):
         for key in message:
             self.press_and_release(key, hold_time)
             sleep(pause_between)
