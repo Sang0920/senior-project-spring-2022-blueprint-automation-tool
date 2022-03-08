@@ -3,7 +3,6 @@ File:         README.md
 Description:  Contains important information about the project in general
 
 Author:       Kevin Green
-Last Revised: 4 Feb 2022
 -->
 
 <!-- Title Card -->
@@ -17,7 +16,6 @@ A Google Earth Pro to Minecraft Blueprint Automation Tool
 
 <!-- Quick Links -->
 [Documentation](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/wiki)
-
 
 </div>
 
@@ -33,6 +31,9 @@ Kevin Green (k_green5@u.pacific.edu)
 <div id="badges" align="center">
 
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/comp195/senior-project-spring-2022-blueprint-automation-tool?logo=github&style=for-the-badge)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/comp195/senior-project-spring-2022-blueprint-automation-tool?include_prereleases&logo=github&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/comp195/senior-project-spring-2022-blueprint-automation-tool?logo=github&style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/comp195/senior-project-spring-2022-blueprint-automation-tool?logo=github&style=for-the-badge)
 
 </div>
 
