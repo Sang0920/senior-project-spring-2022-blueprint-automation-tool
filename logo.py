@@ -5,7 +5,7 @@ from game_automation import GameAutomator
 g = GameAutomator()
 g.switch_to_game()
 
-g.send_to_chat('/tp @p 0 -40 0 0 90')
+g.send_to_chat("/tp @p 0 -40 0 0 90")
 block = "minecraft:blue_concrete"
 
 y = -60
