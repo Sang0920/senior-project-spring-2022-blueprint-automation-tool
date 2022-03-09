@@ -10,11 +10,11 @@ from time import sleep
 
 # Installed Modules
 import ctypes
-import win32api
 import win32clipboard
 import win32con
 from ctypes import wintypes
 
+# pylint: disable=relative-beyond-top-level
 from .boilerplate import Input, KeyboardInput, user32
 
 class KeyboardException(Exception):

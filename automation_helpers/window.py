@@ -28,9 +28,9 @@ class WindowHandler:
                 if win32gui.GetWindowText(hwnd) != "":  # Makes sure the window has a title
                     context.append(Window(hwnd))
 
-        windows = []
-        win32gui.EnumWindows(_callback, windows)
-        return windows
+        windows_list = []
+        win32gui.EnumWindows(_callback, windows_list)
+        return windows_list
 
     def find_window(self, title, limit=None):
         """Finds all windows whose titles match the regex given.
@@ -141,10 +141,9 @@ class Window:
 
 # Temporary Testing During Development
 if __name__ == "__main__":
-    WindowHandler()._get_all_windows()
     windows = WindowHandler().find_window(".*Visual Studio Code.*")
-    for window in windows:
-        print(window.title)
+    for wndw in windows:
+        print(wndw.title)
 
     print(WindowHandler().get_current_window().title)
 

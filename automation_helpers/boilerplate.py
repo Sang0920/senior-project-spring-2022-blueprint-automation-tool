@@ -1,3 +1,11 @@
+"""
+File:
+Description:
+
+Author:
+"""
+
+# pylint: disable-all
 from time import sleep
 
 import ctypes
