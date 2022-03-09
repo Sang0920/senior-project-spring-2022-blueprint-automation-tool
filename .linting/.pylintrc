@@ -98,7 +98,8 @@ disable=raw-checker-failed,
         c-extension-no-member,
         no-else-return,
         no-self-use,
-        wrong-import-order
+        wrong-import-order,
+        import-error,
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
