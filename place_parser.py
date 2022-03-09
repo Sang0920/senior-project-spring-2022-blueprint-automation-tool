@@ -32,8 +32,6 @@ class Place:
 
 
 class PlaceParser:
-    def __init__(self):
-        pass
 
     def parse_place(self, file):
         # Get namespaces from file so we can search it
