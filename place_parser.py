@@ -22,12 +22,14 @@ class Coordinate:
     def __repr__(self):
         return f'Longitude: {self.longitude} Latitude: {self.latitude} Altitude: {self.altitude}'
 
+
 class Place:
     def __init__(self, name, coordinate_list, shape, color='ff0000'):
         self.name = name
         self.coordinate_list = coordinate_list
         self.shape = shape
         self.color = color
+
 
 class PlaceParser:
     def __init__(self):
