@@ -52,11 +52,11 @@ class PlaceParser:
 
             # Attempt to find each kind of Placemark that Google Earth Pro creates
             place_types = ["Point", "LineString"]
-            for type in place_types:
+            for shape_type in place_types:
                 # Match the shape to what is stored in the file
-                place = placemark.find(type, namespaces)
+                place = placemark.find(shape_type, namespaces)
                 if place:
-                    shape = type
+                    shape = shape_type
 
                     # Grab the coordinates from the file
                     coordinate_strings = place.find("coordinates", namespaces).text.strip().split(' ')
@@ -95,6 +95,6 @@ class PlaceParser:
 parser = PlaceParser()
 _here = os.path.dirname(os.path.abspath(__file__))
 filename = os.path.join(_here, "Center Mark.kml")
-places = parser.parse_place(filename)
-print(places[0].coordinate_list[0].longitude)
-print(places[0].color)
+found_places = parser.parse_place(filename)
+print(found_places[0].coordinate_list[0].longitude)
+print(found_places[0].color)

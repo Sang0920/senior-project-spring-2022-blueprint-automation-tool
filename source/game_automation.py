@@ -36,10 +36,10 @@ class GameAutomator:
         self.program_window = self.window.get_current_window()
 
     def find_minecraft_version(self):
-        game = self.window.find_window("Minecraft.*[0-9]+\.[0-9]+.*", limit=1)
+        game = self.window.find_window(r"Minecraft.*[0-9]+\.[0-9]+.*", limit=1)
         if game:
             game = game[0]
-            version = re.findall("[0-9]+\.[0-9]+", game.title)[0]
+            version = re.findall(r"[0-9]+\.[0-9]+", game.title)[0]
             if version in self.supported_mc_versions:
                 if version != "1.18":
                     self.max_height = 256
@@ -49,7 +49,7 @@ class GameAutomator:
         raise AutomationException('No supported version of the game was found!')
 
     def switch_to_game(self):
-        game = self.window.find_window("Minecraft.*[0-9]+\.[0-9]+.*(Singleplayer|Multiplayer)", limit=1)
+        game = self.window.find_window(r"Minecraft.*[0-9]+\.[0-9]+.*(Singleplayer|Multiplayer)", limit=1)
         if game:
             self.window.set_current_window(game[0])
             self.window.maximize_window(game[0])
@@ -92,6 +92,7 @@ class GameAutomator:
             self.send_to_chat(f"//line {block}")
         else:
             raise AutomationException("Cannot place the line. The script hasn't switched to the game yet.")
+
 
 if __name__ == "__main__":
     automator = GameAutomator()

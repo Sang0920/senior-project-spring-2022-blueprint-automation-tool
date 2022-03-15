@@ -8,8 +8,6 @@ Author(s):      Kevin Green
 # Installed Modules
 import ctypes
 from ctypes import wintypes
-
-# Built-In Modules
 from time import sleep
 
 import win32clipboard

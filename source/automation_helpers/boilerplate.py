@@ -5,10 +5,9 @@ Description:
 Author:
 """
 
+# pylint: disable-all
 import ctypes
 from ctypes import wintypes
-
-# pylint: disable-all
 from time import sleep
 
 import win32con
@@ -16,6 +15,7 @@ import win32con
 user32 = ctypes.WinDLL('user32', use_last_error=True)
 
 # C Struct Definitions
+
 
 class MouseInput(ctypes.Structure):
     _fields_ = (("dx", wintypes.LONG),
@@ -54,10 +54,12 @@ class Input(ctypes.Structure):
     _fields_ = (("type", wintypes.DWORD),
                 ("_input", _Input))
 
+
 def _check_count(result, func, args):
     if result == 0:
         raise ctypes.WinError(ctypes.get_last_error())
     return args
+
 
 user32.SendInput.errcheck = _check_count
 user32.SendInput.argtypes = (wintypes.UINT, ctypes.POINTER(Input), ctypes.c_int)

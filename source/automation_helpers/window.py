@@ -123,6 +123,7 @@ class WindowHandler:
         win32gui.PostMessage(window.hwnd, win32con.WM_CLOSE, 0, 0)
         window.refresh_info()
 
+
 class Window:
     def __init__(self, hwnd):
         self.hwnd = hwnd
@@ -139,6 +140,7 @@ class Window:
         self.coordinates = win32gui.GetWindowRect(self.hwnd)
         self.width = self.coordinates[2] - self.coordinates[0]
         self.height = self.coordinates[3] - self.coordinates[1]
+
 
 # Temporary Testing During Development
 if __name__ == "__main__":

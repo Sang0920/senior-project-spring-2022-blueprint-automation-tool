@@ -35,12 +35,14 @@ def color_to_minecraft_dye(hex_color):
 
     return block_color
 
+
 def _hex_to_rgb(hex_color):
     return (
         int(hex_color[:2], 16),
         int(hex_color[2:4], 16),
         int(hex_color[4:], 16)
     )
+
 
 def _color_distance(rgb1, rgb2):
     # Approximation for distance between two colors
