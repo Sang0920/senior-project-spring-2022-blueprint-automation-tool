@@ -5,12 +5,13 @@ Description:
 Author:
 """
 
+import ctypes
+from ctypes import wintypes
+
 # pylint: disable-all
 from time import sleep
 
-import ctypes
 import win32con
-from ctypes import wintypes
 
 user32 = ctypes.WinDLL('user32', use_last_error=True)
 

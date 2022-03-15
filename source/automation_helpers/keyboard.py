@@ -5,17 +5,19 @@ Description:    handles keyboard automation for Windows
 Author(s):      Kevin Green
 """
 
+# Installed Modules
+import ctypes
+from ctypes import wintypes
+
 # Built-In Modules
 from time import sleep
 
-# Installed Modules
-import ctypes
 import win32clipboard
 import win32con
-from ctypes import wintypes
 
 # pylint: disable=relative-beyond-top-level
 from .boilerplate import Input, KeyboardInput, user32
+
 
 class KeyboardException(Exception):
     def __init__(self, message):

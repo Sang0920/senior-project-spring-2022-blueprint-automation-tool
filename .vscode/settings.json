@@ -1,0 +1,34 @@
+{
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "off",
+    "[markdown]": {
+        "editor.rulers": [
+            140
+        ],
+        "editor.tabSize": 2
+    },
+    "python.formatting.blackArgs": [
+        "--line-length=140"
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    "[python]": {
+        "editor.rulers": [
+            140
+        ],
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+    },
+    "[yaml]": {
+        "editor.rulers": [
+            100
+        ]
+    }
+}

@@ -15,6 +15,7 @@ import win32com.client
 import win32con
 import win32gui
 
+
 class WindowHandler:
     def _get_all_windows(self):
         """Gets visible named windows that are open on the host system.

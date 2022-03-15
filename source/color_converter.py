@@ -1,5 +1,6 @@
 import math
 
+
 def color_to_minecraft_dye(hex_color):
     # Hex color for minecraft dyes from
     # https://minecraft.fandom.com/wiki/Dye
