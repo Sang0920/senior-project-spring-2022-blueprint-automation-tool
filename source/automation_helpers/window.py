@@ -24,6 +24,7 @@ class WindowHandler:
             The of windows that were found.
 
         """
+
         def _callback(hwnd, context):
             if win32gui.IsWindowVisible(hwnd):  # Makes sure that the window is visible
                 if win32gui.GetWindowText(hwnd) != "":  # Makes sure the window has a title
@@ -69,8 +70,8 @@ class WindowHandler:
         Args:
             window: Window that should be set as the current window.
         """
-        shell = win32com.client.Dispatch('WScript.Shell')
-        shell.SendKeys('%')
+        shell = win32com.client.Dispatch("WScript.Shell")
+        shell.SendKeys("%")
         win32gui.SetForegroundWindow(window.hwnd)
         window.refresh_info()
 
@@ -134,8 +135,7 @@ class Window:
         self.refresh_info()
 
     def refresh_info(self):
-        """Gets the most updated information for a window
-        """
+        """Gets the most updated information for a window"""
         self.title = win32gui.GetWindowText(self.hwnd)
         self.coordinates = win32gui.GetWindowRect(self.hwnd)
         self.width = self.coordinates[2] - self.coordinates[0]
