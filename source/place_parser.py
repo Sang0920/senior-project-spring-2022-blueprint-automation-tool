@@ -10,8 +10,6 @@ Author(s):      Kevin Green
 """
 
 import os
-
-# Built-In Modules
 import xml.etree.ElementTree as et
 
 
@@ -22,11 +20,11 @@ class Coordinate:
         self.altitude = float(altitude)
 
     def __repr__(self):
-        return f'Longitude: {self.longitude} Latitude: {self.latitude} Altitude: {self.altitude}'
+        return f"Longitude: {self.longitude} Latitude: {self.latitude} Altitude: {self.altitude}"
 
 
 class Place:
-    def __init__(self, name, coordinate_list, shape, color='ff0000'):
+    def __init__(self, name, coordinate_list, shape, color="ff0000"):
         self.name = name
         self.coordinate_list = coordinate_list
         self.shape = shape
@@ -34,12 +32,9 @@ class Place:
 
 
 class PlaceParser:
-
     def parse_place(self, file):
         # Get namespaces from file so we can search it
-        namespaces = dict([
-            n for _, n in et.iterparse(file, events=['start-ns'])
-        ])
+        namespaces = dict([n for _, n in et.iterparse(file, events=["start-ns"])])
 
         tree = et.parse(file)
         root = tree.getroot()
@@ -59,16 +54,12 @@ class PlaceParser:
                     shape = shape_type
 
                     # Grab the coordinates from the file
-                    coordinate_strings = place.find("coordinates", namespaces).text.strip().split(' ')
+                    coordinate_strings = place.find("coordinates", namespaces).text.strip().split(" ")
                     coordinate_list = []
 
                     for coordinate in coordinate_strings:
-                        coordinate_split = coordinate.split(',')
-                        coordinate_list.append(Coordinate(
-                            coordinate_split[0],
-                            coordinate_split[1],
-                            coordinate_split[2]
-                        ))
+                        coordinate_split = coordinate.split(",")
+                        coordinate_list.append(Coordinate(coordinate_split[0], coordinate_split[1], coordinate_split[2]))
 
             # Attempt to get the color of the place, otherwise default to red
             color = "ff0000"

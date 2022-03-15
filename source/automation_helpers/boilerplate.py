@@ -8,7 +8,6 @@ Author:
 # pylint: disable-all
 import ctypes
 from ctypes import wintypes
-from time import sleep
 
 import win32con
 

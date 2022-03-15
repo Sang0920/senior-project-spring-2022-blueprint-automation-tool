@@ -26,8 +26,8 @@ class GameAutomator:
         self.window = window.WindowHandler()
 
         # Minecraft information
-        self.supported_mc_versions = ['1.12', '1.13', '1.14', '1.15', '1.16', '1.17', '1.18']
-        self.supported_blocks = ['wool', 'terracotta', 'glazed_terracotta', 'concrete', 'concrete_powder']
+        self.supported_mc_versions = ["1.12", "1.13", "1.14", "1.15", "1.16", "1.17", "1.18"]
+        self.supported_blocks = ["wool", "terracotta", "glazed_terracotta", "concrete", "concrete_powder"]
         self.max_height = 319
         self.min_height = -64
 
@@ -46,7 +46,7 @@ class GameAutomator:
                     self.min_height = 0
                 return version
         # Raise exception if game was not found or version is not supported
-        raise AutomationException('No supported version of the game was found!')
+        raise AutomationException("No supported version of the game was found!")
 
     def switch_to_game(self):
         game = self.window.find_window(r"Minecraft.*[0-9]+\.[0-9]+.*(Singleplayer|Multiplayer)", limit=1)
@@ -54,14 +54,14 @@ class GameAutomator:
             self.window.set_current_window(game[0])
             self.window.maximize_window(game[0])
             sleep(3)
-            self.keyboard.press_and_release('esc')
+            self.keyboard.press_and_release("esc")
             self.is_switched_to_game = True
 
     def send_to_chat(self, message):
         if self.is_switched_to_game:
-            self.keyboard.press_and_release('t')
+            self.keyboard.press_and_release("t")
             self.keyboard.paste(message)
-            self.keyboard.press_and_release('enter')
+            self.keyboard.press_and_release("enter")
         else:
             raise AutomationException("Cannot send messages to chat. The script hasn't switched to the game yet.")
         sleep(1)
