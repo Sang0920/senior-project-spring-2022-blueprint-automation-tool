@@ -33,7 +33,7 @@ class KeyboardInput(ctypes.Structure):
         ("wScan", wintypes.WORD),
         ("dwFlags", wintypes.DWORD),
         ("time", wintypes.DWORD),
-        ("dwExtraInfo", wintypes.WPARAM)
+        ("dwExtraInfo", wintypes.WPARAM),
     )
 
     def __init__(self, *args, **kwds):
