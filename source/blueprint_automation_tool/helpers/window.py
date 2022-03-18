@@ -27,9 +27,7 @@ class WindowHandler:
 
         def _callback(hwnd, context):
             if win32gui.IsWindowVisible(hwnd):  # Makes sure that the window is visible
-                if (
-                    win32gui.GetWindowText(hwnd) != ""
-                ):  # Makes sure the window has a title
+                if (win32gui.GetWindowText(hwnd) != ""):  # Makes sure the window has a title
                     context.append(Window(hwnd))
 
         windows_list = []
@@ -85,9 +83,7 @@ class WindowHandler:
             x: The x location for the top-left corner of the window
             y: The y location for the top-left corner of the window
         """
-        win32gui.MoveWindow(
-            window.hwnd, x - 7, y - 7, window.width, window.height, True
-        )
+        win32gui.MoveWindow(window.hwnd, x - 7, y - 7, window.width, window.height, True)
         window.refresh_info()
 
     def resize_window(self, window, width, height):

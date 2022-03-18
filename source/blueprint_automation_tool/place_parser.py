@@ -54,9 +54,7 @@ class PlaceParser:
                     shape = shape_type
 
                     # Grab the coordinates from the file
-                    coordinate_strings = (
-                        place.find("coordinates", namespaces).text.strip().split(" ")
-                    )
+                    coordinate_strings = (place.find("coordinates", namespaces).text.strip().split(" "))
                     coordinate_list = []
 
                     for coordinate in coordinate_strings:
@@ -97,9 +95,7 @@ class PlaceParser:
 
         # Calculate the bearing between the two points
         y = sin(radians(long2 - long1)) * cos(radians(lat2))
-        x = cos(radians(lat1)) * sin(radians(lat2)) - sin(radians(lat1)) * cos(
-            radians(lat2)
-        ) * cos(radians(long2 - long1))
+        x = cos(radians(lat1)) * sin(radians(lat2)) - sin(radians(lat1)) * cos(radians(lat2)) * cos(radians(long2 - long1))
 
         theta = atan2(y, x)
 
@@ -109,9 +105,7 @@ class PlaceParser:
         delta_lat = lat2 - lat1
         delta_lon = radians(long2 - long1)
 
-        a = sin(delta_lat / 2) * sin(delta_lat / 2) + cos(lat1) * cos(lat2) * sin(
-            delta_lon / 2
-        ) * sin(delta_lon / 2)
+        a = sin(delta_lat / 2) * sin(delta_lat / 2) + cos(lat1) * cos(lat2) * sin(delta_lon / 2) * sin(delta_lon / 2)
         c = 2 * atan2(sqrt(a), sqrt(1 - a))
         d = earth_radius * c
 

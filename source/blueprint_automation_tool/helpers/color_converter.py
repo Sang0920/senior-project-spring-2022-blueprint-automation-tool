@@ -49,9 +49,7 @@ def _color_distance(rgb1, rgb2):
     delta_b = rgb1[2] - rgb2[2]
 
     color_difference = math.sqrt(
-        ((2 + (r_mean / 256)) * delta_r * delta_r)
-        + (4 * delta_g * delta_g)
-        + ((2 + ((255 - r_mean) / 256)) * delta_b * delta_b)
+        ((2 + (r_mean / 256)) * delta_r * delta_r) + (4 * delta_g * delta_g) + ((2 + ((255 - r_mean) / 256)) * delta_b * delta_b)
     )
 
     return color_difference

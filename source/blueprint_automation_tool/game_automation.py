@@ -63,9 +63,7 @@ class GameAutomator:
         raise AutomationException("No supported version of the game was found!")
 
     def switch_to_game(self):
-        game = self.window.find_window(
-            r"Minecraft.*[0-9]+\.[0-9]+.*(Singleplayer|Multiplayer)", limit=1
-        )
+        game = self.window.find_window(r"Minecraft.*[0-9]+\.[0-9]+.*(Singleplayer|Multiplayer)", limit=1)
         if game:
             self.window.set_current_window(game[0])
             self.window.maximize_window(game[0])
@@ -79,9 +77,7 @@ class GameAutomator:
             self.keyboard.paste(message)
             self.keyboard.press_and_release("enter")
         else:
-            raise AutomationException(
-                "Cannot send messages to chat. The script hasn't switched to the game yet."
-            )
+            raise AutomationException("Cannot send messages to chat. The script hasn't switched to the game yet.")
         sleep(1)
 
     def teleport(self, x, y, z, should_use_tppos=False):
@@ -91,33 +87,25 @@ class GameAutomator:
             else:
                 self.send_to_chat(f"/tp @p {x} {y} {z} 180 90")
         else:
-            raise AutomationException(
-                "Cannot teleport. The script hasn't switched to the game yet."
-            )
+            raise AutomationException("Cannot teleport. The script hasn't switched to the game yet.")
 
     def pos1(self, x, y, z):
         if self.is_switched_to_game:
             self.send_to_chat(f"//pos1 {x},{y},{z}")
         else:
-            raise AutomationException(
-                "Cannot select first position. The script hasn't switched to the game yet."
-            )
+            raise AutomationException("Cannot select first position. The script hasn't switched to the game yet.")
 
     def pos2(self, x, y, z):
         if self.is_switched_to_game:
             self.send_to_chat(f"//pos2 {x},{y},{z}")
         else:
-            raise AutomationException(
-                "Cannot select second position. The script hasn't switched to the game yet."
-            )
+            raise AutomationException("Cannot select second position. The script hasn't switched to the game yet.")
 
     def line(self, block):
         if self.is_switched_to_game:
             self.send_to_chat(f"//line {block}")
         else:
-            raise AutomationException(
-                "Cannot place the line. The script hasn't switched to the game yet."
-            )
+            raise AutomationException("Cannot place the line. The script hasn't switched to the game yet.")
 
 
 if __name__ == "__main__":

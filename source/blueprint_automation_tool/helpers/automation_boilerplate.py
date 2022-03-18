@@ -7,6 +7,7 @@ Description:    Implements boilerplate code to send inputs to Windows
 Author(s):         Kevin Green
 """
 
+# pylint: skip-file
 import ctypes
 from ctypes import wintypes
 
