@@ -1,1 +1,15 @@
+# File:         requirements.txt
+# Description:  Requirements file required for DEVELOPMENT ONLY
+#               For running the file as an end user, see 'setup.cfg'
+
+# Linting
+black
+flake8
+isort
+pylint
+
+# Testing
+pytest
+
+# Package Depedencies
 pywin32

@@ -1,6 +1,11 @@
+"""
+File:           rotunda.py
+Description:    test file to check parsing/converting of .kml files
+
+Author(s):      Kevin Green
+"""
 import os
 from math import floor
-from time import sleep
 
 from game_automation import GameAutomator
 from place_parser import PlaceParser
@@ -17,9 +22,11 @@ ref_place = found_places[0].coordinate_list[0]
 g.switch_to_game()
 
 for coordinate in found_places[0].coordinate_list:
-    block_x, block_y = p.get_line_length_bearing(ref_place.latitude, coordinate.latitude, ref_place.longitude, coordinate.longitude)
+    block_x, block_y = p.get_line_length_bearing(
+        ref_place.latitude,
+        coordinate.latitude,
+        ref_place.longitude,
+        coordinate.longitude,
+    )
     print(floor(block_x), floor(block_y))
-    g.send_to_chat(f"/setblock {block_x} 0 {block_y} magenta_wool")
-
-
-
+    g.send_to_chat(f"/setblock {block_x} 0 {block_y} blue_wool")

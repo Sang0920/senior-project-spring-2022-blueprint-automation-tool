@@ -1,11 +1,12 @@
 """
-File:
-Description:
+File:           automation_boilerplate.py
+Description:    Implements boilerplate code to send inputs to Windows
+                Code originally based off of:
+                https://stackoverflow.com/questions/13564851/how-to-generate-keyboard-events
 
-Author:
+Author(s):         Kevin Green
 """
 
-# pylint: disable-all
 import ctypes
 from ctypes import wintypes
 
@@ -43,7 +44,11 @@ class KeyboardInput(ctypes.Structure):
 
 
 class HardwareInput(ctypes.Structure):
-    _fields_ = (("uMsg", wintypes.DWORD), ("wParamL", wintypes.WORD), ("wParamH", wintypes.WORD))
+    _fields_ = (
+        ("uMsg", wintypes.DWORD),
+        ("wParamL", wintypes.WORD),
+        ("wParamH", wintypes.WORD),
+    )
 
 
 class Input(ctypes.Structure):

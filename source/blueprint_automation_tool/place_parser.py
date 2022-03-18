@@ -9,7 +9,6 @@ Description:    parses .kml and .kmz files to find the following information:
 Author(s):      Kevin Green
 """
 
-import os
 import xml.etree.ElementTree as et
 from math import atan2, cos, floor, radians, sin, sqrt
 
@@ -55,12 +54,20 @@ class PlaceParser:
                     shape = shape_type
 
                     # Grab the coordinates from the file
-                    coordinate_strings = place.find("coordinates", namespaces).text.strip().split(" ")
+                    coordinate_strings = (
+                        place.find("coordinates", namespaces).text.strip().split(" ")
+                    )
                     coordinate_list = []
 
                     for coordinate in coordinate_strings:
                         coordinate_split = coordinate.split(",")
-                        coordinate_list.append(Coordinate(coordinate_split[0], coordinate_split[1], coordinate_split[2]))
+                        coordinate_list.append(
+                            Coordinate(
+                                coordinate_split[0],
+                                coordinate_split[1],
+                                coordinate_split[2],
+                            )
+                        )
 
             # Attempt to get the color of the place, otherwise default to red
             color = "ff0000"
@@ -90,32 +97,25 @@ class PlaceParser:
 
         # Calculate the bearing between the two points
         y = sin(radians(long2 - long1)) * cos(radians(lat2))
-        x = cos(radians(lat1)) * sin(radians(lat2)) - sin(radians(lat1)) * cos(radians(lat2)) * cos(radians(long2-long1))
+        x = cos(radians(lat1)) * sin(radians(lat2)) - sin(radians(lat1)) * cos(
+            radians(lat2)
+        ) * cos(radians(long2 - long1))
 
         theta = atan2(y, x)
 
         # Calculate haversine distance between two points
         lat1 = radians(lat1)
         lat2 = radians(lat2)
-        delta_lat = (lat2 - lat1)
+        delta_lat = lat2 - lat1
         delta_lon = radians(long2 - long1)
 
-        a = sin(delta_lat/2) * sin(delta_lat/2) + cos(lat1) * cos(lat2) * sin(delta_lon/2) * sin(delta_lon/2)
-        c = 2 * atan2(sqrt(a), sqrt(1-a))
+        a = sin(delta_lat / 2) * sin(delta_lat / 2) + cos(lat1) * cos(lat2) * sin(
+            delta_lon / 2
+        ) * sin(delta_lon / 2)
+        c = 2 * atan2(sqrt(a), sqrt(1 - a))
         d = earth_radius * c
 
         block_x = d * cos(theta)
         block_y = d * sin(theta)
 
-        return(floor(block_x), floor(block_y))
-
-
-parser = PlaceParser()
-_here = os.path.dirname(os.path.abspath(__file__))
-filename = os.path.join(_here, "Rotunda.kml")
-found_places = parser.parse_place(filename)
-print(found_places[0].coordinate_list[0].longitude)
-print(found_places[0].color)
-print(parser.get_line_length_bearing(
-    found_places[0].coordinate_list[0].latitude, found_places[0].coordinate_list[4].latitude, found_places[0].coordinate_list[0].longitude, found_places[0].coordinate_list[4].longitude
-))
+        return (floor(block_x), floor(block_y))

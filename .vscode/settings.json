@@ -1,34 +1,25 @@
 {
     "editor.formatOnSave": true,
     "editor.wordWrap": "off",
-    "[markdown]": {
-        "editor.rulers": [
-            140
-        ],
-        "editor.tabSize": 2
-    },
-    "python.formatting.blackArgs": [
-        "--line-length=140"
+    "editor.rulers": [
+        140
     ],
+    "[markdown]": {
+        "editor.tabSize": 2,
+    },
     "python.formatting.provider": "black",
     "python.linting.lintOnSave": true,
     "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--config=${workspaceFolder}/.linting/.flake8",
+    ],
     "python.linting.pylintEnabled": true,
-    "python.sortImports.args": [
-        "--profile",
-        "black"
+    "python.linting.pylintArgs": [
+        "--config=${workspaceFolder}/.linting/.pylintrc",
     ],
     "[python]": {
-        "editor.rulers": [
-            140
-        ],
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true,
+            "source.organizeImports": true
         },
     },
-    "[yaml]": {
-        "editor.rulers": [
-            100
-        ]
-    }
 }

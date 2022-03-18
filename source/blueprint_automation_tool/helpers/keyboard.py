@@ -14,7 +14,7 @@ import win32clipboard
 import win32con
 
 # pylint: disable=relative-beyond-top-level
-from .boilerplate import Input, KeyboardInput, user32
+from .automation_boilerplate import Input, KeyboardInput, user32
 
 
 class KeyboardException(Exception):
@@ -128,7 +128,9 @@ class KeyboardHandler:
 
     def release(self, key):
         hex_key = self._translate_key(key)
-        x = Input(type=1, ki=KeyboardInput(wVk=hex_key, dwFlags=win32con.KEYEVENTF_KEYUP))
+        x = Input(
+            type=1, ki=KeyboardInput(wVk=hex_key, dwFlags=win32con.KEYEVENTF_KEYUP)
+        )
         user32.SendInput(1, ctypes.byref(x), ctypes.sizeof(x))
 
     def press_and_release(self, key, hold_time=0.1):

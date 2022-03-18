@@ -1,3 +1,9 @@
+"""
+File:           logo.py
+Description:    test to check world edit placement in-game
+
+Author(s):      Kevin Green
+"""
 from game_automation import GameAutomator
 
 g = GameAutomator()
