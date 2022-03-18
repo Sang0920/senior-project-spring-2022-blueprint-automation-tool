@@ -11,6 +11,7 @@ Author(s):      Kevin Green
 
 import os
 import xml.etree.ElementTree as et
+from math import atan2, cos, floor, radians, sin, sqrt
 
 
 class Coordinate:
@@ -82,10 +83,39 @@ class PlaceParser:
             places.append(Place(place_name, coordinate_list, shape, color))
             return places
 
+    def get_line_length_bearing(self, lat1, lat2, long1, long2):
+        # calculations derived from
+        # https://www.movable-type.co.uk/scripts/latlong.html
+        earth_radius = 6371e3
+
+        # Calculate the bearing between the two points
+        y = sin(radians(long2 - long1)) * cos(radians(lat2))
+        x = cos(radians(lat1)) * sin(radians(lat2)) - sin(radians(lat1)) * cos(radians(lat2)) * cos(radians(long2-long1))
+
+        theta = atan2(y, x)
+
+        # Calculate haversine distance between two points
+        lat1 = radians(lat1)
+        lat2 = radians(lat2)
+        delta_lat = (lat2 - lat1)
+        delta_lon = radians(long2 - long1)
+
+        a = sin(delta_lat/2) * sin(delta_lat/2) + cos(lat1) * cos(lat2) * sin(delta_lon/2) * sin(delta_lon/2)
+        c = 2 * atan2(sqrt(a), sqrt(1-a))
+        d = earth_radius * c
+
+        block_x = d * cos(theta)
+        block_y = d * sin(theta)
+
+        return(floor(block_x), floor(block_y))
+
 
 parser = PlaceParser()
 _here = os.path.dirname(os.path.abspath(__file__))
-filename = os.path.join(_here, "Center Mark.kml")
+filename = os.path.join(_here, "Rotunda.kml")
 found_places = parser.parse_place(filename)
 print(found_places[0].coordinate_list[0].longitude)
 print(found_places[0].color)
+print(parser.get_line_length_bearing(
+    found_places[0].coordinate_list[0].latitude, found_places[0].coordinate_list[4].latitude, found_places[0].coordinate_list[0].longitude, found_places[0].coordinate_list[4].longitude
+))
