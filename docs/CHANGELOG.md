@@ -53,6 +53,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Updated repository layout to be cleaner.
 
+## 0.4.0 - 2022-03-18
+### Added
+- Final Place Parsing
 
 <!--
 ## Example
