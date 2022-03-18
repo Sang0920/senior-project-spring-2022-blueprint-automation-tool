@@ -54,7 +54,7 @@ class PlaceParser:
                     shape = shape_type
 
                     # Grab the coordinates from the file
-                    coordinate_strings = (place.find("coordinates", namespaces).text.strip().split(" "))
+                    coordinate_strings = place.find("coordinates", namespaces).text.strip().split(" ")
                     coordinate_list = []
 
                     for coordinate in coordinate_strings:

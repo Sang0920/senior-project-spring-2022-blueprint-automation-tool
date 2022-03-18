@@ -27,7 +27,7 @@ class WindowHandler:
 
         def _callback(hwnd, context):
             if win32gui.IsWindowVisible(hwnd):  # Makes sure that the window is visible
-                if (win32gui.GetWindowText(hwnd) != ""):  # Makes sure the window has a title
+                if win32gui.GetWindowText(hwnd) != "":  # Makes sure the window has a title
                     context.append(Window(hwnd))
 
         windows_list = []
