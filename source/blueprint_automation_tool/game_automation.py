@@ -66,7 +66,6 @@ class GameAutomator:
         game = self.window.find_window(r"Minecraft.*[0-9]+\.[0-9]+.*(Singleplayer|Multiplayer)", limit=1)
         if game:
             self.window.set_current_window(game[0])
-            self.window.maximize_window(game[0])
             sleep(3)
             self.keyboard.press_and_release("esc")
             self.is_switched_to_game = True
@@ -78,7 +77,7 @@ class GameAutomator:
             self.keyboard.press_and_release("enter")
         else:
             raise AutomationException("Cannot send messages to chat. The script hasn't switched to the game yet.")
-        sleep(1)
+        sleep(0.5)
 
     def teleport(self, x, y, z, should_use_tppos=False):
         if self.is_switched_to_game:

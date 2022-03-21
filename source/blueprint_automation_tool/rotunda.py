@@ -21,12 +21,16 @@ ref_place = found_places[0].coordinate_list[0]
 
 g.switch_to_game()
 
+last_block_x = None
+last_block_z = None
 for coordinate in found_places[0].coordinate_list:
-    block_x, block_y = p.get_line_length_bearing(
-        ref_place.latitude,
-        coordinate.latitude,
-        ref_place.longitude,
-        coordinate.longitude,
-    )
-    print(floor(block_x), floor(block_y))
-    g.send_to_chat(f"/setblock {block_x} 0 {block_y} magenta_wool")
+    block_x, _, block_z = p.convert_to_minecraft(ref_place.latitude, coordinate.latitude, ref_place.longitude, coordinate.longitude)
+    print(floor(block_x), floor(block_z))
+    if last_block_x is not None:
+        g.teleport(last_block_x, -59, last_block_z)
+        g.pos1(last_block_x, -60, last_block_z)
+        g.teleport(block_x, -59, block_z)
+        g.pos2(block_x, -60, block_z)
+        g.line("minecraft:red_wool")
+    last_block_x = block_x
+    last_block_z = block_z

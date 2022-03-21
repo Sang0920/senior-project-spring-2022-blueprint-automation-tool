@@ -15,8 +15,8 @@ from math import atan2, cos, floor, radians, sin, sqrt
 
 class Coordinate:
     def __init__(self, longitude, latitude, altitude):
-        self.longitude = float(longitude)
-        self.latitude = float(latitude)
+        self.longitude = radians(float(longitude))
+        self.latitude = radians(float(latitude))
         self.altitude = float(altitude)
 
     def __repr__(self):
@@ -88,28 +88,28 @@ class PlaceParser:
             places.append(Place(place_name, coordinate_list, shape, color))
             return places
 
-    def get_line_length_bearing(self, lat1, lat2, long1, long2):
-        # calculations derived from
+    def convert_to_minecraft(self, lat1, lat2, long1, long2, altitude = 0):
+        # Calculations derived from
         # https://www.movable-type.co.uk/scripts/latlong.html
-        earth_radius = 6371e3
 
-        # Calculate the bearing between the two points
-        y = sin(radians(long2 - long1)) * cos(radians(lat2))
-        x = cos(radians(lat1)) * sin(radians(lat2)) - sin(radians(lat1)) * cos(radians(lat2)) * cos(radians(long2 - long1))
+        earth_radius = 6_371_000  # Earth's Approximate Radius in meters
 
-        theta = atan2(y, x)
-
-        # Calculate haversine distance between two points
-        lat1 = radians(lat1)
-        lat2 = radians(lat2)
         delta_lat = lat2 - lat1
-        delta_lon = radians(long2 - long1)
+        delta_long = long2 - long1
 
-        a = sin(delta_lat / 2) * sin(delta_lat / 2) + cos(lat1) * cos(lat2) * sin(delta_lon / 2) * sin(delta_lon / 2)
+        # Calculate the initial bearing between the two points
+        y = sin(long2 - long1) * cos(lat2)
+        x = cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(delta_long)
+
+        bearing = atan2(y, x)
+
+        # Calculate the haversine distance between the two points
+        a = sin(delta_lat / 2) * sin(delta_lat / 2) + cos(lat1) * cos(lat2) * sin(delta_long / 2) * sin(delta_long / 2)
         c = 2 * atan2(sqrt(a), sqrt(1 - a))
-        d = earth_radius * c
+        distance = earth_radius * c
 
-        block_x = d * cos(theta)
-        block_y = d * sin(theta)
+        # Using the distance and bearing as polar coordinates, convert them to block coordinates
+        block_x = floor(distance * cos(bearing))
+        block_z = floor(distance * sin(bearing))
 
-        return (floor(block_x), floor(block_y))
+        return (block_x, altitude, block_z)

@@ -18,10 +18,10 @@ def test_place_color():
 def test_get_line_length_bearing():
     p = place_parser.PlaceParser()
     loc = get_location()
-    block_loc = p.get_line_length_bearing(
+    block_loc = p.convert_to_minecraft(
         loc.coordinate_list[0].latitude,
         loc.coordinate_list[4].latitude,
         loc.coordinate_list[0].longitude,
         loc.coordinate_list[4].longitude,
     )
-    assert block_loc == (1, -7)
+    assert block_loc == (1, 0, -7)
