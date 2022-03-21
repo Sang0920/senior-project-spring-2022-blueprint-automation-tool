@@ -1,0 +1,22 @@
+name: Feature Request
+description: Suggest new features for the project.
+title: "[Feature Request] <title>"
+labels: ["Type: Request", "Priority: Needs Triage"]
+body:
+  - type: textarea
+    attributes:
+      label: Feature Description
+      description: |
+        Please provide a clear and concise explanation of what you want to happen.
+        Describe the problem this solves as well as well as any consired drawbacks.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Notes / Screenshots
+      description: |
+        Any additional notes or screenshots that might be helpful for describing the new/changed feature and how users will use it.
+
+        Tip: You can attach images or other files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false

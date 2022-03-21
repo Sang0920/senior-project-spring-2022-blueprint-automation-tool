@@ -6,6 +6,9 @@
     ],
     "[markdown]": {
         "editor.tabSize": 2,
+        "editor.wordWrap": "off",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
     },
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
@@ -14,11 +17,11 @@
     "python.linting.lintOnSave": true,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
-        "--config=${workspaceFolder}/.linting/.flake8",
+        "--config=${workspaceFolder}/.github/linters/.flake8",
     ],
     "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": [
-        "--config=${workspaceFolder}/.linting/.pylintrc",
+        "--config=${workspaceFolder}/.github/linters/.pylintrc",
     ],
     "[python]": {
         "editor.codeActionsOnSave": {

@@ -6,13 +6,13 @@ Description:  Provides an introduction to the project.
 <div id="title_card" align="center">
 
 <!--Badges-->
-![][shield-github-commit-activity]
-![][shield-github-last-commit]
-![][shield-github-watchers-count]
-![][shield-github-top-language]
-![][shield-github-latest-release]
-![][shield-github-open-issues-count]
-![][shield-github-closed-issues-count]
+![GitHub Commit Activity][shield-github-commit-activity]
+![GitHub Last Commit][shield-github-last-commit]
+![GitHub Watchers Count][shield-github-watchers-count]
+![GitHub Top Language][shield-github-top-language]
+![GitHub Latest Release][shield-github-latest-release]
+![GitHub Open Issues][shield-github-open-issues-count]
+![GitHub Closed Issues][shield-github-closed-issues-count]
 
 <!--Project Title-->
 # Project B.A.T.

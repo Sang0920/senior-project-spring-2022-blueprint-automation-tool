@@ -29,4 +29,4 @@ for coordinate in found_places[0].coordinate_list:
         coordinate.longitude,
     )
     print(floor(block_x), floor(block_y))
-    g.send_to_chat(f"/setblock {block_x} 0 {block_y} blue_wool")
+    g.send_to_chat(f"/setblock {block_x} 0 {block_y} magenta_wool")
