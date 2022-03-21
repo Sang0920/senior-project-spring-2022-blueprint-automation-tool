@@ -76,14 +76,11 @@ class PlaceParser:
                 if linestyle:
                     reversed_color = linestyle.find("color", namespaces).text[2:]
                     color = reversed_color[::-1]
-                    print(color)
                 elif iconstyle:
                     color_elem = iconstyle.find("color", namespaces)
                     if color_elem is not None:
                         reversed_color = iconstyle.find("color", namespaces).text[2:]
                         color = reversed_color[::-1]
-                else:
-                    print("No color found")
 
             places.append(Place(place_name, coordinate_list, shape, color))
             return places
