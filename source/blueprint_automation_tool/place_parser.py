@@ -85,7 +85,7 @@ class PlaceParser:
             places.append(Place(place_name, coordinate_list, shape, color))
             return places
 
-    def convert_to_minecraft(self, lat1, lat2, long1, long2, altitude = 0):
+    def convert_to_minecraft(self, lat1, lat2, long1, long2, altitude=0):
         # Calculations derived from
         # https://www.movable-type.co.uk/scripts/latlong.html
 

@@ -1,4 +1,3 @@
-import colorsys
 import math
 
 
@@ -27,15 +26,15 @@ def color_to_minecraft_dye(hex_color):
     color_diffs = []
     for color in dyes:
         cr, cg, cb = color
-        color_diff = math.sqrt((r - cr)**2 + (g-cg)**2 + (b - cb)**2)
+        color_diff = math.sqrt((r - cr) ** 2 + (g - cg) ** 2 + (b - cb) ** 2)
         color_diffs.append((color_diff, color))
     min_diff = min(color_diffs)[1]
 
-    return(dyes[min_diff])
+    return dyes[min_diff]
 
 
 def _hex_to_rgb(h):
-    return (tuple(int(h[i:i+2], 16) for i in (0, 2, 4)))
+    return tuple(int(h[i : i + 2], 16) for i in (0, 2, 4))
 
 
 if __name__ == "__main__":
