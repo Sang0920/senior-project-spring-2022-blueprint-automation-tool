@@ -1,0 +1,7 @@
+pywin32
+
+flake8
+pylint
+black
+isort
+pytest

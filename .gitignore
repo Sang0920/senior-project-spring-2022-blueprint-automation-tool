@@ -1,3 +1,12 @@
+# File:         .gitignore
+# Description:  List of files/directories to ignore with git
+
+# Super Linter Log
+super-linter.log
+
+# mypy cache
+.mypy_cache
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

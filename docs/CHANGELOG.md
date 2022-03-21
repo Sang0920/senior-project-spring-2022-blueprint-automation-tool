@@ -1,6 +1,6 @@
 <!--
 File:         CHANGELOG.md
-Description:  
+Description:  Keeps track of changes in the project
 -->
 
 # Changelog
