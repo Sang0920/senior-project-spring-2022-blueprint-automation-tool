@@ -46,7 +46,7 @@ class PlaceParser:
             place_name = placemark.find("name", namespaces).text
 
             # Attempt to find each kind of Placemark that Google Earth Pro creates
-            place_types = ["Point", "LineString"]
+            place_types = ["Point", "LineString", "Polygon"]
             for shape_type in place_types:
                 # Match the shape to what is stored in the file
                 place = placemark.find(shape_type, namespaces)
@@ -54,7 +54,12 @@ class PlaceParser:
                     shape = shape_type
 
                     # Grab the coordinates from the file
-                    coordinate_strings = place.find("coordinates", namespaces).text.strip().split(" ")
+                    if place.find("outerBoundaryIs", namespaces):
+                        outerBoundaryIs = place.find("outerBoundaryIs", namespaces)
+                        ring = outerBoundaryIs = outerBoundaryIs.find("LinearRing", namespaces)
+                        coordinate_strings = ring.find("coordinates", namespaces).text.strip().split(" ")
+                    else:
+                        coordinate_strings = place.find("coordinates", namespaces).text.strip().split(" ")
                     coordinate_list = []
 
                     for coordinate in coordinate_strings:
@@ -105,8 +110,9 @@ class PlaceParser:
         c = 2 * atan2(sqrt(a), sqrt(1 - a))
         distance = earth_radius * c
 
-        # Using the distance and bearing as polar coordinates, convert them to block coordinates
-        block_x = floor(distance * cos(bearing))
-        block_z = floor(distance * sin(bearing))
+        # Using the distance and bearing as polar coordinates, convert them to cartesian coordinates
+        # Values for x and z are swapped and z is multiplied by -1 to rotate the coordinates to Minecraft's coordinates for North
+        block_x = floor(distance * sin(bearing))
+        block_z = -1 * floor(distance * cos(bearing))
 
         return (block_x, altitude, block_z)
