@@ -11,6 +11,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Previous Changes
 
+### [0.4.2](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.4.1...v0.4.2) (2022-03-21)
+
+
+### Bug Fixes
+
+* Fixed Color Converter ([4e4dbcb](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/4e4dbcb15aa3852e18debbfb9059783757e7d927))
+* Linting Errors ([becf38f](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/becf38ff79a2a8817f2d1f9770e215fe733db527))
+* Super Linter Runs on all branches ([80011ef](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/80011efa8c153ca87f7d29c764d0899149419a32))
+
 ### [0.4.1](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.4.0...v0.4.1) (2022-03-21)
 
 
