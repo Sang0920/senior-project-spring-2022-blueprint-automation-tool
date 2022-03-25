@@ -12,7 +12,6 @@ from time import sleep
 
 import win32clipboard
 import win32con
-# pylint: disable=relative-beyond-top-level
 from automation_boilerplate import Input, KeyboardInput, user32
 
 
