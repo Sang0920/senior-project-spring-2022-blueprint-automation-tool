@@ -1,3 +1,8 @@
+"""
+File:           color_matcher.py
+Description:    Takes an hex value and matches it to the cloest minecraft dye color
+"""
+
 import math
 
 

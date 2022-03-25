@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#30.kml</name>
+	<StyleMap id="inline">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#30</name>
+		<styleUrl>#inline</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3117687251991,37.98020647777874,0 -121.3117133176562,37.98007726594041,0 -121.3117307498262,37.9800729428318,0 -121.3117202114878,37.98004334160796,0 -121.3117109143128,37.9800456472716,0 -121.3116986525106,37.98002452713113,0 -121.3117099083192,37.98002072902812,0 -121.3116989391188,37.97999324806803,0 -121.3116861555382,37.97999641834829,0 -121.3116317800741,37.97987299075371,0 -121.3115806457705,37.97988567186471,0 -121.3115838712629,37.97989695246788,0 -121.3115660082556,37.97990339582827,0 -121.3115600928209,37.97989177561386,0 -121.3115027169209,37.9799080179729,0 -121.3115422710201,37.9800039132051,0 -121.311510893117,37.98001169475337,0 -121.3115575248729,37.98011892191065,0 -121.3115862128868,37.98011080073629,0 -121.3116381337631,37.98024087722145,0 -121.3116908612827,37.98022578765938,0 -121.3116850110212,37.9802111311572,0 -121.3117101474019,37.98020691087946,0 -121.3117156972402,37.98021761504611,0 -121.3117687251991,37.98020647777874,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

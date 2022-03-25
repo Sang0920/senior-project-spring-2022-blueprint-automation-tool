@@ -23,9 +23,4 @@
     "python.linting.pylintArgs": [
         "--config=${workspaceFolder}/.github/linters/.pylintrc",
     ],
-    "[python]": {
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        },
-    },
 }

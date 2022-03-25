@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#70.kml</name>
+	<StyleMap id="inline">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#70</name>
+		<styleUrl>#inline</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3131944414934,37.98002223784603,0 -121.3131536862393,37.97992529448693,0 -121.3131998807952,37.97991343230989,0 -121.3131368536857,37.97974780694029,0 -121.3132632664218,37.97971523886074,0 -121.313274165417,37.97974254250276,0 -121.3132923949876,37.97973923786556,0 -121.3132994646123,37.97975694833051,0 -121.3132824031142,37.97977091166744,0 -121.3132978518731,37.97980316935415,0 -121.3133199108425,37.97980945787785,0 -121.3133247712189,37.97982163382052,0 -121.313305968548,37.97982994654772,0 -121.3133306801875,37.97987896525897,0 -121.3134689165423,37.97984508657516,0 -121.3135086835861,37.97994470791463,0 -121.3131944414934,37.98002223784603,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

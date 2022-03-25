@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#18 William Knox Holt Memorial Library.kml</name>
+	<StyleMap id="inline">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#18 William Knox Holt Memorial Library</name>
+		<styleUrl>#inline</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3093550138157,37.98010231171538,0 -121.3092776065016,37.9799116691481,0 -121.3093252648837,37.97989569592585,0 -121.3093442630642,37.97993669202153,0 -121.309378285515,37.97992617772894,0 -121.3093616183218,37.97988772000447,0 -121.3095099425166,37.97984990050719,0 -121.3095403263218,37.97991612084186,0 -121.3096067273368,37.97989757739698,0 -121.309612628921,37.9799189675505,0 -121.3096681696986,37.97990623354885,0 -121.3096545205025,37.97987533781269,0 -121.3097416849453,37.97985268408114,0 -121.3097192911226,37.97980318085082,0 -121.3097692129679,37.97979287891327,0 -121.3097426691708,37.97973297802444,0 -121.3096743146653,37.97974992843263,0 -121.3095849017174,37.97952590526046,0 -121.309481837942,37.97954834632597,0 -121.3094584473234,37.97948974101185,0 -121.3093288662451,37.97952499035321,0 -121.3093460183315,37.9795778710899,0 -121.3091632272243,37.97962839245334,0 -121.3091571235657,37.97961640158483,0 -121.3089341380123,37.97966857912731,0 -121.3091287389927,37.98015946095092,0 -121.3093550138157,37.98010231171538,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

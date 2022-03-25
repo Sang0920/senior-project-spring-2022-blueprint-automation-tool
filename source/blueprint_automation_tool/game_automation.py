@@ -5,12 +5,13 @@ Description:    handles basic automation of Minecraft functions
 Author(s):      Kevin Green
 """
 
-# Built-In Modules
 import re
 from time import sleep
 
-# Custom Modules
-from helpers import keyboard, window
+import keyboard
+import win32api
+import win32con
+import window
 
 
 class AutomationException(Exception):
@@ -49,6 +50,10 @@ class GameAutomator:
         self.is_switched_to_game = False
         self.program_window = self.window.get_current_window()
 
+    def _check_emergency_stop(self):
+        if win32api.GetAsyncKeyState(win32con.VK_CAPITAL):
+            raise AutomationException("Caps Lock is On! Cancelling the script!")
+
     def find_minecraft_version(self):
         game = self.window.find_window(r"Minecraft.*[0-9]+\.[0-9]+.*", limit=1)
         if game:
@@ -63,6 +68,7 @@ class GameAutomator:
         raise AutomationException("No supported version of the game was found!")
 
     def switch_to_game(self):
+        self._check_emergency_stop()
         game = self.window.find_window(r"Minecraft.*[0-9]+\.[0-9]+.*(Singleplayer|Multiplayer)", limit=1)
         if game:
             self.window.set_current_window(game[0])
@@ -71,15 +77,17 @@ class GameAutomator:
             self.is_switched_to_game = True
 
     def send_to_chat(self, message):
+        self._check_emergency_stop()
         if self.is_switched_to_game:
             self.keyboard.press_and_release("t")
             self.keyboard.paste(message)
             self.keyboard.press_and_release("enter")
         else:
             raise AutomationException("Cannot send messages to chat. The script hasn't switched to the game yet.")
-        sleep(0.5)
+        sleep(0.1)
 
     def teleport(self, x, y, z, should_use_tppos=False):
+        self._check_emergency_stop()
         if self.is_switched_to_game:
             if should_use_tppos:
                 self.send_to_chat(f"/tppos {x} {y} {z}")
@@ -89,20 +97,24 @@ class GameAutomator:
             raise AutomationException("Cannot teleport. The script hasn't switched to the game yet.")
 
     def pos1(self, x, y, z):
+        self._check_emergency_stop()
         if self.is_switched_to_game:
             self.send_to_chat(f"//pos1 {x},{y},{z}")
         else:
             raise AutomationException("Cannot select first position. The script hasn't switched to the game yet.")
 
     def pos2(self, x, y, z):
+        self._check_emergency_stop()
         if self.is_switched_to_game:
             self.send_to_chat(f"//pos2 {x},{y},{z}")
         else:
             raise AutomationException("Cannot select second position. The script hasn't switched to the game yet.")
 
     def line(self, block):
+        self._check_emergency_stop()
         if self.is_switched_to_game:
             self.send_to_chat(f"//line {block}")
+            sleep(0.1)
         else:
             raise AutomationException("Cannot place the line. The script hasn't switched to the game yet.")
 

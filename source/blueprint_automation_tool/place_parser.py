@@ -10,6 +10,8 @@ Author(s):      Kevin Green
 """
 
 import xml.etree.ElementTree as et
+import zipfile
+from io import StringIO
 from math import atan2, cos, floor, radians, sin, sqrt
 
 
@@ -33,10 +35,20 @@ class Place:
 
 class PlaceParser:
     def parse_place(self, file):
-        # Get namespaces from file so we can search it
-        namespaces = dict([n for _, n in et.iterparse(file, events=["start-ns"])])
+        # Extracts the .kml file from .kmz files if necessary
+        if file.endswith("kmz"):
+            print("Handling a .kmz file")
+            with zipfile.ZipFile(file) as zip_file:
+                with zip_file.open("doc.kml", "r") as f:
+                    string_content = f.read().decode("utf-8")
+        else:
+            with open(file, "r") as f:
+                string_content = f.read()
 
-        tree = et.parse(file)
+        # Get namespaces from file so we can search it
+        namespaces = dict([n for _, n in et.iterparse(StringIO(string_content), events=["start-ns"])])
+
+        tree = et.parse(StringIO(string_content))
         root = tree.getroot()
 
         # Create a new place for each placemark in the file
@@ -90,7 +102,7 @@ class PlaceParser:
             places.append(Place(place_name, coordinate_list, shape, color))
             return places
 
-    def convert_to_minecraft(self, lat1, lat2, long1, long2, altitude=0):
+    def convert_to_minecraft(self, lat1, lat2, long1, long2, altitude=0, scale=1):
         # Calculations derived from
         # https://www.movable-type.co.uk/scripts/latlong.html
 
@@ -108,11 +120,11 @@ class PlaceParser:
         # Calculate the haversine distance between the two points
         a = sin(delta_lat / 2) * sin(delta_lat / 2) + cos(lat1) * cos(lat2) * sin(delta_long / 2) * sin(delta_long / 2)
         c = 2 * atan2(sqrt(a), sqrt(1 - a))
-        distance = earth_radius * c
+        distance = scale * earth_radius * c
 
         # Using the distance and bearing as polar coordinates, convert them to cartesian coordinates
         # Values for x and z are swapped and z is multiplied by -1 to rotate the coordinates to Minecraft's coordinates for North
         block_x = floor(distance * sin(bearing))
         block_z = -1 * floor(distance * cos(bearing))
 
-        return (block_x, altitude, block_z)
+        return (block_x, floor(altitude), block_z)
