@@ -11,6 +11,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Previous Changes
 
+## [0.5.0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.4.2...v0.5.0) (2022-03-25)
+
+
+### Features
+
+* Adding building of multiple files using reference points ([9aa2ef9](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/9aa2ef95b6564fae5126c552d5e96cbf167af467))
+* Building Configuration and Multiple Files ([5a38586](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/5a38586cff2fc71c3d98505792f2793e7053f6bc))
+
 ### [0.4.2](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.4.1...v0.4.2) (2022-03-21)
 
 
