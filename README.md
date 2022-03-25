@@ -108,7 +108,8 @@ Google Earth Pro can be downloaded through Google's [downloads website](https://
 
 ### Installation
 
-Download the latest `.exe` file from the [Releases]() section of the repository.
+Download the latest `.exe` file from the [Releases](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/releases)
+section of the repository.
 
 ### Usage
 
