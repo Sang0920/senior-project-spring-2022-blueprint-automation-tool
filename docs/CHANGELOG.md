@@ -11,6 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Previous Changes
 
+## [0.6.0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.5.0...v0.6.0) (2022-03-28)
+
+
+### Features
+
+* Added basic ui ([3a6ae1b](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/3a6ae1b6052555278ab7184f86cce6ddf1dddc39))
+
 ## [0.5.0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.4.2...v0.5.0) (2022-03-25)
 
 
