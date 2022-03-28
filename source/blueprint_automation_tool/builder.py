@@ -9,7 +9,7 @@ from time import time
 from tkinter import filedialog
 
 from color_matcher import color_to_minecraft_dye
-from game_automation import GameAutomator
+from game_automation import GameAutomator, AutomationException
 from place_parser import PlaceParser
 
 base_height = -60
@@ -31,6 +31,9 @@ class PlaceBuilder:
         places_file_paths = filedialog.askopenfilenames()
         print(reference_file_path)
         print(places_file_paths)
+
+        if not reference_file_path or not places_file_paths:
+            raise AutomationException("Please make sure that all files are loaded.")
 
         p = PlaceParser()
         g = GameAutomator()
