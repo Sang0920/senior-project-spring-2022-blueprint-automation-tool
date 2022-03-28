@@ -106,6 +106,27 @@ Google Earth Pro is used to create the files that Project B.A.T. uses to create 
 
 Google Earth Pro can be downloaded through Google's [downloads website](https://www.google.com/earth/versions/).
 
+### Installation
+
+Download the latest `.exe` file from the [Releases](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/releases)
+section of the repository.
+
+### Usage
+
+_Note: This project is still a work in progress, this section of the project is likely to change rapidly between releases._
+
+1. Start Minecraft and load into the world you like to build your blueprint.
+   - The project works best on a superflat world.
+2. Run the project's executable.
+3. A file dialog box will open, choose your .kml or .kmz file that you would like to use as the reference point in the world.
+4. After selecting the reference location, another file dialog box will open. Select all the files that you would like to build in the world.
+   - You can select more than one file to build, and the program will build them sequentially.
+5. The script will start to run, building each place. In the console, it will print out what place it is currently building, and how long
+   it takes to build each building. Do not interact with your computer during this time. If you need to stop the automation prematurely,
+   hold down the Caps Lock key and the program will stop when it is safe to do so.
+6. Once the script is done building, it will say so in the console. After this point, the script is done executing, and you can once again
+   interact with our device.
+
 <p align="right">[<a href="#title_card">Back To Top</a>]</p>
 
 
