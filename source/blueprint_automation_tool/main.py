@@ -1,8 +1,7 @@
-from kivy.uix.screenmanager import Screen, ScreenManager
-from kivymd.app import MDApp
-
 import window
 from builder import PlaceBuilder
+from kivy.uix.screenmanager import Screen, ScreenManager
+from kivymd.app import MDApp
 
 
 # Declare Screens
