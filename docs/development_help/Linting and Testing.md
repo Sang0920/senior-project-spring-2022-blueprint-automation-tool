@@ -14,3 +14,11 @@ following commands:
 ```bash
 pytest .
 ```
+
+## Build application into .exe
+
+Navigate into source/blueprint automation tool and run the following
+
+```bash
+pyinstaller --onefile .\tool.spec
+```

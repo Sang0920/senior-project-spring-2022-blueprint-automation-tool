@@ -33,7 +33,6 @@ share/python-wheels/
 
 # PyInstaller
 *.manifest
-*.spec
 
 # Environments
 .env

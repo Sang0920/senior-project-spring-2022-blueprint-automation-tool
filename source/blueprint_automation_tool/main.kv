@@ -1,0 +1,30 @@
+<Screen1>:
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        MDToolbar:
+            title: "Project B.A.T."
+            left_action_items: [["cog", lambda c: app.change_screen("screen2")]]
+
+        MDLabel:
+            text: "Screen1"
+            halign: "center"
+
+        MDBottomAppBar:
+            MDToolbar:
+                icon: "git"
+                type: "bottom"
+                mode: "center"
+                on_action_button: app.build_places()
+
+<Screen2>:
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        MDToolbar:
+            title: "Configuration"
+            left_action_items: [["home", lambda c: app.change_screen("screen1")]]
+
+        MDLabel:
+            text: "Screen2"
+            halign: "center"

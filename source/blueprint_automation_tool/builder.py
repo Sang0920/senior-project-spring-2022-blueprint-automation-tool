@@ -19,59 +19,67 @@ scale = 1
 root = tkinter.Tk()
 root.withdraw()
 
-reference_file_path = filedialog.askopenfilename()
-places_file_paths = filedialog.askopenfilenames()
-print(reference_file_path)
-print(places_file_paths)
 
-p = PlaceParser()
-g = GameAutomator()
+class PlaceBuilder:
+    def __init__(self):
+        pass
 
-ref_place = p.parse_place(reference_file_path)[0].coordinate_list[0]
+    def build_place(self):
+        print("Please select your reference place file.")
+        reference_file_path = filedialog.askopenfilename()
+        print("Please select your places that you would like to build.")
+        places_file_paths = filedialog.askopenfilenames()
+        print(reference_file_path)
+        print(places_file_paths)
 
-g.switch_to_game()
+        p = PlaceParser()
+        g = GameAutomator()
 
-total_start = time()
+        ref_place = p.parse_place(reference_file_path)[0].coordinate_list[0]
 
-print("Placing a gold block at the reference point.")
-g.teleport(0, base_height + 30, 0)
-g.send_to_chat(f"/setblock 0 {base_height} 0 minecraft:gold_block")
+        g.switch_to_game()
 
-for file in places_file_paths:
-    found_places = p.parse_place(file)
-    color = color_to_minecraft_dye(found_places[0].color)
-    last_block_x = last_block_z = last_alt = None
+        total_start = time()
 
-    print(f"Now building {found_places[0].name}")
+        print("Placing a gold block at the reference point.")
+        g.teleport(0, base_height + 30, 0)
+        g.send_to_chat(f"/setblock 0 {base_height} 0 minecraft:gold_block")
 
-    start = time()
+        for file in places_file_paths:
+            found_places = p.parse_place(file)
+            color = color_to_minecraft_dye(found_places[0].color)
+            last_block_x = last_block_z = last_alt = None
 
-    for coordinate in found_places[0].coordinate_list:
-        block_x, altitude, block_z = p.convert_to_minecraft(
-            ref_place.latitude, coordinate.latitude, ref_place.longitude, coordinate.longitude, coordinate.altitude, scale
-        )
-        if last_block_x is not None:
-            mid_x = (last_block_x + block_x) / 2
-            mid_y = ((last_alt + altitude) / 2) + base_height
-            mid_z = (last_block_z + block_z) / 2
+            print(f"Now building {found_places[0].name}")
 
-            g.teleport(mid_x, mid_y + 30, mid_z)
-            g.pos1(last_block_x, last_alt + base_height, last_block_z)
-            g.pos2(block_x, altitude + base_height, block_z)
-            g.line(f"minecraft:{color}_{block_choice}")
-        else:
-            g.teleport(block_x, altitude + base_height + 30, block_z)
-            g.send_to_chat(f"/setblock {block_x} {altitude + base_height} {block_z} minecraft:{color}_{block_choice}")
-        last_block_x = block_x
-        last_block_z = block_z
-        last_alt = altitude
+            start = time()
 
-    stop = time()
+            for coordinate in found_places[0].coordinate_list:
+                block_x, altitude, block_z = p.convert_to_minecraft(
+                    ref_place.latitude, coordinate.latitude, ref_place.longitude, coordinate.longitude, coordinate.altitude, scale
+                )
+                if last_block_x is not None:
+                    mid_x = (last_block_x + block_x) / 2
+                    mid_y = ((last_alt + altitude) / 2) + base_height
+                    mid_z = (last_block_z + block_z) / 2
 
-    print(f"Time Elapsed: {stop - start} seconds")
-    print(f"Finished building {found_places[0].name}")
+                    g.teleport(mid_x, mid_y + 30, mid_z)
+                    g.pos1(last_block_x, last_alt + base_height, last_block_z)
+                    g.pos2(block_x, altitude + base_height, block_z)
+                    g.line(f"minecraft:{color}_{block_choice}")
+                else:
+                    g.teleport(block_x, altitude + base_height + 30, block_z)
+                    g.send_to_chat(f"/setblock {block_x} {altitude + base_height} {block_z} minecraft:{color}_{block_choice}")
+                last_block_x = block_x
+                last_block_z = block_z
+                last_alt = altitude
 
-total_stop = time()
+            stop = time()
 
-print("Done!")
-print(f"Total Elapsed Time: {total_stop - total_start} seconds")
+            print(f"Time Elapsed: {stop - start} seconds")
+            print(f"Finished building {found_places[0].name}")
+
+        total_stop = time()
+
+        print("Done!")
+        print(f"Total Elapsed Time: {total_stop - total_start} seconds")

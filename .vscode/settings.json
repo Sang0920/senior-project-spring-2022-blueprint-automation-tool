@@ -23,4 +23,5 @@
     "python.linting.pylintArgs": [
         "--config=${workspaceFolder}/.github/linters/.pylintrc",
     ],
+    "materialkv.pythonFile": "main.py",
 }
