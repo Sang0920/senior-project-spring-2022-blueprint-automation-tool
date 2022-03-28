@@ -4,7 +4,7 @@
 
         MDToolbar:
             title: "Project B.A.T."
-            left_action_items: [["cog", lambda c: app.change_screen("screen2")]]
+            left_action_items: [["cog", lambda c: app.change_screen("screen2")], ["information", lambda i: app.change_screen("screen3")]]
 
         MDLabel:
             text: "Screen1"
@@ -12,7 +12,8 @@
 
         MDBottomAppBar:
             MDToolbar:
-                icon: "git"
+                icon_color: app.theme_cls.accent_color
+                icon: "hammer-wrench"
                 type: "bottom"
                 mode: "center"
                 on_action_button: app.build_places()
@@ -23,8 +24,20 @@
 
         MDToolbar:
             title: "Configuration"
-            left_action_items: [["home", lambda c: app.change_screen("screen1")]]
+            left_action_items: [["home", lambda h: app.change_screen("screen1")], ["information", lambda i: app.change_screen("screen3")]]
 
         MDLabel:
             text: "Screen2"
+            halign: "center"
+
+<Screen3>:
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        MDToolbar:
+            title: "About Project B.A.T."
+            left_action_items: [["home", lambda h: app.change_screen("screen1")], ["cog", lambda c: app.change_screen("screen2")]]
+
+        MDLabel:
+            text: "Screen3"
             halign: "center"
