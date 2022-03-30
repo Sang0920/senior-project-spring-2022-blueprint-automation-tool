@@ -11,10 +11,14 @@ from tkinter import filedialog
 from color_matcher import color_to_minecraft_dye
 from game_automation import GameAutomator, AutomationException
 from place_parser import PlaceParser
+from settings import SettingsManager
 
-base_height = -60
-block_choice = "concrete"
-scale = 1
+manager = SettingsManager()
+settings = manager.get_settings()
+
+base_height = settings["base_building_height"]
+block_choice = settings["building_block_choice"]
+scale = settings["scaling_factor"]
 
 root = tkinter.Tk()
 root.withdraw()

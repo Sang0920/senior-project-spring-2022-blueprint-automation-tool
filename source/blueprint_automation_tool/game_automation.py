@@ -75,6 +75,8 @@ class GameAutomator:
             sleep(3)
             self.keyboard.press_and_release("esc")
             self.is_switched_to_game = True
+        else:
+            raise AutomationException("No game was found that was loaded into a world. Please make sure you are loaded into a world!")
 
     def send_to_chat(self, message):
         self._check_emergency_stop()
