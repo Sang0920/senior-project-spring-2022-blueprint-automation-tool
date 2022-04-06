@@ -1,3 +1,5 @@
+import os
+import sys
 import tkinter
 from math import degrees
 from tkinter import filedialog
@@ -8,6 +10,7 @@ from game_automation import AutomationException, GameAutomator
 from kivy.config import Config
 from kivy.lang import Builder
 from kivy.metrics import dp
+from kivy.resources import resource_add_path
 from kivymd.app import MDApp
 from kivymd.uix.button import MDFlatButton, MDRaisedButton
 from kivymd.uix.dialog import MDDialog
@@ -240,5 +243,8 @@ class MainApp(MDApp):
         Settings.set_setting("base_building_height", y)
 
 
-MainApp().run()
-Settings.save_settings()
+if __name__ == "__main__":
+    if hasattr(sys, "_MEIPASS"):
+        resource_add_path(os.path.join(sys._MEIPASS))
+    MainApp().run()
+    Settings.save_settings()
