@@ -34,11 +34,14 @@ class SettingsManager:
                 self.load_defaults()
 
     def load_defaults(self):
-        theme = self.current_settings["theme_style"]
-        file = self.current_settings["last_used_reference"]
-        self.current_settings = self.default_settings
-        self.current_settings["theme_style"] = theme
-        self.current_settings["last_used_reference"] = file
+        if self.current_settings is None:
+            self.current_settings = self.default_settings
+        else:
+            theme = self.current_settings["theme_style"]
+            file = self.current_settings["last_used_reference"]
+            self.current_settings = self.default_settings
+            self.current_settings["theme_style"] = theme
+            self.current_settings["last_used_reference"] = file
 
     def set_setting(self, setting, value):
         self.current_settings[setting] = value
