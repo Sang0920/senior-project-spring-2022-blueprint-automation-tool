@@ -1,9 +1,0 @@
-name: Question
-description: Ask a question about the project.
-title: "[Question] <title>"
-labels: ["Type: Question"]
-body:
-  - type: textarea
-    attributes:
-      label: Question
-      description: What is your question?

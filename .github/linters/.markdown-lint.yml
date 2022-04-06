@@ -1,10 +1,7 @@
-####################################################################################################
-# File:         .markdown-lint.yml
-# Description:  Configuration file for linting markdown files
-####################################################################################################
-
+# File:         .markdownlint-.yml
+# Description:  Linting configuration for markdownlint
+---
 # Example markdownlint YAML configuration with all properties set to their default value
-# Example from https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
 
 # Default state for all rules
 default: true
@@ -26,7 +23,9 @@ MD003:
   style: "consistent"
 
 # MD004/ul-style - Unordered list style
-MD004: false
+MD004:
+  # List style
+  style: "consistent"
 
 # MD005/list-indent - Inconsistent indentation for list items at the same level
 MD005: true
@@ -62,25 +61,7 @@ MD012:
   maximum: 3
 
 # MD013/line-length - Line length
-MD013:
-  # Number of characters
-  line_length: 400
-  # Number of characters for headings
-  heading_line_length: 400
-  # Number of characters for code blocks
-  code_block_line_length: 400
-  # Include code blocks
-  code_blocks: true
-  # Include tables
-  tables: true
-  # Include headings
-  headings: true
-  # Include headings
-  headers: true
-  # Strict length checking
-  strict: false
-  # Stern length checking
-  stern: false
+MD013: false
 
 # MD014/commands-show-output - Dollar signs used before commands without showing output
 MD014: true

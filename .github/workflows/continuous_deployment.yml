@@ -1,19 +1,25 @@
-# File:         cd.yml
+# File:         continuous_deployment.yml
 # Description:  Handles continuous deployment for the project.
 #               Makes use of Google's "Release Please" GitHub Action
 #               Link: https://github.com/marketplace/actions/release-please-action
-
-name: Continous Deployment
+---
+name: Continuous Deployment
 
 on:
   push:
     branches:
       - main
+      - master
 
 jobs:
+  cd:
+    name: Continuous Integration
+    uses: ./.github/workflows/continuous_integration.yml
+
   release-please:
-    name: Release
+    name: Update Release Pull Request
     runs-on: ubuntu-latest
+    needs: cd
     steps:
       - name: Release Please
         uses: google-github-actions/release-please-action@v3

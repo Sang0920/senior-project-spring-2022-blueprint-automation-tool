@@ -2,17 +2,19 @@
     "editor.formatOnSave": true,
     "editor.wordWrap": "off",
     "editor.rulers": [
-        140
+        100
     ],
     "[markdown]": {
-        "editor.tabSize": 2,
-        "editor.wordWrap": "off",
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": true
+        },
+        "editor.tabSize": 2,
     },
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
-        "--line-length 140",
+        "--config=${workspaceFolder}/.github/linters/pyproject.toml"
     ],
     "python.linting.lintOnSave": true,
     "python.linting.flake8Enabled": true,
@@ -23,5 +25,19 @@
     "python.linting.pylintArgs": [
         "--config=${workspaceFolder}/.github/linters/.pylintrc",
     ],
-    "materialkv.pythonFile": "main.py",
+    "python.sortImports.args": [
+        "--settings-file=${workspaceFolder}/.github/linters/pyproject.toml"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "cSpell.words": [
+        "ISORT",
+        "MYPY",
+        "pyproject",
+        "pytest",
+        "Roadmap"
+    ]
 }

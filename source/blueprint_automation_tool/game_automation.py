@@ -51,8 +51,8 @@ class GameAutomator:
         self.program_window = self.window.get_current_window()
 
     def _check_emergency_stop(self):
-        if win32api.GetAsyncKeyState(win32con.VK_CAPITAL):
-            raise AutomationException("Caps Lock is On! Cancelling the script!")
+        if win32api.GetAsyncKeyState(win32con.VK_END):
+            raise AutomationException('The "END" key was held down for an emergency stop.')
 
     def find_minecraft_version(self):
         game = self.window.find_window(r"Minecraft.*[0-9]+\.[0-9]+.*", limit=1)
@@ -71,6 +71,7 @@ class GameAutomator:
         self._check_emergency_stop()
         game = self.window.find_window(r"Minecraft.*[0-9]+\.[0-9]+.*(Singleplayer|Multiplayer)", limit=1)
         if game:
+            self.window.maximize_window(game[0])
             self.window.set_current_window(game[0])
             sleep(3)
             self.keyboard.press_and_release("esc")

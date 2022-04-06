@@ -4,6 +4,8 @@
         "allowlist": {
             "allow": [
                 "html",
+                "repo",
+                "bug fix",
                 "website",
                 "Bug Fixes"
             ]

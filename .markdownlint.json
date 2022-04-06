@@ -1,0 +1,3 @@
+{
+    "extends": "./.github/linters/.markdown-lint.yml"
+}

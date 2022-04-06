@@ -1,18 +1,23 @@
-# File:         ci.yml
+# File:         continuous_integration.yml
 # Description:  Handles continuous integration for the project.
 #               Makes use of GitHub Super Linter and pytest
 #               Link: https://github.com/marketplace/actions/super-linter
+---
+name: Continuous Integration
 
-name: Continous Integration
-
-on: push
+on:
+  push:
+    branches-ignore:
+      - main
+      - master
+  workflow_call:
 
 jobs:
   lint:
     name: Lint Code Base
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: Check Out Code From GitHub
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
@@ -23,4 +28,5 @@ jobs:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHON_BLACK_CONFIG_FILE: pyproject.toml
+          PYTHON_ISORT_CONFIG_FILE: pyproject.toml
           VALIDATE_PYTHON_MYPY: false

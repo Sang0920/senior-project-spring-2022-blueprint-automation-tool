@@ -1,43 +1,158 @@
-<Screen1>:
+<Content>
+    orientation: "vertical"
+    spacing: -40
+
+    MDSpinner:
+        size_hint: None, None
+        size: dp(46), dp(46)
+        pos_hint: {'center_x': 0.1}
+        active: True
+    MDLabel:
+        text: "Processing..."
+        pos_hint: {'center_x': .7}
+
+Screen:
+    MDToolbar:
+        id: toolbar
+        title: "Project B.A.T."
+        pos_hint: {"top": 1.0}
+        right_action_items: [["cog", lambda x: app.callback_reset_settings(), "Reset Settings"], ["brightness-4", lambda x: app.callback_switch_theme(), "Switch Dark/Light Mode"]]
+
     MDBoxLayout:
-        orientation: 'vertical'
+        size_hint: 1.0/3.0 - 0.015, 0.3 - 0.015
+        pos_hint: {"center_x": 1.0/6.0, "center_y": 0.52 + (0.4 / 2.0)}
+        orientation: "vertical"
+        spacing: 10
+        MDCard:
+            MDBoxLayout:
+                orientation: "vertical"
+                MDLabel:
+                    text: "REFERENCE PLACE"
+                    halign: "center"
+                    bold: True
+                    size_hint: 1.0, 0.4
+                MDLabel:
+                    id: reference_information
+                    markup: True
+                    text: "No Reference Place Loaded"
+                    halign: "center"
 
-        MDToolbar:
-            title: "Project B.A.T."
-            left_action_items: [["cog", lambda c: app.change_screen("screen2")], ["information", lambda i: app.change_screen("screen3")]]
-
-        MDLabel:
-            text: "Screen1"
-            halign: "center"
-
-        MDBottomAppBar:
-            MDToolbar:
-                icon_color: app.theme_cls.accent_color
-                icon: "hammer-wrench"
-                type: "bottom"
-                mode: "center"
-                on_action_button: app.build_places()
-
-<Screen2>:
     MDBoxLayout:
-        orientation: 'vertical'
+        size_hint: 1.0/3.0 - 0.015, 0.4 - 0.015
+        pos_hint: {"center_x": 1.0/6.0, "center_y": 0.52 - (0.3 / 2.0)}
+        orientation: "vertical"
+        spacing: 10
 
-        MDToolbar:
-            title: "Configuration"
-            left_action_items: [["home", lambda h: app.change_screen("screen1")], ["information", lambda i: app.change_screen("screen3")]]
+        MDCard:
+            MDBoxLayout:
+                orientation: "vertical"
+                MDLabel:
+                    text: "NEXT PLACES TO BUILD"
+                    halign: "center"
+                    bold: True
+                    size_hint: 1.0, 0.4
+                ScrollView:
+                    MDList:
+                        id: loaded_places_list
 
-        MDLabel:
-            text: "Screen2"
-            halign: "center"
-
-<Screen3>:
     MDBoxLayout:
-        orientation: 'vertical'
+        size_hint: 1.0/3.0 - 0.015, 0.7
+        pos_hint: {"center_x": 0.5, "center_y": 0.52}
+        orientation: "vertical"
+        spacing: 10
+        MDCard:
+            MDBoxLayout:
+                orientation: "vertical"
+                MDRectangleFlatIconButton:
+                    icon: "refresh"
+                    text: "MINECRAFT VERSION"
+                    line_color: 0, 0, 0, 0
+                    pos_hint: {"center_x": 0.5}
+                    on_release: app.callback_update_game_version()
+                MDLabel:
+                    id: minecraft_version_label
+                    text: "1.18"
+                    halign: "center"
+        MDCard:
+            MDBoxLayout:
+                orientation: "vertical"
+                MDLabel:
+                    text: "BUILDING BLOCK"
+                    halign: "center"
+                    bold: True
+                MDDropDownItem:
+                    id: block_drop_down
+                    text: "Concrete"
+                    on_release: app.menu.open()
+                    pos_hint: {"center_x": 0.5}
+        MDCard:
+            MDBoxLayout:
+                orientation: "vertical"
+                MDLabel:
+                    text: "SCALE"
+                    halign: "center"
+                    bold: True
+                MDLabel:
+                    id: scale_label
+                    text: "100%"
+                    halign: "center"
+                MDSlider:
+                    id: scale_slider
+                    min: 50
+                    max: 201
+                    value: 100
+                    hint: False
+                    color: app.theme_cls.accent_color
+                    on_value: app.callback_slide_scale(*args)
+        MDCard:
+            MDBoxLayout:
+                orientation: "vertical"
+                MDLabel:
+                    text: "BASE BUILD HEIGHT"
+                    halign: "center"
+                    bold: True
+                MDLabel:
+                    id: base_y_label
+                    text: "0"
+                    halign: "center"
+                MDSlider:
+                    id: block_slider
+                    min: -64
+                    max: 320
+                    value: 0
+                    hint: False
+                    color: app.theme_cls.accent_color
+                    on_value: app.callback_slide_y(*args)
+        MDRaisedButton:
+            text: "LOAD REFERENCE PLACE"
+            pos_hint: {"center_x": 0.5}
+            on_release: app.callback_load_reference_place()
+        MDRaisedButton:
+            text: "LOAD PLACES TO BUILD NEXT"
+            pos_hint: {"center_x": 0.5}
+            on_release: app.callback_load_build_places()
 
+    MDBoxLayout:
+        size_hint: 1.0/3.0 - 0.015, 0.7
+        pos_hint: {"center_x": 5.0/6.0, "center_y": 0.52}
+        orientation: "vertical"
+        spacing: 10
+        MDCard:
+            MDBoxLayout:
+                orientation: "vertical"
+                MDLabel:
+                    text: "BUILD HISTORY"
+                    halign: "center"
+                    bold: True
+                    size_hint: 1.0, 0.2
+                ScrollView:
+                    MDList:
+                        id: build_history_list
+
+    MDBottomAppBar:
         MDToolbar:
-            title: "About Project B.A.T."
-            left_action_items: [["home", lambda h: app.change_screen("screen1")], ["cog", lambda c: app.change_screen("screen2")]]
-
-        MDLabel:
-            text: "Screen3"
-            halign: "center"
+            icon_color: app.theme_cls.accent_color
+            icon: "hammer-wrench"
+            type: "bottom"
+            mode: "center"
+            on_action_button: app.callback_build_places()

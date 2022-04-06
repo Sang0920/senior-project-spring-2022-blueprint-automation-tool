@@ -4,45 +4,27 @@ Description:    test file to check parsing/converting of .kml files
 
 Author(s):      Kevin Green
 """
-import tkinter
 from time import time
-from tkinter import filedialog
 
 from color_matcher import color_to_minecraft_dye
-from game_automation import GameAutomator, AutomationException
+from game_automation import AutomationException, GameAutomator
 from place_parser import PlaceParser
-from settings import SettingsManager
-
-manager = SettingsManager()
-settings = manager.get_settings()
-
-base_height = settings["base_building_height"]
-block_choice = settings["building_block_choice"]
-scale = settings["scaling_factor"]
-
-root = tkinter.Tk()
-root.withdraw()
 
 
 class PlaceBuilder:
     def __init__(self):
         pass
 
-    def build_place(self):
-        print("Please select your reference place file.")
-        reference_file_path = filedialog.askopenfilename()
-        print("Please select your places that you would like to build.")
-        places_file_paths = filedialog.askopenfilenames()
-        print(reference_file_path)
-        print(places_file_paths)
-
-        if not reference_file_path or not places_file_paths:
-            raise AutomationException("Please make sure that all files are loaded.")
-
+    def build_place(self, reference_point, places_file_paths, base_height, block_choice, scale):
         p = PlaceParser()
         g = GameAutomator()
 
-        ref_place = p.parse_place(reference_file_path)[0].coordinate_list[0]
+        if reference_point is None:
+            raise AutomationException("No reference point is currently loaded!")
+        elif places_file_paths is None:
+            raise AutomationException("No places have been loaded to build!")
+
+        ref_place = reference_point.coordinate_list[0]
 
         g.switch_to_game()
 
