@@ -2,17 +2,18 @@ import os
 
 import yaml
 
+DEFAULT_SETTINGS = {
+    "base_building_height": -60,
+    "building_block_choice": "concrete",
+    "scaling_factor": 1.0,
+    "theme_style": "Dark",
+    "last_used_reference": None,
+    "last_used_game_version": "1.18",
+}
+
 
 class SettingsManager:
     def __init__(self):
-        self.default_settings = {
-            "base_building_height": -60,
-            "building_block_choice": "concrete",
-            "scaling_factor": 1.0,
-            "theme_style": "Light",
-            "last_used_reference": None,
-            "last_used_game_version": "1.12",
-        }
         self.current_settings = None
 
         self.folder_name = "Project BAT"
@@ -30,16 +31,18 @@ class SettingsManager:
         else:
             with open(self.config_path, "r") as f:
                 self.current_settings = yaml.safe_load(f)
-            if self.current_settings is None or (len(self.current_settings) != len(self.default_settings)):
+            if self.current_settings is None or (
+                len(self.current_settings) != len(DEFAULT_SETTINGS)
+            ):
                 self.load_defaults()
 
     def load_defaults(self):
         if self.current_settings is None:
-            self.current_settings = self.default_settings
+            self.current_settings = DEFAULT_SETTINGS.copy()
         else:
             theme = self.current_settings["theme_style"]
             file = self.current_settings["last_used_reference"]
-            self.current_settings = self.default_settings
+            self.current_settings = DEFAULT_SETTINGS.copy()
             self.current_settings["theme_style"] = theme
             self.current_settings["last_used_reference"] = file
 

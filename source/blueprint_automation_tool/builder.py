@@ -45,7 +45,12 @@ class PlaceBuilder:
 
             for coordinate in found_places[0].coordinate_list:
                 block_x, altitude, block_z = p.convert_to_minecraft(
-                    ref_place.latitude, coordinate.latitude, ref_place.longitude, coordinate.longitude, coordinate.altitude, scale
+                    ref_place.latitude,
+                    coordinate.latitude,
+                    ref_place.longitude,
+                    coordinate.longitude,
+                    coordinate.altitude,
+                    scale,
                 )
                 if last_block_x is not None:
                     mid_x = (last_block_x + block_x) / 2
@@ -58,7 +63,10 @@ class PlaceBuilder:
                     g.line(f"minecraft:{color}_{block_choice}")
                 else:
                     g.teleport(block_x, altitude + base_height + 30, block_z)
-                    g.send_to_chat(f"/setblock {block_x} {altitude + base_height} {block_z} minecraft:{color}_{block_choice}")
+                    g.send_to_chat(
+                        f"""/setblock {block_x} {altitude + base_height} {block_z} \
+                        minecraft:{color}_{block_choice}"""
+                    )
                 last_block_x = block_x
                 last_block_z = block_z
                 last_alt = altitude
@@ -69,6 +77,9 @@ class PlaceBuilder:
             print(f"Finished building {found_places[0].name}")
 
         total_stop = time()
+
+        print("Teleporting back to reference point")
+        g.teleport(0, base_height + 100, 0)
 
         print("Done!")
         print(f"Total Elapsed Time: {total_stop - total_start} seconds")

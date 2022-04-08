@@ -39,7 +39,8 @@ class WindowHandler:
 
         Args:
             title : Regex string for the window that is being located.
-            limit : The maximum number of windows to return. Forces the function to return the first n windows.
+            limit : The maximum number of windows to return. Forces the function to return the first
+                    n windows.
 
         Returns:
             A list of windows that matched the title regex.

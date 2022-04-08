@@ -46,7 +46,9 @@ class PlaceParser:
                 string_content = f.read()
 
         # Get namespaces from file so we can search it
-        namespaces = dict([n for _, n in et.iterparse(StringIO(string_content), events=["start-ns"])])
+        namespaces = dict(
+            [n for _, n in et.iterparse(StringIO(string_content), events=["start-ns"])]
+        )
 
         tree = et.parse(StringIO(string_content))
         root = tree.getroot()
@@ -69,9 +71,13 @@ class PlaceParser:
                     if place.find("outerBoundaryIs", namespaces):
                         outerBoundaryIs = place.find("outerBoundaryIs", namespaces)
                         ring = outerBoundaryIs = outerBoundaryIs.find("LinearRing", namespaces)
-                        coordinate_strings = ring.find("coordinates", namespaces).text.strip().split(" ")
+                        coordinate_strings = (
+                            ring.find("coordinates", namespaces).text.strip().split(" ")
+                        )
                     else:
-                        coordinate_strings = place.find("coordinates", namespaces).text.strip().split(" ")
+                        coordinate_strings = (
+                            place.find("coordinates", namespaces).text.strip().split(" ")
+                        )
                     coordinate_list = []
 
                     for coordinate in coordinate_strings:
@@ -118,12 +124,15 @@ class PlaceParser:
         bearing = atan2(y, x)
 
         # Calculate the haversine distance between the two points
-        a = sin(delta_lat / 2) * sin(delta_lat / 2) + cos(lat1) * cos(lat2) * sin(delta_long / 2) * sin(delta_long / 2)
+        a = sin(delta_lat / 2) * sin(delta_lat / 2) + cos(lat1) * cos(lat2) * sin(
+            delta_long / 2
+        ) * sin(delta_long / 2)
         c = 2 * atan2(sqrt(a), sqrt(1 - a))
         distance = scale * earth_radius * c
 
         # Using the distance and bearing as polar coordinates, convert them to cartesian coordinates
-        # Values for x and z are swapped and z is multiplied by -1 to rotate the coordinates to Minecraft's coordinates for North
+        # Values for x and z are swapped and z is multiplied by -1 to rotate the coordinates to
+        # Minecraft's coordinates for North
         block_x = floor(distance * sin(bearing))
         block_z = -1 * floor(distance * cos(bearing))
 

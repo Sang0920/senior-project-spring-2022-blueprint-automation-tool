@@ -1,158 +1,271 @@
-<Content>
-    orientation: "vertical"
-    spacing: -40
+MDScreen:
+    MDNavigationLayout:
+        # Main Screen of Application
+        ScreenManager:
+            MDScreen:
+                MDTopAppBar:
+                    id: toolbar
+                    pos_hint: {"top": 1}
+                    title: "Project B.A.T."
+                    left_action_items:
+                        [['cog', lambda x: config_drawer.set_state("open"), "Configuration"]]
 
-    MDSpinner:
-        size_hint: None, None
-        size: dp(46), dp(46)
-        pos_hint: {'center_x': 0.1}
-        active: True
-    MDLabel:
-        text: "Processing..."
-        pos_hint: {'center_x': .7}
+                # Next Places to Build Information
+                MDBoxLayout:
+                    size_hint: 1.0/3.0, 0.85
+                    pos_hint: {"center_x": 1.0/6.0, "center_y": 0.445}
+                    orientation: "vertical"
+                    spacing: "10dp"
+                    padding: "10dp"
+                    MD3Card:
+                        elevation: 20
+                        MDBoxLayout:
+                            orientation: "vertical"
+                            spacing: "10dp"
+                            padding: "10dp"
+                            MDLabel:
+                                text: "Next Places To Build"
+                                halign: "center"
+                                size_hint_y: None
+                                height: "50dp"
+                            MDSeparator:
+                            ScrollView:
+                                MDList:
+                                    id: loaded_places_list
+                            MDSeparator:
+                            MDFillRoundFlatIconButton:
+                                text: "Load Place Files"
+                                icon: "file-marker-outline"
+                                pos_hint: {"center_x": 0.5}
+                                on_release: app.on_load_places()
 
-Screen:
-    MDToolbar:
-        id: toolbar
-        title: "Project B.A.T."
-        pos_hint: {"top": 1.0}
-        right_action_items: [["cog", lambda x: app.callback_reset_settings(), "Reset Settings"], ["brightness-4", lambda x: app.callback_switch_theme(), "Switch Dark/Light Mode"]]
+                # Reference Point Information
+                MDBoxLayout:
+                    size_hint: 1.0/3.0, 0.5
+                    pos_hint: {"center_x": 3.0/6.0, "center_y": 0.62}
+                    orientation: "vertical"
+                    spacing: "10dp"
+                    padding: "10dp"
+                    MD3Card:
+                        elevation: 20
+                        MDBoxLayout:
+                            orientation: "vertical"
+                            spacing: "10dp"
+                            padding: "10dp"
+                            MDLabel:
+                                text: "Reference Point"
+                                halign: "center"
+                                size_hint_y: None
+                                height: "50dp"
+                            MDSeparator:
+                            MDLabel:
+                                id: reference_info_label
+                                markup: True
+                                text: "No Reference Point Loaded"
+                            MDSeparator:
+                            MDFillRoundFlatIconButton:
+                                text: "Load Reference Point"
+                                icon: "map-marker"
+                                pos_hint: {"center_x": 0.5}
+                                on_release: app.on_load_reference()
 
-    MDBoxLayout:
-        size_hint: 1.0/3.0 - 0.015, 0.3 - 0.015
-        pos_hint: {"center_x": 1.0/6.0, "center_y": 0.52 + (0.4 / 2.0)}
-        orientation: "vertical"
-        spacing: 10
-        MDCard:
+                # Build History
+                MDBoxLayout:
+                    size_hint: 1.0/3.0, 0.85
+                    pos_hint: {"center_x": 5.0/6.0, "center_y": 0.445}
+                    orientation: "vertical"
+                    spacing: "10dp"
+                    padding: "10dp"
+                    MD3Card:
+                        elevation: 20
+                        MDBoxLayout:
+                            orientation: "vertical"
+                            spacing: "10dp"
+                            padding: "10dp"
+                            MDLabel:
+                                text: "Build History"
+                                halign: "center"
+                                size_hint_y: None
+                                height: "50dp"
+                            MDSeparator:
+                            ScrollView:
+                                MDList:
+                                    id: build_history_list
+                            MDSeparator:
+                            MDFillRoundFlatIconButton:
+                                text: "Clear History"
+                                icon: "history"
+                                pos_hint: {"center_x": 0.5}
+                                on_release: build_history_list.clear_widgets()
+
+                # Build Button
+                MDFloatingActionButton:
+                    icon: "hammer-wrench"
+                    type: "large"
+                    pos_hint: {"center_x": 0.5, "center_y": 0.2}
+                    on_release: app.on_build_places()
+                    md_bg_color: app.theme_cls.accent_color
+
+        # Configuration Navigation Drawer. Used to set project settings.
+        MDNavigationDrawer:
+            id: config_drawer
+            enable_swiping: False
             MDBoxLayout:
                 orientation: "vertical"
                 MDLabel:
-                    text: "REFERENCE PLACE"
-                    halign: "center"
-                    bold: True
-                    size_hint: 1.0, 0.4
-                MDLabel:
-                    id: reference_information
-                    markup: True
-                    text: "No Reference Place Loaded"
-                    halign: "center"
-
-    MDBoxLayout:
-        size_hint: 1.0/3.0 - 0.015, 0.4 - 0.015
-        pos_hint: {"center_x": 1.0/6.0, "center_y": 0.52 - (0.3 / 2.0)}
-        orientation: "vertical"
-        spacing: 10
-
-        MDCard:
-            MDBoxLayout:
-                orientation: "vertical"
-                MDLabel:
-                    text: "NEXT PLACES TO BUILD"
-                    halign: "center"
-                    bold: True
-                    size_hint: 1.0, 0.4
+                    text: "Configuration"
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                MDNavigationDrawerDivider:
                 ScrollView:
-                    MDList:
-                        id: loaded_places_list
+                    do_scroll_x: False
+                    BoxLayout:
+                        orientation: "vertical"
+                        size_hint_y: None
+                        height: self.minimum_height
+                        spacing: "20dp"
+                        padding: "10dp"
 
-    MDBoxLayout:
-        size_hint: 1.0/3.0 - 0.015, 0.7
-        pos_hint: {"center_x": 0.5, "center_y": 0.52}
-        orientation: "vertical"
-        spacing: 10
-        MDCard:
-            MDBoxLayout:
-                orientation: "vertical"
-                MDRectangleFlatIconButton:
-                    icon: "refresh"
-                    text: "MINECRAFT VERSION"
-                    line_color: 0, 0, 0, 0
-                    pos_hint: {"center_x": 0.5}
-                    on_release: app.callback_update_game_version()
-                MDLabel:
-                    id: minecraft_version_label
-                    text: "1.18"
-                    halign: "center"
-        MDCard:
-            MDBoxLayout:
-                orientation: "vertical"
-                MDLabel:
-                    text: "BUILDING BLOCK"
-                    halign: "center"
-                    bold: True
-                MDDropDownItem:
-                    id: block_drop_down
-                    text: "Concrete"
-                    on_release: app.menu.open()
-                    pos_hint: {"center_x": 0.5}
-        MDCard:
-            MDBoxLayout:
-                orientation: "vertical"
-                MDLabel:
-                    text: "SCALE"
-                    halign: "center"
-                    bold: True
-                MDLabel:
-                    id: scale_label
-                    text: "100%"
-                    halign: "center"
-                MDSlider:
-                    id: scale_slider
-                    min: 50
-                    max: 201
-                    value: 100
-                    hint: False
-                    color: app.theme_cls.accent_color
-                    on_value: app.callback_slide_scale(*args)
-        MDCard:
-            MDBoxLayout:
-                orientation: "vertical"
-                MDLabel:
-                    text: "BASE BUILD HEIGHT"
-                    halign: "center"
-                    bold: True
-                MDLabel:
-                    id: base_y_label
-                    text: "0"
-                    halign: "center"
-                MDSlider:
-                    id: block_slider
-                    min: -64
-                    max: 320
-                    value: 0
-                    hint: False
-                    color: app.theme_cls.accent_color
-                    on_value: app.callback_slide_y(*args)
-        MDRaisedButton:
-            text: "LOAD REFERENCE PLACE"
-            pos_hint: {"center_x": 0.5}
-            on_release: app.callback_load_reference_place()
-        MDRaisedButton:
-            text: "LOAD PLACES TO BUILD NEXT"
-            pos_hint: {"center_x": 0.5}
-            on_release: app.callback_load_build_places()
+                        # Minecraft Version
+                        BoxLayout:
+                            orientation: "vertical"
+                            size_hint_y: None
+                            height: 100
+                            spacing: "10dp"
+                            MDLabel:
+                                text: "Minecraft Version"
+                            MDFillRoundFlatIconButton:
+                                text: "Detect Minecraft Version"
+                                icon: "refresh"
+                                on_release: app.on_detect_minecraft_version()
+                            MDLabel:
+                                id: minecraft_version_label
+                                text: "1.18"
+                        MDNavigationDrawerDivider:
 
-    MDBoxLayout:
-        size_hint: 1.0/3.0 - 0.015, 0.7
-        pos_hint: {"center_x": 5.0/6.0, "center_y": 0.52}
-        orientation: "vertical"
-        spacing: 10
-        MDCard:
-            MDBoxLayout:
-                orientation: "vertical"
-                MDLabel:
-                    text: "BUILD HISTORY"
-                    halign: "center"
-                    bold: True
-                    size_hint: 1.0, 0.2
-                ScrollView:
-                    MDList:
-                        id: build_history_list
+                        # Building Block Choice
+                        BoxLayout:
+                            orientation: "vertical"
+                            size_hint_y: None
+                            height: 100
+                            spacing: "10dp"
+                            MDLabel:
+                                text: "Building Block"
+                            MDDropDownItem:
+                                id: block_drop_down
+                                text: "Concrete"
+                                on_release: app.menu.open()
+                        MDNavigationDrawerDivider:
 
-    MDBottomAppBar:
-        MDToolbar:
-            icon_color: app.theme_cls.accent_color
-            icon: "hammer-wrench"
-            type: "bottom"
-            mode: "center"
-            on_action_button: app.callback_build_places()
+                        # Scale
+                        BoxLayout:
+                            orientation: "vertical"
+                            size_hint_y: None
+                            height: 100
+                            spacing: "10dp"
+                            MDLabel:
+                                text: "Scale"
+                            MDTextField:
+                                id: scale_value_textfield
+                                input_filter: "int"
+                                hint_text: "Scaling Factor (%)"
+                                text: "100"
+                                on_text: app.on_textfield_change(scale_value_slider, self, "scaling_factor", *args)
+                            MDSlider:
+                                id: scale_value_slider
+                                min: 50
+                                max: 200
+                                value: 100
+                                hint: False
+                                on_value: app.on_slider_change(self, scale_value_textfield, "scaling_factor", *args)
+                        MDNavigationDrawerDivider:
+
+                        # Base Build Height
+                        BoxLayout:
+                            orientation: "vertical"
+                            size_hint_y: None
+                            height: 100
+                            spacing: "10dp"
+                            MDLabel:
+                                text: "Base Build Height"
+                            MDTextField:
+                                id: height_value_textfield
+                                input_filter: "int"
+                                hint_text: "Base Y Coordinate"
+                                text: "100"
+                                on_text: app.on_textfield_change(height_value_slider, self, "base_building_height", *args)
+                            MDSlider:
+                                id: height_value_slider
+                                min: -64
+                                max: 320
+                                value: 0
+                                hint: False
+                                on_value: app.on_slider_change(self, height_value_textfield, "base_building_height", *args)
+                        MDNavigationDrawerDivider:
+
+                        # Theme
+                        BoxLayout:
+                            orientation: "vertical"
+                            size_hint_y: None
+                            height: 100
+                            spacing: "10dp"
+                            MDLabel:
+                                text: "Theme"
+                            MDBoxLayout:
+                                spacing: "40dp"
+                                MDSwitch:
+                                    id: darkmode_switch
+                                    on_active: app.on_darkmode_toggle(*args)
+                                MDLabel:
+                                    text: "Dark Mode"
+                        MDNavigationDrawerDivider:
+
+                        # Reset Settings
+                        BoxLayout:
+                            orientation: "vertical"
+                            size_hint_y: None
+                            height: self.minimum_height
+                            MDFillRoundFlatIconButton:
+                                text: "Reset Settings"
+                                icon: "refresh"
+                                on_release: app.on_reset_settings()
+                # MDLabel:
+                #     text: "Minecraft Version"
+                # MDFillRoundFlatIconButton:
+                #     text: "Detect Minecraft Version"
+                #     icon: "refresh"
+                #     pos_hint: {"center_x": 0.5}
+                # MDLabel:
+                #     id: minecraft_version_label
+                #     text: "1.18"
+                #     halign: "center"
+                # MDNavigationDrawerDivider:
+                # MDLabel:
+                #     text: "Building Block"
+                # MDDropDownItem:
+                #     id: block_drop_down
+                #     text: "Concrete"
+                #     on_release: app.menu.open()
+                #     pos_hint: {"center_x": 0.5}
+                # MDNavigationDrawerDivider:
+                # MDLabel:
+                #     text: "Scale"
+                # MDSlider:
+                #     min: 50
+                #     max: 200
+                #     value: 100
+                # MDNavigationDrawerDivider:
+                # MDLabel:
+                #     text: "Base Build Height"
+                # MDSlider:
+                #     min: -64
+                #     max: 320
+                #     value: 0
+                # MDNavigationDrawerDivider:
+                # MDFillRoundFlatIconButton:
+                #     text: "Toggle Dark Mode"
+                #     icon: "brightness-4"
+                # MDNavigationDrawerDivider:
+                # MDFillRoundFlatIconButton:
+                #     icon: "refresh"
+                #     text: "Reset Settings"

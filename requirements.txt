@@ -1,0 +1,16 @@
+# File:         requirements.txt
+# Description:  Contains the requirements for the development environment
+#               Can be used to quickly set up development environment with:
+#               pip install -r requirements.txt
+#               FOR DEVELOPMENT ONLY, FOR END USERS CHCECK setup.cfg
+
+# Project Requirements
+https://github.com/kivymd/KivyMD/archive/master.zip
+pyyaml
+
+# Linting and Testing
+black
+flake8
+isort
+pylint
+pytest

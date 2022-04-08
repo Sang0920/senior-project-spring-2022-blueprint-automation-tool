@@ -1,9 +1,0 @@
-pywin32
-kivymd
-
-flake8
-pylint
-black
-isort
-pytest
-pyinstaller

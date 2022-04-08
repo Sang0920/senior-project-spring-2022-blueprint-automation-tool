@@ -39,5 +39,6 @@
         "pyproject",
         "pytest",
         "Roadmap"
-    ]
+    ],
+    "materialkv.pythonFile": "main.py"
 }
