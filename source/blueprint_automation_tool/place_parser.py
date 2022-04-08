@@ -5,8 +5,6 @@ Description:    parses .kml and .kmz files to find the following information:
                 geo-coordinates
                 style
                 color
-
-Author(s):      Kevin Green
 """
 
 import xml.etree.ElementTree as et

@@ -1,8 +1,6 @@
 """
 File:           game_automation.py
 Description:    handles basic automation of Minecraft functions
-
-Author(s):      Kevin Green
 """
 
 import re

@@ -1,16 +1,11 @@
 """
 File:           window.py
 Description:    handles window automation on Windows Automation
-
-Author(s):      Kevin Green
-Last Revised:   24 Feb 2022
 """
 
-# Built-In Modules
 import re
 import time
 
-# Installed Modules
 import win32com.client
 import win32con
 import win32gui

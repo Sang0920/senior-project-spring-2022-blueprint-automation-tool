@@ -1,3 +1,7 @@
+"""
+File:           settings.py
+Description:    Handles saving/setting savings for the project
+"""
 import os
 
 import yaml

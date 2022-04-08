@@ -1,9 +1,8 @@
 """
-File:           rotunda.py
-Description:    test file to check parsing/converting of .kml files
-
-Author(s):      Kevin Green
+File:           builder.py
+Description:    main building automation for the project
 """
+
 from time import time
 
 from color_matcher import color_to_minecraft_dye
@@ -12,9 +11,6 @@ from place_parser import PlaceParser
 
 
 class PlaceBuilder:
-    def __init__(self):
-        pass
-
     def build_place(self, reference_point, places_file_paths, base_height, block_choice, scale):
         p = PlaceParser()
         g = GameAutomator()
@@ -67,6 +63,12 @@ class PlaceBuilder:
                         f"""/setblock {block_x} {altitude + base_height} {block_z} \
                         minecraft:{color}_{block_choice}"""
                     )
+                # Build pillars if height is greater than 0
+                # Effectively builds a box
+                if altitude > 0:
+                    g.pos1(block_x, altitude + base_height, block_z)
+                    g.pos2(block_x, base_height, block_z)
+                    g.line(f"minecraft:{color}_{block_choice}")
                 last_block_x = block_x
                 last_block_z = block_z
                 last_alt = altitude

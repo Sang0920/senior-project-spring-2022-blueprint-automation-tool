@@ -1,3 +1,8 @@
+"""
+File:           __main__.py
+Description:    Defines main functions and GUI interactions for the application
+"""
+
 import os
 import sys
 import tkinter

@@ -1,11 +1,8 @@
 """
 File:           keyboard.py
 Description:    handles keyboard automation for Windows
-
-Author(s):      Kevin Green
 """
 
-# Installed Modules
 import ctypes
 from ctypes import wintypes
 from time import sleep

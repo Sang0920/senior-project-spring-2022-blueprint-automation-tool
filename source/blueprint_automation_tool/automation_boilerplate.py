@@ -3,8 +3,6 @@ File:           automation_boilerplate.py
 Description:    Implements boilerplate code to send inputs to Windows
                 Code originally based off of:
                 https://stackoverflow.com/questions/13564851/how-to-generate-keyboard-events
-
-Author(s):         Kevin Green
 """
 
 # pylint: skip-file
