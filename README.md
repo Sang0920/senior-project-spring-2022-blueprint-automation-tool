@@ -5,6 +5,10 @@ Description:    Provides an introduction to the user.
 
 <div id="title_card" align="center">
 
+<!--Badges-->
+![GitHub last commit](https://img.shields.io/github/last-commit/comp195/senior-project-spring-2022-blueprint-automation-tool?logo=github&style=for-the-badge)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/comp195/senior-project-spring-2022-blueprint-automation-tool?include_prereleases&label=Latest%20Release&logo=github&style=for-the-badge)
+
 # Project B.A.T
 
 **A Google Earth Pro to Minecraft Blueprint Automation Tool**
