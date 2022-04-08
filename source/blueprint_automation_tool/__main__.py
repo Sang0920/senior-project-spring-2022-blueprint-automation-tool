@@ -130,17 +130,8 @@ class MainApp(MDApp):
                 Settings.current_settings["scaling_factor"],
             )
 
-            parser = PlaceParser()
-            for file in self.loaded_build_places:
-                found_place = parser.parse_place(file)[0]
-                color = color_to_minecraft_dye(found_place.color).replace("_", " ").title()
-                num_points = len(found_place.coordinate_list)
-                item = ThreeLineListItem(
-                    text=found_place.name,
-                    secondary_text=f"Color: {color}",
-                    tertiary_text=f"Corners: {num_points}",
-                )
-                self.root.ids.build_history_list.add_widget(item)
+            self.add_places_to_list(self.root.ids.build_history_list, self.loaded_build_places)
+
         except AutomationException as e:
             print(f"ERROR: {e.message}")
             self.open_alert_dialog(f"Automation has been halted. {e.message}")
@@ -168,19 +159,9 @@ class MainApp(MDApp):
         )
         print(paths)
         if paths:
-            parser = PlaceParser()
             self.root.ids.loaded_places_list.clear_widgets()
             self.loaded_build_places = paths
-            for file in paths:
-                found_place = parser.parse_place(file)[0]
-                color = color_to_minecraft_dye(found_place.color).replace("_", " ").title()
-                num_points = len(found_place.coordinate_list)
-                item = ThreeLineListItem(
-                    text=found_place.name,
-                    secondary_text=f"Color: {color}",
-                    tertiary_text=f"Corners: {num_points}",
-                )
-                self.root.ids.loaded_places_list.add_widget(item)
+            self.add_places_to_list(self.root.ids.loaded_places_list, self.loaded_build_places)
         print(paths)
 
     def on_load_reference(self, *args):
@@ -246,6 +227,19 @@ class MainApp(MDApp):
         self.dialog.dismiss()
 
     # APPLICATION FUNCTIONALITY
+
+    def add_places_to_list(self, list, places):
+        parser = PlaceParser()
+        for file in places:
+            found_place = parser.parse_place(file)[0]
+            color = color_to_minecraft_dye(found_place.color).replace("_", " ").title()
+            num_points = len(found_place.coordinate_list)
+            item = ThreeLineListItem(
+                text=found_place.name,
+                secondary_text=f"Color: {color}",
+                tertiary_text=f"Corners: {num_points}",
+            )
+            list.add_widget(item)
 
     def load_reference(self, reference_file_path):
         parser = PlaceParser()
