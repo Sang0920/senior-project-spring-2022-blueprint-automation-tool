@@ -32,5 +32,5 @@ exe = EXE(
     strip=False,
     upx=True,
     name="blueprint_automation_tool",
-    console=True,
+    console=False,
 )

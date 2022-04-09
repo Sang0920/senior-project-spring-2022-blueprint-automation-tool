@@ -1,6 +1,6 @@
 import os
 
-from source.blueprint_automation_tool import place_parser
+from blueprint_automation_tool import place_parser
 
 
 def get_location():
@@ -24,4 +24,4 @@ def test_get_line_length_bearing():
         loc.coordinate_list[0].longitude,
         loc.coordinate_list[4].longitude,
     )
-    assert block_loc == (1, 0, -7)
+    assert block_loc == (-7, 0, -1)

@@ -13,12 +13,16 @@ from automation_boilerplate import Input, KeyboardInput, user32
 
 
 class KeyboardException(Exception):
+    """Exception for when keyboard automation fails"""
+
     def __init__(self, message):
         self.message = message
         super().__init__(self.message)
 
 
 class KeyboardHandler:
+    """Handles Keyboard Input into Windows"""
+
     def __init__(self):
 
         # Vk codes to convert strings to hex
@@ -111,32 +115,77 @@ class KeyboardHandler:
             self.keys[chr(i)] = ctypes.windll.user32.VkKeyScanA(wintypes.WCHAR(chr(i)))
 
     def _translate_key(self, key):
+        """Translates a key from a string to the vk code
+
+        Args:
+            key: key to translate
+
+        Raises:
+            KeyboardException: if key is not found in list of available keys
+
+        Returns:
+            the vk code for the given key
+        """
+
         if key in self.keys:
             return self.keys[key]
         else:
             raise KeyboardException(f"Given key {key} not found.")
 
     def press(self, key):
+        """Holds down a key
+
+        Args:
+            key: string of the key to press down
+        """
+
         hex_key = self._translate_key(key)
         x = Input(type=1, ki=KeyboardInput(wVk=hex_key))
         user32.SendInput(1, ctypes.byref(x), ctypes.sizeof(x))
 
     def release(self, key):
+        """Releases a key
+
+        Args:
+            key: string of key to release
+        """
+
         hex_key = self._translate_key(key)
         x = Input(type=1, ki=KeyboardInput(wVk=hex_key, dwFlags=win32con.KEYEVENTF_KEYUP))
         user32.SendInput(1, ctypes.byref(x), ctypes.sizeof(x))
 
     def press_and_release(self, key, hold_time=0.1):
+        """Presses and releases a key
+
+        Args:
+            key: key to press and release
+            hold_time: time in seconds to hold the key. Defaults to 0.1.
+        """
+
         self.press(key)
         sleep(hold_time)
         self.release(key)
 
     def write(self, message, hold_time=0.1, pause_between=0.1):
+        """Writes a message using the keyboard
+
+        Args:
+            message: the text to write
+            hold_time: how long in seconds each key should be held for. Defaults to 0.1.
+            pause_between: The pause in seconds in between each key press. Defaults to 0.1.
+        """
+
         for key in message:
             self.press_and_release(key, hold_time)
             sleep(pause_between)
 
     def copy(self):
+        """Copies the current selection to the clipboard
+
+        Returns:
+            the text in the clipboard
+        """
+
         # Press Ctrl+C
         self.press("ctrl")
         self.press("c")
@@ -150,6 +199,12 @@ class KeyboardHandler:
         return data
 
     def paste(self, text):
+        """Pastes the given text into the clipboard
+
+        Args:
+            text: text to paste
+        """
+
         # Set clipboard text
         win32clipboard.OpenClipboard()
         win32clipboard.EmptyClipboard()

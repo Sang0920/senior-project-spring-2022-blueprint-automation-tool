@@ -17,6 +17,8 @@ user32 = ctypes.WinDLL("user32", use_last_error=True)
 
 
 class MouseInput(ctypes.Structure):
+    """C structure for mouse input events"""
+
     _fields_ = (
         ("dx", wintypes.LONG),
         ("dy", wintypes.LONG),
@@ -28,6 +30,8 @@ class MouseInput(ctypes.Structure):
 
 
 class KeyboardInput(ctypes.Structure):
+    """C structure for keyboard input events"""
+
     _fields_ = (
         ("wVk", wintypes.WORD),
         ("wScan", wintypes.WORD),
@@ -43,6 +47,8 @@ class KeyboardInput(ctypes.Structure):
 
 
 class HardwareInput(ctypes.Structure):
+    """C structure for hardware input events"""
+
     _fields_ = (
         ("uMsg", wintypes.DWORD),
         ("wParamL", wintypes.WORD),
@@ -51,6 +57,8 @@ class HardwareInput(ctypes.Structure):
 
 
 class Input(ctypes.Structure):
+    """Generic input event"""
+
     class _Input(ctypes.Union):
         _fields_ = (("ki", KeyboardInput), ("mi", MouseInput), ("hi", HardwareInput))
 

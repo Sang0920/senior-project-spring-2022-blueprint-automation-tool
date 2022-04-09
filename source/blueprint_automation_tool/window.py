@@ -4,7 +4,6 @@ Description:    handles window automation on Windows Automation
 """
 
 import re
-import time
 
 import win32com.client
 import win32con
@@ -12,6 +11,8 @@ import win32gui
 
 
 class WindowHandler:
+    """Handles Window Automation"""
+
     def _get_all_windows(self):
         """Gets visible named windows that are open on the host system.
 
@@ -40,6 +41,7 @@ class WindowHandler:
         Returns:
             A list of windows that matched the title regex.
         """
+
         found_windows = []
         num_found = 0
         available_windows = self._get_all_windows()
@@ -57,6 +59,7 @@ class WindowHandler:
         Returns:
             Window object of the currently active window.
         """
+
         hwnd = win32gui.GetForegroundWindow()
         return Window(hwnd)
 
@@ -66,6 +69,7 @@ class WindowHandler:
         Args:
             window: Window that should be set as the current window.
         """
+
         shell = win32com.client.Dispatch("WScript.Shell")
         shell.SendKeys("%")
         win32gui.SetForegroundWindow(window.hwnd)
@@ -79,6 +83,7 @@ class WindowHandler:
             x: The x location for the top-left corner of the window
             y: The y location for the top-left corner of the window
         """
+
         win32gui.MoveWindow(window.hwnd, x - 7, y - 7, window.width, window.height, True)
         window.refresh_info()
 
@@ -90,6 +95,7 @@ class WindowHandler:
             width: The new width of the window
             height: The new height of the window
         """
+
         win32gui.MoveWindow(
             window.hwnd,
             window.coordinates[0],
@@ -106,6 +112,7 @@ class WindowHandler:
         Args:
             window: The window to maximize
         """
+
         win32gui.ShowWindow(window.hwnd, win32con.SW_MAXIMIZE)
         window.refresh_info()
 
@@ -115,6 +122,7 @@ class WindowHandler:
         Args:
             window: The window to minimize
         """
+
         win32gui.ShowWindow(window.hwnd, win32con.SW_MINIMIZE)
         window.refresh_info()
 
@@ -124,11 +132,14 @@ class WindowHandler:
         Args:
             window: The window to close
         """
+
         win32gui.PostMessage(window.hwnd, win32con.WM_CLOSE, 0, 0)
         window.refresh_info()
 
 
 class Window:
+    """Representation of a window"""
+
     def __init__(self, hwnd):
         self.hwnd = hwnd
         self.title = None
@@ -139,27 +150,8 @@ class Window:
 
     def refresh_info(self):
         """Gets the most updated information for a window"""
+
         self.title = win32gui.GetWindowText(self.hwnd)
         self.coordinates = win32gui.GetWindowRect(self.hwnd)
         self.width = self.coordinates[2] - self.coordinates[0]
         self.height = self.coordinates[3] - self.coordinates[1]
-
-
-# Temporary Testing During Development
-if __name__ == "__main__":
-    windows = WindowHandler().find_window(".*Visual Studio Code.*")
-    for wndw in windows:
-        print(wndw.title)
-
-    print(WindowHandler().get_current_window().title)
-
-    windows = WindowHandler().find_window(".*OneNote.*")
-    WindowHandler().set_current_window(windows[0])
-    WindowHandler().move_window(windows[0], 0, 0)
-    WindowHandler().resize_window(windows[0], 1920, 1080)
-    time.sleep(2)
-    WindowHandler().minimize_window(windows[0])
-    time.sleep(1)
-    WindowHandler().maximize_window(windows[0])
-    time.sleep(2)
-    WindowHandler().close_window(windows[0])

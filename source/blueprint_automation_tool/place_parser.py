@@ -14,6 +14,8 @@ from math import atan2, cos, floor, radians, sin, sqrt
 
 
 class Coordinate:
+    """Representation of  a geographic coordinate"""
+
     def __init__(self, longitude, latitude, altitude):
         self.longitude = radians(float(longitude))
         self.latitude = radians(float(latitude))
@@ -24,6 +26,8 @@ class Coordinate:
 
 
 class Place:
+    """Representation of a parsed place"""
+
     def __init__(self, name, coordinate_list, shape, color="ff0000"):
         self.name = name
         self.coordinate_list = coordinate_list
@@ -32,7 +36,18 @@ class Place:
 
 
 class PlaceParser:
+    """Handles the parsing of files to find the places contained in them"""
+
     def parse_place(self, file):
+        """Parses a .kml/.kmz file and returns a list of found places
+
+        Args:
+            file: Path to the file to parse
+
+        Returns:
+            A list of found places
+        """
+
         # Extracts the .kml file from .kmz files if necessary
         if file.endswith("kmz"):
             print("Handling a .kmz file")
@@ -107,8 +122,21 @@ class PlaceParser:
             return places
 
     def convert_to_minecraft(self, lat1, lat2, long1, long2, altitude=0, scale=1):
-        # Calculations derived from
-        # https://www.movable-type.co.uk/scripts/latlong.html
+        """Converts a place to a block location given a reference point
+            Calculations from:
+            https://www.movable-type.co.uk/scripts/latlong.html
+
+        Args:
+            lat1: The reference latitude
+            lat2: The place latitude
+            long1: The reference longitude
+            long2: The place longitude
+            altitude: The height of the place. Defaults to 0.
+            scale: How much to scale the conversion. Defaults to 1.
+
+        Returns:
+            X, Y, Z coordinates of the place in-game
+        """
 
         earth_radius = 6_371_000  # Earth's Approximate Radius in meters
 

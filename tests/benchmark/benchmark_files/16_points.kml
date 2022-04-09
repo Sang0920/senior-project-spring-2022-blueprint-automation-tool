@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>16_points.kml</name>
+	<Style id="inline">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>16_points</name>
+		<styleUrl>#inline1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3122170786636,37.98110885356818,0 -121.3122158937522,37.98117717551819,0 -121.3121730388072,37.98123007715649,0 -121.3120793436244,37.98125195457216,0 -121.3120107194552,37.98125091866024,0 -121.3119400570904,37.98122427600382,0 -121.3118765911758,37.9811947462382,0 -121.3118634611271,37.98114073744699,0 -121.3118322109476,37.98107971472626,0 -121.3118353050662,37.9810227679091,0 -121.3118927724937,37.98098828597235,0 -121.3120117708499,37.98096911229375,0 -121.3120986442295,37.98099139365069,0 -121.3121765287653,37.98101799540182,0 -121.3122346427855,37.98105467139992,0 -121.3122999403803,37.9810870371071,0 -121.3122170786636,37.98110885356818,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

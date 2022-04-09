@@ -7,6 +7,12 @@ super-linter.log
 # mypy cache
 .mypy_cache
 
+# pytest
+.pytest_cache
+
+# benchmark files
+benchmarks.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

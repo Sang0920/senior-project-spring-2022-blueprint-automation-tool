@@ -12,7 +12,7 @@ To run pytest, make sure to install the pytest module in your virtual environmen
 following commands:
 
 ```bash
-pytest .
+pytest . -W ignore::DeprecationWarning
 ```
 
 ## Build application into .exe
@@ -20,5 +20,5 @@ pytest .
 Navigate into source/blueprint automation tool and run the following
 
 ```bash
-pyinstaller --onefile .\tool.spec
+pyinstaller --onefile --noconsole .\tool.spec
 ```

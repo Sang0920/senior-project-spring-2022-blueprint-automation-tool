@@ -5,7 +5,7 @@
 #               FOR DEVELOPMENT ONLY, FOR END USERS CHCECK setup.cfg
 
 # Project Requirements
-https://github.com/kivymd/KivyMD/archive/master.zip
+git+https://github.com/kivymd/KivyMD/archive/master.zip
 pyyaml
 
 # Linting and Testing
