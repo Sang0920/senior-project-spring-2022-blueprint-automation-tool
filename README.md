@@ -80,11 +80,9 @@ create an organized and color-coded layout that is easy for them to understand.
 
 <a id="top_2" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/-Back%20To%20Top-555555?style=for-the-badge" align="right"></a>
 
-## ✒️ Authors & Contributors
+## Author
 
 Kevin Green - [k_green5@u.pacific.edu](mailto:k_green5@u.pacific.edu)
-
-[![Contributors](https://contrib.rocks/image?repo=comp195/senior-project-spring-2022-blueprint-automation-tool)](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/graphs/contributors)
 
 <a id="top_3" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/-Back%20To%20Top-555555?style=for-the-badge" align="right"></a>
 
