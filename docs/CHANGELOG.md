@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.7.0...v0.8.0) (2022-04-09)
+
+
+### Features
+
+* Additonal Testing and Documentation ([66bec44](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/66bec4477f150cfe75c299d5798667fa1f9bf73f))
+
 ## [0.7.0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.6.0...v0.7.0) (2022-04-08)
 
 
