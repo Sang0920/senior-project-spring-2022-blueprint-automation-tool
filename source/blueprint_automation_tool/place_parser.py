@@ -50,7 +50,6 @@ class PlaceParser:
 
         # Extracts the .kml file from .kmz files if necessary
         if file.endswith("kmz"):
-            print("Handling a .kmz file")
             with zipfile.ZipFile(file) as zip_file:
                 with zip_file.open("doc.kml", "r") as f:
                     string_content = f.read().decode("utf-8")
@@ -68,7 +67,15 @@ class PlaceParser:
 
         # Create a new place for each placemark in the file
         places = []
-        for placemark in root.findall(".//Placemark", namespaces):
+        placemarks = []
+        folder = root.find(".//Folder", namespaces)
+        if folder is not None:
+            for elem in folder:
+                if elem.tag.endswith("Placemark"):
+                    placemarks.append(elem)
+        else:
+            placemarks = root.findall(".//Placemark", namespaces)
+        for placemark in placemarks:
             # Grab name for the placemark
             place_name = placemark.find("name", namespaces).text
 
@@ -104,22 +111,36 @@ class PlaceParser:
                         )
 
             # Attempt to get the color of the place, otherwise default to red
-            color = "ff0000"
-            style = root.find(".//Style", namespaces)
-            if style:
-                linestyle = style.find("LineStyle", namespaces)
-                iconstyle = style.find("IconStyle", namespaces)
-                if linestyle:
-                    reversed_color = linestyle.find("color", namespaces).text[2:]
-                    color = reversed_color[::-1]
-                elif iconstyle:
-                    color_elem = iconstyle.find("color", namespaces)
-                    if color_elem is not None:
-                        reversed_color = iconstyle.find("color", namespaces).text[2:]
-                        color = reversed_color[::-1]
+            color = self._get_color(placemark, root, namespaces)
 
             places.append(Place(place_name, coordinate_list, shape, color))
-            return places
+        return places
+
+    def _get_color(self, elem, root, namespaces):
+        style_url = elem.find("styleUrl", namespaces)
+        if style_url is not None:
+            tag = style_url.text.replace("#", "")
+            style = root.find(f""".//*[@id='{tag}']""", namespaces)
+
+            color_tag = style.find("LineStyle", namespaces)
+            if color_tag is None:
+                color_tag = style.find("IconStyle", namespaces)
+
+            if color_tag is not None:
+                color_elem = color_tag.find("color", namespaces)
+                if color_elem is not None:
+                    reversed_color = color_elem.text[2:]
+                    red = reversed_color[4:]
+                    green = reversed_color[2:4]
+                    blue = reversed_color[0:2]
+                    return red + green + blue
+            else:
+                pair = style.find("Pair", namespaces)
+                if pair is not None:
+                    return self._get_color(pair, root, namespaces)
+                return "ffffff"
+        else:
+            return "ff0000"
 
     def convert_to_minecraft(self, lat1, lat2, long1, long2, altitude=0, scale=1):
         """Converts a place to a block location given a reference point
