@@ -1,7 +1,3 @@
-"""
-File:           builder.py
-Description:    main building automation for the project
-"""
 from color_matcher import color_to_minecraft_dye
 from game_automation import AutomationException, GameAutomator
 from kivy.logger import Logger
@@ -23,8 +19,8 @@ class PlaceBuilder:
         automator.switch_to_game()
 
         # Placing a Gold Block at the Reference Point
-        automator.teleport(0, base_height + 30, 0)
-        automator.send_to_chat(f"/setblock 0 {base_height} 0 minecraft:gold_block")
+        g.teleport(0, base_height + 30, 0)
+        g.send_to_chat(f"/setblock 0 {base_height} 0 minecraft:gold_block")
 
         for place in places:
             Logger.info(f"PlaceBuilder: Now building {place.name}")

@@ -138,7 +138,7 @@ class PlaceParser:
                 pair = style.find("Pair", namespaces)
                 if pair is not None:
                     return self._get_color(pair, root, namespaces)
-                return "ffffff"
+                return "ff0000"
         else:
             return "ff0000"
 

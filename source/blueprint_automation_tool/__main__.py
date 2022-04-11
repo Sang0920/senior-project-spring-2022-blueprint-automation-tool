@@ -53,7 +53,7 @@ class MainApp(MDApp):
 
         # Settings reference by UI and automation
         self.loaded_reference = None
-        self.loaded_build_places = None
+        self.loaded_build_obj = None
         self.window_manager = window.WindowHandler()
 
         # Main Screen for the application
@@ -121,20 +121,20 @@ class MainApp(MDApp):
     def on_build_places(self, *args):
         """Called when the user chooses to build a new place"""
 
-        Logger.info("Main: Building Places from self.loaded_build_places")
+        Logger.info("Main: Building Places from self.loaded_build_obj")
         try:
             # Build the loaded list of places
             b = builder.PlaceBuilder()
-            b.build_place(
+            b.build_places(
                 self.loaded_reference,
-                self.loaded_build_places,
+                self.loaded_build_obj,
                 Settings.current_settings["base_building_height"],
                 Settings.current_settings["building_block_choice"],
                 Settings.current_settings["scaling_factor"],
             )
 
             # Update the build history to include newly built places
-            self.add_places_to_list(self.root.ids.build_history_list, self.loaded_build_places)
+            self.add_places_to_list(self.root.ids.build_history_list, self.loaded_build_obj)
 
         # Something went wrong with the automation, display an error dialog
         except game_automation.AutomationException as e:
@@ -191,10 +191,15 @@ class MainApp(MDApp):
         )
 
         # Update loaded places if some were chosen
+        self.loaded_build_obj = []
         if paths:
+            parser = place_parser.PlaceParser()
+            for file in paths:
+                found_places = parser.parse_place(file)
+                for p in found_places:
+                    self.loaded_build_obj.append(p)
             self.root.ids.loaded_places_list.clear_widgets()
-            self.loaded_build_places = paths
-            self.add_places_to_list(self.root.ids.loaded_places_list, self.loaded_build_places)
+            self.add_places_to_list(self.root.ids.loaded_places_list, self.loaded_build_obj)
 
     def on_load_reference(self, *args):
         """Called when the user chooses to load a reference file"""
@@ -325,15 +330,11 @@ class MainApp(MDApp):
         Logger.info("Main: Addding places to list")
 
         # Parse the loaded places files and add them to the list
-        parser = place_parser.PlaceParser()
-        for file in places:
-            found_place = parser.parse_place(file)[0]
-            color = (
-                color_matcher.color_to_minecraft_dye(found_place.color).replace("_", " ").title()
-            )
-            num_points = len(found_place.coordinate_list)
+        for p in self.loaded_build_obj:
+            color = color_matcher.color_to_minecraft_dye(p.color).replace("_", " ").title()
+            num_points = len(p.coordinate_list)
             item = ThreeLineListItem(
-                text=found_place.name,
+                text=p.name,
                 secondary_text=f"Color: {color}",
                 tertiary_text=f"Corners: {num_points}",
             )
