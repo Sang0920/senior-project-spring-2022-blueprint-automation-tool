@@ -102,13 +102,25 @@ class GameAutomator:
         self._check_emergency_stop()
         if self.is_switched_to_game:
             self.keyboard.press_and_release("t")
+            sleep(0.05)
             self.keyboard.paste(message)
+
+            max_attempts = 10
+            for i in range(max_attempts):
+                self.keyboard.select_all()
+                if self.keyboard.copy() == message:
+                    break
+                elif i == max_attempts - 1:
+                    raise AutomationException(f"Unable to send message to chat.\n{message}")
+                self.keyboard.press_and_release("backspace")
+                self.keyboard.paste(message)
+                sleep(0.05)
             self.keyboard.press_and_release("enter")
+            sleep(0.1)
         else:
             raise AutomationException(
                 "Cannot send messages to chat. The script hasn't switched to the game yet."
             )
-        sleep(0.1)
 
     def teleport(self, x, y, z):
         """Teleports the player to the given coordinates
@@ -125,6 +137,7 @@ class GameAutomator:
         self._check_emergency_stop()
         if self.is_switched_to_game:
             self.send_to_chat(f"/tp @p {x} {y} {z} 180 90")
+            sleep(2)
         else:
             raise AutomationException(
                 "Cannot teleport. The script hasn't switched to the game yet."

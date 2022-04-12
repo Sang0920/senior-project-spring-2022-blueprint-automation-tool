@@ -117,6 +117,7 @@ class PlaceParser:
         return places
 
     def _get_color(self, elem, root, namespaces):
+        color = "ff0000"
         style_url = elem.find("styleUrl", namespaces)
         if style_url is not None:
             tag = style_url.text.replace("#", "")
@@ -133,14 +134,13 @@ class PlaceParser:
                     red = reversed_color[4:]
                     green = reversed_color[2:4]
                     blue = reversed_color[0:2]
-                    return red + green + blue
+                    color = red + green + blue
             else:
                 pair = style.find("Pair", namespaces)
                 if pair is not None:
                     return self._get_color(pair, root, namespaces)
-                return "ff0000"
-        else:
-            return "ff0000"
+
+        return color
 
     def convert_to_minecraft(self, lat1, lat2, long1, long2, altitude=0, scale=1):
         """Converts a place to a block location given a reference point
@@ -183,4 +183,4 @@ class PlaceParser:
         block_x = floor(distance * sin(bearing))
         block_z = -1 * floor(distance * cos(bearing))
 
-        return (block_x, floor(altitude), block_z)
+        return (block_x, round(altitude), block_z)

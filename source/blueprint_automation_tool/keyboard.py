@@ -154,30 +154,29 @@ class KeyboardHandler:
         x = Input(type=1, ki=KeyboardInput(wVk=hex_key, dwFlags=win32con.KEYEVENTF_KEYUP))
         user32.SendInput(1, ctypes.byref(x), ctypes.sizeof(x))
 
-    def press_and_release(self, key, hold_time=0.1):
+    def press_and_release(self, key, hold_time=0.05):
         """Presses and releases a key
 
         Args:
             key: key to press and release
-            hold_time: time in seconds to hold the key. Defaults to 0.1.
+            hold_time: time in seconds to hold the key. Defaults to 0.05.
+            post_time: time in seconds to wait after releasing the key. Defaults to 0.05.
         """
 
         self.press(key)
         sleep(hold_time)
         self.release(key)
 
-    def write(self, message, hold_time=0.1, pause_between=0.1):
-        """Writes a message using the keyboard
-
-        Args:
-            message: the text to write
-            hold_time: how long in seconds each key should be held for. Defaults to 0.1.
-            pause_between: The pause in seconds in between each key press. Defaults to 0.1.
-        """
-
-        for key in message:
-            self.press_and_release(key, hold_time)
-            sleep(pause_between)
+    def select_all(self):
+        """Selects all text in the current window"""
+        self.press("ctrl")
+        sleep(0.01)
+        self.press("a")
+        sleep(0.01)
+        self.release("a")
+        sleep(0.01)
+        self.release("ctrl")
+        sleep(0.01)
 
     def copy(self):
         """Copies the current selection to the clipboard
@@ -188,9 +187,13 @@ class KeyboardHandler:
 
         # Press Ctrl+C
         self.press("ctrl")
+        sleep(0.01)
         self.press("c")
+        sleep(0.01)
         self.release("c")
+        sleep(0.01)
         self.release("ctrl")
+        sleep(0.1)
 
         # Get clipboard data and return
         win32clipboard.OpenClipboard()
@@ -213,6 +216,10 @@ class KeyboardHandler:
 
         # Press Ctrl+V
         self.press("ctrl")
+        sleep(0.01)
         self.press("v")
+        sleep(0.01)
         self.release("v")
+        sleep(0.01)
         self.release("ctrl")
+        sleep(0.1)

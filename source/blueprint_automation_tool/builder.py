@@ -22,52 +22,76 @@ class PlaceBuilder:
 
         automator.switch_to_game()
 
-        # Placing a Gold Block at the Reference Point
+        Logger.info("PlaceBuilder: Placing a Gold Block at the Reference Point")
         automator.teleport(0, base_height + 30, 0)
         automator.send_to_chat(f"/setblock 0 {base_height} 0 minecraft:gold_block")
 
-        for place in places:
+        first_x = first_y = first_z = None
+        last_x = last_y = last_z = None
+        for i, place in enumerate(places):
             Logger.info(f"PlaceBuilder: Now building {place.name}")
+            automator.send_to_chat(f"Now building {place.name}")
             color = color_to_minecraft_dye(place.color)
-            last_block_x = last_block_z = last_block_y = None
 
-            for coordinate in place.coordinate_list:
+            if len(place.coordinate_list) == 1:
                 block_x, block_y, block_z = parser.convert_to_minecraft(
                     ref_coords.latitude,
-                    coordinate.latitude,
+                    place.coordinate_list[0].latitude,
                     ref_coords.longitude,
-                    coordinate.longitude,
-                    coordinate.altitude,
+                    place.coordinate_list[0].longitude,
+                    place.coordinate_list[0].altitude,
                     scale,
                 )
-
-                if len(place.coordinate_list) == 1:
-                    automator.teleport(block_x, block_y, block_z)
-                    automator.send_to_chat(
-                        f"""/setblock {block_x} {block_y + base_height} {block_z} \
-                        minecraft:{color}_{block_choice}"""
+                automator.teleport(block_x, block_y, block_z)
+                automator.send_to_chat(
+                    f"""/setblock {block_x} {block_y + base_height} {block_z} \
+                    minecraft:{color}_{block_choice}"""
+                )
+            else:
+                for j, coordinate in enumerate(place.coordinate_list):
+                    block_x, block_y, block_z = parser.convert_to_minecraft(
+                        ref_coords.latitude,
+                        coordinate.latitude,
+                        ref_coords.longitude,
+                        coordinate.longitude,
+                        coordinate.altitude,
+                        scale,
                     )
-                elif last_block_x is not None and last_block_z is not None:
-                    mid_x = (last_block_x + block_x) / 2
-                    mid_y = ((last_block_y + block_y) / 2) + base_height
-                    mid_z = (last_block_z + block_z) / 2
 
-                    automator.teleport(mid_x, mid_y + 30, mid_z)
-                    automator.pos(last_block_x, last_block_y + base_height, last_block_z, 1)
-                    automator.pos(block_x, block_y + base_height, block_z, 2)
+                    # Draw majority of polygon
+                    if j == 0:
+                        automator.send_to_chat("//deselect")
+                        automator.send_to_chat("//sel convex")
+                        automator.teleport(block_x, block_y + base_height + 30, block_z)
+                        automator.pos(block_x, block_y + base_height, block_z, 1)
+                        first_x = block_x
+                        first_y = block_y + base_height
+                        first_z = block_z
+                    else:
+                        automator.pos(block_x, block_y + base_height, block_z, 2)
+                        if j == len(place.coordinate_list) - 2:  # Second to last item
+                            last_x = block_x
+                            last_y = block_y + base_height
+                            last_z = block_z
+                automator.line(f"minecraft:{color}_{block_choice}")
+
+                # Draw last line if we are building a polygon
+                if place.shape == "Polygon":
+                    automator.send_to_chat("//deselect")
+                    automator.send_to_chat("//sel cuboid")
+                    automator.pos(first_x, first_y, first_z, 1)
+                    automator.pos(last_x, last_y, last_z, 2)
                     automator.line(f"minecraft:{color}_{block_choice}")
 
-                    if block_y > 0:
-                        automator.pos(block_x, base_height, block_z, 1)
-                        automator.line(f"minecraft: {color}_{block_choice}")
-
-                last_block_x = block_x
-                last_block_y = block_y
-                last_block_z = block_z
+            percent = round((i + 1) / float(len(places)) * 100, 2)
 
             Logger.info(f"PlaceBuilder: Finished building {place.name}")
+            automator.send_to_chat(
+                f"Done building {place.name}. Progress: {i + 1}/{len(places)} ({percent}%)"
+            )
 
         Logger.info("PlaceBuilder: Teleporting back to the reference point")
+        automator.send_to_chat("//deselect")
         automator.teleport(0, base_height + 100, 0)
 
         Logger.info("PlaceBuilder: Done!")
