@@ -33,6 +33,7 @@ class PlaceBuilder:
             automator.send_to_chat(f"Now building {place.name}")
             color = color_to_minecraft_dye(place.color)
 
+            # If the length is 1, then just place a single block
             if len(place.coordinate_list) == 1:
                 block_x, block_y, block_z = parser.convert_to_minecraft(
                     ref_coords.latitude,
@@ -42,11 +43,38 @@ class PlaceBuilder:
                     place.coordinate_list[0].altitude,
                     scale,
                 )
-                automator.teleport(block_x, block_y, block_z)
+                automator.teleport(block_x, block_y + base_height + 30, block_z)
                 automator.send_to_chat(
                     f"""/setblock {block_x} {block_y + base_height} {block_z} \
                     minecraft:{color}_{block_choice}"""
                 )
+
+            # If the length is 2, then draw a single line
+            elif len(place.coordinate_list) == 2:
+                first_x, first_y, first_z = parser.convert_to_minecraft(
+                    ref_coords.latitude,
+                    place.coordinate_list[0].latitude,
+                    ref_coords.longitude,
+                    place.coordinate_list[0].longitude,
+                    place.coordinate_list[0].altitude,
+                    scale,
+                )
+                last_x, last_y, last_z = parser.convert_to_minecraft(
+                    ref_coords.latitude,
+                    place.coordinate_list[1].latitude,
+                    ref_coords.longitude,
+                    place.coordinate_list[1].longitude,
+                    place.coordinate_list[1].altitude,
+                    scale,
+                )
+                automator.teleport(first_x, first_y + base_height + 30, first_z)
+                automator.send_to_chat("//deselect")
+                automator.send_to_chat("//sel cuboid")
+                automator.pos(first_x, first_y + base_height, first_z, 1)
+                automator.pos(last_x, last_y + base_height, last_z, 2)
+                automator.line(f"minecraft:{color}_{block_choice}")
+
+            # Otherwise draw all the points
             else:
                 for j, coordinate in enumerate(place.coordinate_list):
                     block_x, block_y, block_z = parser.convert_to_minecraft(
