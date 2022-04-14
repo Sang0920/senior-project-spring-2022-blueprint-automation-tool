@@ -92,8 +92,8 @@ class MainApp(MDApp):
         self.title = constants.APPLICATION_NAME
         self.theme_cls.material_style = "M3"
         self.theme_cls.theme_style = Settings.current_settings["theme_style"]
-        self.theme_cls.primary_palette = "BlueGray"
-        self.theme_cls.accent_palette = "Brown"
+        self.theme_cls.primary_palette = "Cyan"
+        self.theme_cls.accent_palette = "Amber"
 
         return self.screen
 
