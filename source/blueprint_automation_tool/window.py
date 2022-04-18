@@ -72,6 +72,7 @@ class WindowHandler:
 
         shell = win32com.client.Dispatch("WScript.Shell")
         shell.SendKeys("%")
+        win32gui.ShowWindow(window.hwnd, win32con.SW_RESTORE)
         win32gui.SetForegroundWindow(window.hwnd)
         window.refresh_info()
 

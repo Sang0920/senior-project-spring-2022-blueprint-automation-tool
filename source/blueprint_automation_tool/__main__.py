@@ -5,9 +5,7 @@ Description:    Defines main functions and GUI interactions for the application
 
 import os
 import sys
-import tkinter
 from math import degrees
-from tkinter import filedialog
 
 import builder
 import color_matcher
@@ -16,11 +14,13 @@ import game_automation
 import place_parser
 import settings
 import window
+from kivy.clock import Clock, mainthread
 from kivy.config import Config
 from kivy.lang import Builder
 from kivy.logger import LOG_LEVELS, Logger
 from kivy.metrics import dp
 from kivy.resources import resource_add_path
+from kivy.uix.boxlayout import BoxLayout
 from kivymd.app import MDApp
 from kivymd.uix.behaviors import RoundedRectangularElevationBehavior
 from kivymd.uix.button import MDFlatButton, MDRaisedButton
@@ -28,6 +28,7 @@ from kivymd.uix.card import MDCard
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.list import ThreeLineListItem
 from kivymd.uix.menu import MDDropdownMenu
+from plyer import filechooser
 
 Config.set("input", "mouse", "mouse,multitouch_on_demand")
 Config.set("kivy", "log_dir", constants.LOGS_PATH)
@@ -37,8 +38,9 @@ Logger.setLevel(LOG_LEVELS["debug"])
 
 Settings = settings.SettingsManager()
 
-root = tkinter.Tk()
-root.withdraw()
+
+class Content(BoxLayout):
+    pass
 
 
 class MD3Card(MDCard, RoundedRectangularElevationBehavior):
@@ -120,7 +122,29 @@ class MainApp(MDApp):
 
     def on_build_places(self, *args):
         """Called when the user chooses to build a new place"""
+        if self.loaded_build_obj is None or len(self.loaded_build_obj) == 0:
+            self.open_alert_dialog("There are no places to build! Make sure that you load places.")
+            return
 
+        num_places = len(self.loaded_build_obj)
+        if num_places == 1:
+            place_text = "place"
+        else:
+            place_text = "places"
+
+        self.dialog = MDDialog(
+            title="Building Places...",
+            text=f"""Your {num_places} {place_text} are currently being built. Please do not interact \
+                with your computer while the automation runs. However, to stop the automation \
+                early, hold down the "END" key.""",
+        )
+        self.dialog.open()
+
+        Clock.schedule_once(lambda dt: self.build_places_task(), 0)
+
+        self.dismiss()
+
+    def build_places_task(self):
         Logger.info("Main: Building Places from self.loaded_build_obj")
         try:
             # Build the loaded list of places
@@ -184,17 +208,25 @@ class MainApp(MDApp):
 
     def on_load_places(self, *args):
         """Called when the user chooses to load places to build"""
-
-        # Prompt user to load files
-        paths = filedialog.askopenfilenames(
-            title="Pick Places To Build", filetypes=(("KML", "*.kml"), ("KMZ", "*.kmz"))
+        self.dialog = MDDialog(
+            title="Processing...",
+            text="Please wait while the places are being loaded.",
         )
+        self.dialog.open()
+
+        Clock.schedule_once(lambda dt: self.load_places_task(), 0)
+
+        self.dismiss()
+
+    def load_places_task(self):
+        # Prompt user to load files
+        place_paths = filechooser.open_file(multiple=True)
 
         # Update loaded places if some were chosen
         self.loaded_build_obj = []
-        if paths:
+        if place_paths:
             parser = place_parser.PlaceParser()
-            for file in paths:
+            for file in place_paths:
                 found_places = parser.parse_place(file)
                 for p in found_places:
                     self.loaded_build_obj.append(p)
@@ -203,11 +235,24 @@ class MainApp(MDApp):
 
     def on_load_reference(self, *args):
         """Called when the user chooses to load a reference file"""
-
-        # Prompt User to select a reference file
-        path = filedialog.askopenfilename(
-            title="Pick A Reference Point", filetypes=(("KML", "*.kml"), ("KMZ", "*.kmz"))
+        self.dialog = MDDialog(
+            title="Processing...",
+            text="Please wait while the reference is being loaded.",
         )
+        self.dialog.open()
+
+        Clock.schedule_once(lambda dt: self.load_reference_task(), 0)
+
+        self.dismiss()
+
+    def load_reference_task(self):
+        # Prompt User to select a reference file
+        path_list = filechooser.open_file()
+        if path_list:
+            path = path_list[0]
+            print(path)
+        else:
+            path = None
 
         # Update loaded reference place if one was chosen
         if path and os.path.isfile(path):
@@ -312,6 +357,7 @@ class MainApp(MDApp):
         )
         self.dialog.open()
 
+    @mainthread
     def dismiss(self, *args):
         """Dismisses the currently active dialog box"""
         Logger.debug("Dismissing Current Dialog")

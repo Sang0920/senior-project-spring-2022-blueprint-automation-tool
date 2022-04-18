@@ -1,5 +1,18 @@
 # File:         main.kv
 # Description:  Lays out the GUI for the application
+<Content>
+    orientation: "vertical"
+    spacing: 10
+
+    MDSpinner:
+        size_hint: None, None
+        size: dp(50), dp(50)
+        pos_hint: {'center_x': 0.1, 'center_y': .5}
+        active: True
+    MDLabel:
+        text: "Processing..."
+        pos_hint: {'center_x': 0.5, 'center_y': .5}
+
 MDScreen:
     MDNavigationLayout:
         # Main Screen of Application

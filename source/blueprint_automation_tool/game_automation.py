@@ -78,7 +78,6 @@ class GameAutomator:
             r"Minecraft.*[0-9]+\.[0-9]+.*(Singleplayer|Multiplayer)", limit=1
         )
         if game:
-            self.window.maximize_window(game[0])
             self.window.set_current_window(game[0])
             sleep(3)
             self.keyboard.press_and_release("esc")
