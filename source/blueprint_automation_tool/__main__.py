@@ -30,6 +30,7 @@ from kivymd.uix.card import MDCard
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.list import ThreeLineListItem
 from kivymd.uix.menu import MDDropdownMenu
+from kivymd.uix.snackbar import Snackbar
 
 Config.set("input", "mouse", "mouse,multitouch_on_demand")
 Config.set("kivy", "log_dir", constants.LOGS_PATH)
@@ -123,29 +124,6 @@ class MainApp(MDApp):
 
     def on_build_places(self, *args):
         """Called when the user chooses to build a new place"""
-        if self.loaded_build_obj is None or len(self.loaded_build_obj) == 0:
-            self.open_alert_dialog("There are no places to build! Make sure that you load places.")
-            return
-
-        num_places = len(self.loaded_build_obj)
-        if num_places == 1:
-            place_text = "place"
-        else:
-            place_text = "places"
-
-        self.dialog = MDDialog(
-            title="Building Places...",
-            text=f"""Your {num_places} {place_text} are currently being built. Please do not interact \
-                with your computer while the automation runs. However, to stop the automation \
-                early, hold down the "END" key.""",
-        )
-        self.dialog.open()
-
-        Clock.schedule_once(lambda dt: self.build_places_task(), 0)
-
-        self.dismiss()
-
-    def build_places_task(self):
         Logger.info("Main: Building Places from self.loaded_build_obj")
         try:
             # Build the loaded list of places
@@ -167,6 +145,20 @@ class MainApp(MDApp):
             self.open_alert_dialog(f"Automation has been halted. {e.message}")
 
         self.return_to_program()
+        snackbar = Snackbar(
+            text="Automation Complete!",
+            snackbar_x=dp(10),
+            snackbar_y=dp(10),
+            size_hint_x=0.7,
+            duration=15,
+        )
+        snackbar.buttons = [
+            MDFlatButton(
+                text="OK",
+                on_release=snackbar.dismiss,
+            )
+        ]
+        snackbar.open()
 
     def on_detect_minecraft_version(self, show_error=True, *args):
         """Called when the application needs to detect the game version. Updates corresponding
