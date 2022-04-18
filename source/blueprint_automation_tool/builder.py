@@ -23,7 +23,9 @@ class PlaceBuilder:
         automator.switch_to_game()
 
         Logger.info("PlaceBuilder: Placing a Gold Block at the Reference Point")
+        automator.send_to_chat("/gamemode spectator")
         automator.teleport(0, base_height + 30, 0)
+        automator.send_to_chat("/gamemode creative")
         automator.send_to_chat(f"/setblock 0 {base_height} 0 minecraft:gold_block")
 
         first_x = first_y = first_z = None

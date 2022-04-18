@@ -5,7 +5,9 @@ Description:    Defines main functions and GUI interactions for the application
 
 import os
 import sys
+import tkinter as tk
 from math import degrees
+from tkinter import filedialog
 
 import builder
 import color_matcher
@@ -28,7 +30,6 @@ from kivymd.uix.card import MDCard
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.list import ThreeLineListItem
 from kivymd.uix.menu import MDDropdownMenu
-from plyer import filechooser
 
 Config.set("input", "mouse", "mouse,multitouch_on_demand")
 Config.set("kivy", "log_dir", constants.LOGS_PATH)
@@ -165,9 +166,7 @@ class MainApp(MDApp):
             Logger.error(f"Main: Automation has been halted. {e.message}")
             self.open_alert_dialog(f"Automation has been halted. {e.message}")
 
-        self.window_manager.set_current_window(
-            self.window_manager.find_window(constants.APPLICATION_NAME)[0]
-        )
+        self.return_to_program()
 
     def on_detect_minecraft_version(self, show_error=True, *args):
         """Called when the application needs to detect the game version. Updates corresponding
@@ -220,7 +219,10 @@ class MainApp(MDApp):
 
     def load_places_task(self):
         # Prompt user to load files
-        place_paths = filechooser.open_file(multiple=True)
+        root = tk.Tk()
+        root.withdraw()
+        place_paths = filedialog.askopenfilenames()
+        self.return_to_program()
 
         # Update loaded places if some were chosen
         self.loaded_build_obj = []
@@ -247,12 +249,10 @@ class MainApp(MDApp):
 
     def load_reference_task(self):
         # Prompt User to select a reference file
-        path_list = filechooser.open_file()
-        if path_list:
-            path = path_list[0]
-            print(path)
-        else:
-            path = None
+        root = tk.Tk()
+        root.withdraw()
+        path = filedialog.askopenfilename()
+        self.return_to_program()
 
         # Update loaded reference place if one was chosen
         if path and os.path.isfile(path):
@@ -327,6 +327,8 @@ class MainApp(MDApp):
 
         Logger.warn(f"Main: {text}")
 
+        if self.dialog:
+            self.dismiss()
         self.dialog = MDDialog(
             title="Alert!",
             text=text,
@@ -427,6 +429,11 @@ class MainApp(MDApp):
         self.update_settings_values()
 
         Logger.info("Main: Finished resetting settings")
+
+    def return_to_program(self, *args):
+        self.window_manager.set_current_window(
+            self.window_manager.find_window(constants.APPLICATION_NAME)[0]
+        )
 
     def update_settings_values(self, *args):
         """Update the widgets in the application to reflect the current settings"""
