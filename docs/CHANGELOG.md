@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.9.1](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.9.0...v0.9.1) (2022-04-18)
+
+
+### Bug Fixes
+
+* Errors with Dialog Boxes ([695ac1b](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/695ac1b76f0e6c09ff21240c4d7d47fa34bcd084))
+* Updated UI Handling ([626dd49](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/626dd494f8e2f98d37b1dc7562d6ce102a132af2))
+
 ## [0.9.0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.8.0...v0.9.0) (2022-04-14)
 
 
