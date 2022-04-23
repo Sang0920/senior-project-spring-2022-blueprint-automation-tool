@@ -47,10 +47,11 @@ Description:    Provides an introduction to the user.
   - [Built With](#built-with)
   - [System Architecture](#system-architecture)
 - [Roadmap](#roadmap)
+- [Acknowledgements](#acknowledgements)
 
 </details>
 
-<a id="top_1" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/-Back%20To%20Top-555555?style=for-the-badge" align="right"></a>
+<a id="top_1" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
 
 ## About Project B.A.T
 
@@ -78,13 +79,13 @@ create an organized and color-coded layout that is easy for them to understand.
   - Reference Points
   - Scale
 
-<a id="top_2" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/-Back%20To%20Top-555555?style=for-the-badge" align="right"></a>
+<a id="top_2" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
 
 ## Author
 
 Kevin Green - [k_green5@u.pacific.edu](mailto:k_green5@u.pacific.edu)
 
-<a id="top_3" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/-Back%20To%20Top-555555?style=for-the-badge" align="right"></a>
+<a id="top_3" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
 
 ## Getting Started
 
@@ -202,17 +203,21 @@ Theme for the application. Either changes the application to use a light theme o
 
 ### Built With
 
-![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Google Earth Pro](https://img.shields.io/badge/Google_Earth_Pro-4285F4?style=for-the-badge&logo=googleearth&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Minecraft](https://img.shields.io/badge/Minecraft-62B47A?style=for-the-badge&logo=minecraft&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-005ccb?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=2088FF)
+![Google Earth Pro](https://img.shields.io/badge/Google_Earth_Pro-0059c1?style=for-the-badge&logo=googleearth&logoColor=white&labelColor=4285F4)
+![Markdown](https://img.shields.io/badge/Markdown-2c2c2c?style=for-the-badge&logo=markdown&logoColor=white&labelColor=000000)
+![Material Design](https://img.shields.io/badge/Material_Design-494949?style=for-the-badge&logo=materialdesign&logoColor=white&labelColor=757575)
+![Minecraft](https://img.shields.io/badge/Minecraft-30844e?style=for-the-badge&logo=minecraft&logoColor=white&labelColor=62b47a)
+![Pytest](https://img.shields.io/badge/Pytest-004b7c?style=for-the-badge&logo=pytest&logoColor=white&labelColor=3776AB)
+![Python](https://img.shields.io/badge/Python-0070aa?style=for-the-badge&logo=python&logoColor=white&labelColor=0A9EDC)
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-004f9b?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=007ACC)
+![Windows](https://img.shields.io/badge/Windows-004da4?style=for-the-badge&logo=windows&logoColor=white&labelColor=0078D6)
 
 ### System Architecture
 
 ![System Architecture](docs/assets/images/system_architecture.png)
 
-<a id="top_4" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/-Back%20To%20Top-555555?style=for-the-badge" align="right"></a>
+<a id="top_4" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
 
 ## Roadmap
 
@@ -221,8 +226,28 @@ see currently planned features (and known bugs).
 
 Also be sure to checkout [`CHANGELOG.md`](docs/CHANGELOG.md) to see the history of changes for Project B.A.T.
 
-<a id="top_5" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/-Back%20To%20Top-555555?style=for-the-badge" align="right"></a>
+<a id="top_5" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
 
+## Acknowledgements
+
+1. BuildTheEarth, "Build The Earth," _BuildTheEarth_, 2022. [Online]. Available: <https://buildtheearth.net/>. [Accessed: 19-Jan-2022].
+2. EngineHub, "WorldEdit 7.2 Documentation," _WorldEdit Documentation_, 2022. [Online]. Available: <https://worldedit.enginehub.org/en/latest/>. [Accessed: 02-Feb-2022].
+3. EngineHub, "WorldEdit," _EngineHub_. [Online]. Available: <https://enginehub.org/worldedit/>. [Accessed: 19-Jan-2022].
+
+4. Google, "Earth versions - google earth", _Google_, 2022. [Online]. Available: <https://www.google.com/earth/versions/>. [Accessed: 19-Jan-2022].
+5. H. Goebel, G. Bajo, D. Vierra, D. Cortesi, and M. Zibricky, “pyinstaller,” PyPI, 2022. [Online]. Available: <https://pypi.org/project/pyinstaller/>. [Accessed: 19-Jan-2022].
+6. ImagineFun, “Imagine fun,” Imagine Fun, 2021. [Online]. Available: <https://imagineeringfun.net/>. [Accessed: 19-Jan-2022].
+7. KivyMD, “KivyMD”, GitHub, 2022. [Online]. Available: <https://github.com/kivymd/KivyMD>. [Accessed:  08-Apr-2022].
+8. M. Hammond, “Python for Win32 Extensions Help,” GitHub.io, 2022. [Online]. Available: <https://mhammond.github.io/pywin32/>. [Accessed: 02-Feb-2022].
+9. M. Hammond, “pywin32,” PyPI, 2022. [Online]. Available: <https://pypi.org/project/pywin32/>. [Accessed: 19-Jan-2022].
+10. MCParks, MCParks, 2022. [Online]. Available: <https://mcparks.us/>. [Accessed: 19-Feb-2022].
+11. “Minecraft Wiki,” Minecraft Wiki – The Ultimate Resource for Minecraft, 2022. [Online]. Available: <https://minecraft.fandom.com/wiki/Minecraft_Wiki>. [Accessed: 02-Feb-2022].
+12. Mojang, “Get minecraft,” Minecraft.net, 21-Sep-2021. [Online]. Available: <https://www.minecraft.net/en-us/get-minecraft>. [Accessed: 19-Jan-2022].
+13. Mojang, “Minecraft official site,” Minecraft.net, 10-Nov-2021. [Online]. Available: <https://www.minecraft.net/en-us>. [Accessed: 19-Jan-2022].
+14. Python Software Foundation, “Welcome to Python.org,” Python.org, 2022. [Online]. Available: <https://www.python.org/>. [Accessed: 19-Jan-2022].
+
+
+<a id="top_6" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
 <!--Useful Links
 Table of Unicode Characters:    https://unicode-table.com/en/
 List of Markdown Badges:        https://github.com/Ileriayo/markdown-badges
