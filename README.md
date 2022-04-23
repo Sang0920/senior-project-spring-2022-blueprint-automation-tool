@@ -30,7 +30,7 @@ Description:    Provides an introduction to the user.
 - [About Project B.A.T](#about-project-bat)
   - [Project Description](#project-description)
   - [Features](#features)
-- [✒️ Authors & Contributors](#️-authors--contributors)
+- [Author](#author)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
     - [System Requirements](#system-requirements)
@@ -54,7 +54,7 @@ Description:    Provides an introduction to the user.
 
 ## About Project B.A.T
 
-<img alt="Example Screenshot" src="docs/assets/images/screenshot.png" height="300">
+<img alt="Example Screenshot" src="docs/assets/images/user_interface_dark_mode.png" height="300">
 
 ### Project Description
 
