@@ -210,10 +210,14 @@ class MainApp(MDApp):
         self.dismiss()
 
     def load_places_task(self):
+        """Gets .kml/.kmz files to build from the user"""
         # Prompt user to load files
         root = tk.Tk()
         root.withdraw()
-        place_paths = filedialog.askopenfilenames()
+        place_paths = filedialog.askopenfilenames(
+            title="Select The Files That You Would Like To Build",
+            filetypes=[("KML Files", "*.kml"), ("KMZ Files", "*.kmz")],
+        )
         self.return_to_program()
 
         # Update loaded places if some were chosen
@@ -240,10 +244,14 @@ class MainApp(MDApp):
         self.dismiss()
 
     def load_reference_task(self):
+        """Gets .kml/.kmz files to use as a reference from the user"""
         # Prompt User to select a reference file
         root = tk.Tk()
         root.withdraw()
-        path = filedialog.askopenfilename()
+        path = filedialog.askopenfilename(
+            title="Select A File To Use As The Central Reference Point",
+            filetypes=[("KML Files", "*.kml"), ("KMZ Files", "*.kmz")],
+        )
         self.return_to_program()
 
         # Update loaded reference place if one was chosen
@@ -319,8 +327,6 @@ class MainApp(MDApp):
 
         Logger.warn(f"Main: {text}")
 
-        if self.dialog:
-            self.dismiss()
         self.dialog = MDDialog(
             title="Alert!",
             text=text,
@@ -423,6 +429,7 @@ class MainApp(MDApp):
         Logger.info("Main: Finished resetting settings")
 
     def return_to_program(self, *args):
+        """Brings the user back to the program window. Used usually when exiting a file dialog"""
         self.window_manager.set_current_window(
             self.window_manager.find_window(constants.APPLICATION_NAME)[0]
         )
