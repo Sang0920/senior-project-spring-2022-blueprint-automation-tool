@@ -10,6 +10,15 @@ from place_parser import PlaceParser
 
 class PlaceBuilder:
     def build_places(self, reference, places, base_height, block_choice, scale):
+        """Builds the given places in the minecraft world
+
+        Args:
+            reference: The central reference point of the world
+            places: The places to be built
+            base_height: The height that building will start at
+            block_choice: The block to be used for building
+            scale: The scale of the build
+        """
         automator = GameAutomator()
         parser = PlaceParser()
 

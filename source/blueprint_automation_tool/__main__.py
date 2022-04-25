@@ -42,10 +42,14 @@ Settings = settings.SettingsManager()
 
 
 class Content(BoxLayout):
+    """Defining Content Layout for kivy"""
+
     pass
 
 
 class MD3Card(MDCard, RoundedRectangularElevationBehavior):
+    """Defining Material 3 Card Style for kivy"""
+
     pass
 
 
