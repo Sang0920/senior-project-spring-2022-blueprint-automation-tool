@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#75 Casa Werner.kml</name>
+	<Style id="inline1500">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline34000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline4500">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1500</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline34000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#75 Casa Werner</name>
+		<styleUrl>#inline4500</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3130454944244,37.97856335452038,0 -121.3130062421575,37.97846122619219,0 -121.3125960309773,37.9785637287394,0 -121.3126391667124,37.97866701521303,0 -121.3130454944244,37.97856335452038,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

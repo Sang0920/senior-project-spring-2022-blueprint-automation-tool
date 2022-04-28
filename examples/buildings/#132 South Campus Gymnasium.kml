@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#132 South Campus Gymnasium.kml</name>
+	<StyleMap id="inline235">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline746</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline345</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline746">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline345">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#132 South Campus Gymnasium</name>
+		<styleUrl>#inline235</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3140099464727,37.97681097237374,0 -121.3139846429613,37.97675312967361,0 -121.3144117660754,37.97664925586919,0 -121.3143415339554,37.97647202684769,0 -121.3142585949299,37.97649097555948,0 -121.3142470677323,37.97646462501066,0 -121.3137560685586,37.97658514171885,0 -121.3137847456175,37.97665069684244,0 -121.313824753259,37.97664413696851,0 -121.3139028282224,37.97683721208667,0 -121.3140099464727,37.97681097237374,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

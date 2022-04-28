@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#41.1 Grace Covell Hall.kml</name>
+	<Style id="inline890">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline10200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline890</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1080</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1080">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#41.1 Grace Covell Hall</name>
+		<styleUrl>#inline10200</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3097491605705,37.98155150040719,0 -121.3096902667653,37.98141275599113,0 -121.3094009223657,37.98148358129978,0 -121.3094616730443,37.98161817012286,0 -121.3097491605705,37.98155150040719,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

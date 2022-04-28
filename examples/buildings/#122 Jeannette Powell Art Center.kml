@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#122 Jeannette Powell Art Center.kml</name>
+	<Style id="inline400">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline640">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2600</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline400</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2600">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#122 Jeannette Powell Art Center</name>
+		<styleUrl>#inline640</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3129170490391,37.97587215061297,0 -121.3133238695756,37.97576871303024,0 -121.3131545353264,37.97536199936584,0 -121.3127559975248,37.97546342825082,0 -121.3129170490391,37.97587215061297,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

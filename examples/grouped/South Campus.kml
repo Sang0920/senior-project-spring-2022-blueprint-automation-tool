@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>South Campus.kml</name>
+	<Style id="inline2411">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline711">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1312">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline531">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline6120">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline6710">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline34100">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline37001">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3610">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline691">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1501">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline22100">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline8810">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline20110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline34100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1401</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline011">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline3310">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline8100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline711</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline720">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1401">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2710">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline21000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline25100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2710</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline400">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1700">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2600">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3910">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1012">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2910">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3210">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline640">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2600</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline400</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline5710">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline386</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2811">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline386">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline512">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4610</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1501</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1102">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline6710</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1700</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline18110">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline52100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2910</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1620">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline6120</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline911</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline43100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline22100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2411</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline8100">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline25100">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline3101">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline8810</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline720</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline413">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline691</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline16100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline531</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline18110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1590">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1312</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2811</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline911">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2310">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4610">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1111">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3910</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1630">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3610</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline37001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>South Campus</name>
+		<Placemark>
+			<name>#101 Bernerd College</name>
+			<styleUrl>#inline3101</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3118599170602,37.97832156593249,0 -121.3118172313771,37.97821463864642,0 -121.3116931662954,37.97824398091338,0 -121.3116463520963,37.9781410429888,0 -121.311615519027,37.97814702685172,0 -121.3115929442654,37.97810618759654,0 -121.3115502574372,37.97811579329893,0 -121.3115008468443,37.97798435199914,0 -121.3114299242493,37.97799931160148,0 -121.3114136759119,37.9779673960909,0 -121.3113916332283,37.97797647703158,0 -121.3113852405133,37.9779600993532,0 -121.3113490132738,37.97797411440853,0 -121.3113669262274,37.97801757826656,0 -121.311278689109,37.97803673697464,0 -121.3113899625542,37.97831452779418,0 -121.3112120888213,37.97836140150822,0 -121.3112712604743,37.97849842755364,0 -121.311637796358,37.97840803940915,0 -121.3116252104816,37.97837822364023,0 -121.3118599170602,37.97832156593249,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#101.1 Atchley Clock Tower</name>
+			<styleUrl>#inline3310</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3121681178051,37.9779846187698,0 -121.3121334888232,37.97799301743831,0 -121.3121191047013,37.97796587879385,0 -121.3121571300348,37.97795889741279,0 -121.3121681178051,37.9779846187698,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#103 Biological Sciences Center</name>
+			<styleUrl>#inline1630</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3115270453361,37.97780565342345,0 -121.3112536243938,37.97712944279883,0 -121.3108676481654,37.97722828133776,0 -121.3111497228188,37.97790239247106,0 -121.3115270453361,37.97780565342345,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#107 108 109 Classroom Building, Olson Hall</name>
+			<styleUrl>#inline21000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3113732873888,37.9762857899301,0 -121.3113281980934,37.97617383760407,0 -121.3115915086685,37.97610668452639,0 -121.3115955188406,37.97611339242898,0 -121.3116455008519,37.97610236728836,0 -121.311641588515,37.97609234401422,0 -121.3117285435872,37.97606905992758,0 -121.3116993968102,37.97598725459176,0 -121.3121169567355,37.9758837860013,0 -121.3121404309316,37.97595818951454,0 -121.31231551502,37.97591462725742,0 -121.3122041093462,37.97565417607305,0 -121.3118022001735,37.97575494702542,0 -121.3117818559002,37.97571708978056,0 -121.311615771479,37.97575517700126,0 -121.3116046211285,37.97574800643102,0 -121.3115953290121,37.97574916286162,0 -121.3115811466248,37.97573065828827,0 -121.311513754344,37.97574700332075,0 -121.3115024084484,37.97573219963657,0 -121.3114464601216,37.97574576905775,0 -121.311448905132,37.97576273151603,0 -121.3114018576659,37.97577414213511,0 -121.3114053787115,37.97578316308719,0 -121.3113817082837,37.97578670952291,0 -121.3113860118028,37.97579773518306,0 -121.3113689924846,37.97580405733615,0 -121.3113777952341,37.97581947781946,0 -121.3111322873033,37.97588231301148,0 -121.3111409921426,37.97590104888082,0 -121.3106372589188,37.97602980128701,0 -121.3107140359075,37.97623720666105,0 -121.3104926852004,37.9762941811084,0 -121.3105437391842,37.97643211734595,0 -121.3105067656845,37.97644437590396,0 -121.3105693643656,37.97649063814235,0 -121.3105679952738,37.97647999805785,0 -121.3113732873888,37.9762857899301,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#107.1 Classroom Building</name>
+			<styleUrl>#inline1111</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3115453466237,37.9763778274874,0 -121.3115130506108,37.97629751389489,0 -121.3113837279248,37.97633037277451,0 -121.3114177552156,37.97641026649424,0 -121.3115453466237,37.9763778274874,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#107.2 Classroom Building</name>
+			<styleUrl>#inline43100</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3115580675523,37.97625746266922,0 -121.311420354294,37.9762931036008,0 -121.3113912547255,37.97622097880063,0 -121.3115275694491,37.97618418305599,0 -121.3115580675523,37.97625746266922,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#110 Biological Labroatories</name>
+			<styleUrl>#inline16100</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.312204146198,37.97614035637591,0 -121.3122827238789,37.97633195371399,0 -121.3117922701274,37.97645688302402,0 -121.3117162905733,37.97626465533748,0 -121.312204146198,37.97614035637591,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#111 DeMarcus Brown Studio</name>
+			<styleUrl>#inline5710</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3123773994037,37.97641482332958,0 -121.3125233691486,37.9767790680061,0 -121.3121452551656,37.97687376331042,0 -121.3120254573497,37.97657413625186,0 -121.3122360232434,37.97652605420301,0 -121.3122071225209,37.97645686916297,0 -121.3123773994037,37.97641482332958,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#111.1 DeMarcus Brown Studio</name>
+			<styleUrl>#inline52100</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3119888981788,37.97653145972687,0 -121.31196725605,37.97647844226447,0 -121.3118073000359,37.9765202251366,0 -121.3118290086987,37.97657098547573,0 -121.3119888981788,37.97653145972687,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#112 Vereschagin Alumni House</name>
+			<styleUrl>#inline1102</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3122210964352,37.97757039118444,0 -121.3123593444286,37.97753611411941,0 -121.3123693333873,37.97754713752712,0 -121.312388645478,37.97754320064778,0 -121.3123963702687,37.97755327920108,0 -121.3124425195163,37.97754283330423,0 -121.3124523087727,37.97753149497374,0 -121.3124722867975,37.97752440853222,0 -121.312409556455,37.97735884742338,0 -121.3123891123223,37.97736231190517,0 -121.312372597337,37.97732971406145,0 -121.3124396567579,37.97730971456463,0 -121.3124179475627,37.97725895430282,0 -121.3121891331715,37.97731370326922,0 -121.3122103094705,37.97737280983944,0 -121.3121525064266,37.97738981712143,0 -121.3122210964352,37.97757039118444,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#115 Long Theatre</name>
+			<styleUrl>#inline1590</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3131212409267,37.97759186023968,0 -121.3132717423115,37.97750157240219,0 -121.3131302959766,37.97720719508522,0 -121.3130578423575,37.97722551540938,0 -121.313009228994,37.97711554363751,0 -121.3129191282515,37.977139638186,0 -121.3129856552864,37.97731249591681,0 -121.3128691835536,37.97740498806832,0 -121.3128386171075,37.97733396585904,0 -121.3127609692709,37.97735354570919,0 -121.3127908697183,37.97743742857713,0 -121.3128175736699,37.97743543380448,0 -121.3128781073903,37.97756865940062,0 -121.3128490060486,37.97758393474597,0 -121.3128703826733,37.97762655852765,0 -121.3129213933508,37.97761642737687,0 -121.312906676068,37.97758115252027,0 -121.3129425033706,37.97757096890385,0 -121.3131212409267,37.97759186023968,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#116 Communication/Psychology Department</name>
+			<styleUrl>#inline20110</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3128936162562,37.97668078084142,0 -121.3128402753046,37.97654655791248,0 -121.313152859912,37.97646850083629,0 -121.3130993853839,37.97632908138262,0 -121.3135037324593,37.97622876625058,0 -121.3136121623612,37.9764997066599,0 -121.3128936162562,37.97668078084142,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#118 Engineering and Computer Science South Campus Labs</name>
+			<styleUrl>#inline512</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3137538494969,37.97646384558919,0 -121.3136604834978,37.97622952039493,0 -121.3137909373007,37.97619713148236,0 -121.3137519127311,37.9761020155497,0 -121.3140558377093,37.97602605596781,0 -121.3140925318368,37.9761224841177,0 -121.3140210122252,37.97613833764606,0 -121.3140766860269,37.97628095878605,0 -121.3144019870716,37.97619906632957,0 -121.3144432765176,37.97629512672685,0 -121.3137538494969,37.97646384558919,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#120 Pacific Geosciences Center, Reynolds Art Gallery, Pacific Resources Research Center</name>
+			<styleUrl>#inline413</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3126220863111,37.97549926769855,0 -121.3122909615168,37.97557600733858,0 -121.3124646442861,37.97599000248283,0 -121.3127846234533,37.97590405705235,0 -121.3126220863111,37.97549926769855,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#122 Jeannette Powell Art Center</name>
+			<styleUrl>#inline640</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3129170490391,37.97587215061297,0 -121.3133238695756,37.97576871303024,0 -121.3131545353264,37.97536199936584,0 -121.3127559975248,37.97546342825082,0 -121.3129170490391,37.97587215061297,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#124 Ceramics Studio</name>
+			<styleUrl>#inline1620</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3136753769591,37.9755274430686,0 -121.3135428843086,37.97555957982019,0 -121.3134602868402,37.97535572082441,0 -121.3135932037014,37.97532467199743,0 -121.3136753769591,37.9755274430686,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

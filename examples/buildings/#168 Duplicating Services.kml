@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#168 Duplicating Services.kml</name>
+	<Style id="inline7100">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline721">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline7100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline924</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline924">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#168 Duplicating Services</name>
+		<styleUrl>#inline721</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3154296650674,37.98190747271148,0 -121.3152716693496,37.98195143567727,0 -121.315286313599,37.98199123423051,0 -121.3150873633012,37.98203749874385,0 -121.3151565989087,37.98220131661158,0 -121.3150846330875,37.98222482818718,0 -121.3151065301401,37.98227081348379,0 -121.3151181985579,37.98226736162513,0 -121.3152075785698,37.98249403948996,0 -121.3151772827506,37.98250096508153,0 -121.3151945342271,37.982537029736,0 -121.3152218096289,37.98253001013182,0 -121.3152524380396,37.98258890462701,0 -121.3152007883461,37.98260541858207,0 -121.3152504322106,37.98273762973235,0 -121.3154206584918,37.98269714710668,0 -121.315407436821,37.98265310078101,0 -121.3157372853689,37.98257848154933,0 -121.3157211067552,37.98252099056115,0 -121.3156882037614,37.9825316501886,0 -121.3154296650674,37.98190747271148,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

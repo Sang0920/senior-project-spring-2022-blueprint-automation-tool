@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#76 Carter House.kml</name>
+	<Style id="inline4130">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline10010">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline420">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline10010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#76 Carter House</name>
+		<styleUrl>#inline420</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3139674380759,37.97977980464393,0 -121.3139290608143,37.97968151124518,0 -121.3135523172216,37.97977427124335,0 -121.3135953027383,37.97987549010517,0 -121.3139674380759,37.97977980464393,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

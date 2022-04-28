@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#16 Recital Hall.kml</name>
+	<StyleMap id="inline5600">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4900</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4710</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4710">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#16 Recital Hall</name>
+		<styleUrl>#inline5600</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.308932452395,37.97983936032576,0 -121.3088855371658,37.97972841586435,0 -121.3087420771612,37.97976191200472,0 -121.3087510639518,37.97978773106846,0 -121.3087186853687,37.97979575994567,0 -121.3087444064287,37.97985690371682,0 -121.3087779842577,37.97984857745846,0 -121.3087886149576,37.97987191129131,0 -121.308932452395,37.97983936032576,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

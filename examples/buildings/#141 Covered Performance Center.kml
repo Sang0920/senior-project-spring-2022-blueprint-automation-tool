@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#141 Covered Performance Center.kml</name>
+	<Style id="inline798">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline423">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline722">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline798</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline423</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#141 Covered Performance Center</name>
+		<styleUrl>#inline722</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.316221285138,37.97462974455656,0 -121.3163191541439,37.97487137327017,0 -121.3167086433098,37.97477514762662,0 -121.3166074980128,37.97453304722905,0 -121.316221285138,37.97462974455656,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

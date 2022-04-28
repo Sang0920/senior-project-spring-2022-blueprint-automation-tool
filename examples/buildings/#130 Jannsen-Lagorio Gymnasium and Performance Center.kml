@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#130 Jannsen-Lagorio Gymnasium and Performance Center.kml</name>
+	<StyleMap id="inline230">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1081</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1081">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4101">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#130 Jannsen-Lagorio Gymnasium and Performance Center</name>
+		<styleUrl>#inline230</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3139911364727,37.97691604256214,0 -121.3139764041718,37.97687402347839,0 -121.3136357334239,37.97695655404948,0 -121.3136518431588,37.97699963693106,0 -121.3134838269881,37.97704099051185,0 -121.3135997439753,37.97733308587857,0 -121.3137683231843,37.97729301742459,0 -121.3138269582367,37.9773830624548,0 -121.3140366700266,37.97729729579601,0 -121.3139894644721,37.97723318117364,0 -121.3141963925763,37.97718484585396,0 -121.3141839936563,37.97715441747447,0 -121.3142593144031,37.9771368207485,0 -121.3142240013953,37.97706443978926,0 -121.3143411575705,37.97703403324638,0 -121.3142927427661,37.97691918994128,0 -121.3141073794301,37.9769688553494,0 -121.3140804451178,37.97689060144736,0 -121.3139911364727,37.97691604256214,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

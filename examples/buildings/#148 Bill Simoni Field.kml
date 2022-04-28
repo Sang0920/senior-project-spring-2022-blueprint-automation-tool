@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#148 Bill Simoni Field.kml</name>
+	<StyleMap id="inline944">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline927</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline434</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline434">
+		<LineStyle>
+			<color>ff167c5e</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline927">
+		<LineStyle>
+			<color>ff167c5e</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#148 Bill Simoni Field</name>
+		<styleUrl>#inline944</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.315813098992,37.97857698522495,0 -121.3156157191507,37.97806554070911,0 -121.3155486031007,37.97803305448009,0 -121.3148695059231,37.9782013492661,0 -121.3148939320412,37.97828272869616,0 -121.3149319781563,37.97837114022212,0 -121.3149787763984,37.97846334853163,0 -121.3150519489216,37.97854228053149,0 -121.3151253420057,37.97861681397444,0 -121.3152490752896,37.97866824404083,0 -121.315372060694,37.97866766666812,0 -121.3155441819554,37.97864571043605,0 -121.315813098992,37.97857698522495,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

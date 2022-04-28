@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#146 Chris Kjeldsen Pool.kml</name>
+	<Style id="inline686">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4290">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline5901">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4290</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline686</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#146 Chris Kjeldsen Pool</name>
+		<styleUrl>#inline5901</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3156527842184,37.97781723517077,0 -121.3153717015652,37.97780824124974,0 -121.3153984809273,37.97734153159382,0 -121.3156768690324,37.9773513197015,0 -121.3156527842184,37.97781723517077,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#175 Alan and Olive Gardemeyer Field.kml</name>
+	<Style id="inline1611">
+		<LineStyle>
+			<color>ff167c5e</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline560">
+		<LineStyle>
+			<color>ff167c5e</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline651">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline560</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1611</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#175 Alan and Olive Gardemeyer Field</name>
+		<styleUrl>#inline651</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3141094871773,37.98556450948903,0 -121.313742679149,37.98465510114899,0 -121.3153398368917,37.98425878528636,0 -121.3157073247341,37.98516999435003,0 -121.3141094871773,37.98556450948903,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

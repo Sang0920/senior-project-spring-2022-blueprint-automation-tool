@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#145 Pacific Aquatics Center.kml</name>
+	<Style id="inline916">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline277">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline381</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline916</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline381">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#145 Pacific Aquatics Center</name>
+		<styleUrl>#inline277</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3152696920243,37.97738117361467,0 -121.3150681994502,37.97737172962501,0 -121.3150567880553,37.97755489610638,0 -121.315259497489,37.97756136147783,0 -121.3152696920243,37.97738117361467,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

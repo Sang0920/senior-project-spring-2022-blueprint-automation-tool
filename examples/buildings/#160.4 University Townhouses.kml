@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#160.4 University Townhouses.kml</name>
+	<Style id="inline298">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline445">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline383">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline445</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline298</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#160.4 University Townhouses</name>
+		<styleUrl>#inline383</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.318132764114,37.98145745430906,0 -121.3181073075098,37.98139307106249,0 -121.3184912832657,37.98129902667208,0 -121.3185153493641,37.98136442293311,0 -121.318132764114,37.98145745430906,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Surrounding Blocks.kml</name>
+	<Style id="inline1890">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline888">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline758">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4700">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline669">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline294</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline359</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline13001">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline896">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline366">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline778">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline602">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline914</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline801</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline172">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2790">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline820</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline822</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline687">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1430">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline778</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2740</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline31600">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline816</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline696</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline822">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline847">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline687</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1581</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline785">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline9020">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline878">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline624">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline2740">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline148">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline868">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1581">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline630">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline5801</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline908</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline12301">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline486</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline469</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline431">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline201</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline936</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline883">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline937">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline797">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline811</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline624</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline450">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2920">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline194</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline806</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline625">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline914">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline898">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline917">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline569">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1212">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline575</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline898</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline922">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline917</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline450</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4711">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline840">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline452">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3312</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2190</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline611">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2050</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline142</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline947</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1321</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline936">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline880">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline577">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline13001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline366</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline637">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline840</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline937</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline934">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline852</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline896</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline283">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline817">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline5301">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2050">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline286">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline745">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1890</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline794</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1540">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline569</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline679</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline2400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline447</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline461</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline947">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline361">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline461">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline469">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline820">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline903">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline883</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline888</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline693">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline868</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline437">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline697</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline286</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline3000">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline5610">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2500">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline570">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline620</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline283</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline201">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline359">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline801">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline447">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline194">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline575">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline620">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline696">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3312">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline593">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline661</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline5301</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline3230">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2500</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4711</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline406">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline852">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline655">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4700</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline878</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline802">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline625</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline817</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline794">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline661">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline758</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline406</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline897">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2190">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline697">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline4210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline897</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline172</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline767">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline880</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline148</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline294">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1321">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline9101">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1311</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline9020</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline816">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline819">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline785</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline6210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline6210">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline806">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline908">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline811">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline486">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline5801">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1311">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline142">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline679">
+		<LineStyle>
+			<color>ff211d1d</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2602">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline361</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline5610</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Surrounding Blocks</name>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline437</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3112304804626,37.98658094441877,0 -121.3109496501562,37.98587899139822,0 -121.313705108654,37.98518288788323,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline2400</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3107621062293,37.98669401695357,0 -121.3104361627278,37.98593664418706,0 -121.3101447805614,37.98525966002355,0 -121.3098173567532,37.98453205562937,0 -121.3095887749995,37.98406634255325,0 -121.3092898021923,37.98351077311419,0 -121.3088845047654,37.98290298775945,0 -121.3086120500647,37.98252774186097,0 -121.3082444115812,37.98202906631737,0 -121.3079524716566,37.98163637739739,0 -121.3078883971668,37.9815571547724,0 -121.3078427313596,37.98151502609414,0 -121.3077907215741,37.98150313276869,0 -121.3077306256305,37.98150810587218,0 -121.3074665986085,37.98157595358173,0 -121.3071533866368,37.98165253785186,0 -121.3069261666397,37.98170821842668,0 -121.3067667472526,37.98174965607216,0 -121.3062681702911,37.98187485645701,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line Measure</name>
+			<styleUrl>#inline819</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3069579138923,37.98160459426727,0 -121.3062304662165,37.9817896053404,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line Measure</name>
+			<styleUrl>#inline2920</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3066443692093,37.98084374920962,0 -121.3059242452467,37.98102349770258,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line Measure</name>
+			<styleUrl>#inline611</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3066083356523,37.98075233328026,-7.081154781429788e-10 -121.3058823374345,37.98093247512267,-7.081154781429788e-10 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline669</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3070128023618,37.98040499101468,0 -121.306712526322,37.98000763088015,0 -121.3066941907142,37.97999378920159,0 -121.3066628163413,37.97997723295931,0 -121.3066303640936,37.97996756641579,0 -121.3065977999377,37.97996741587512,0 -121.3061776777852,37.98006911896568,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line Measure</name>
+			<styleUrl>#inline1430</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3059374834762,37.98012970282701,-7.081154781429788e-10 -121.305593995265,37.98021389035738,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line Measure</name>
+			<styleUrl>#inline797</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.30555990636,37.98012513057032,0 -121.3060659367951,37.98000011010219,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline570</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.306325798599,37.97993360301373,0 -121.3065183396254,37.97988960250508,0 -121.3065485453945,37.97987241702958,0 -121.3065692808514,37.97985431096504,0 -121.3065665045068,37.97981484305102,0 -121.3061305188705,37.97928209404056,0 -121.3061087164915,37.9792582849493,0 -121.3060709568597,37.97924429212915,0 -121.3060361450082,37.97923476697067,0 -121.3059886725252,37.9792404743306,0 -121.3052761896255,37.97942077164968,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline12301</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3052410209388,37.97933161611671,0 -121.3059438202778,37.97915482985319,0 -121.3059695380788,37.97913737502916,0 -121.3059784978238,37.97911429033522,0 -121.3059742962979,37.97908612209615,0 -121.3059410549124,37.97904598036993,0 -121.3056137755744,37.97864177115888,0 -121.3055811949709,37.97862575197949,0 -121.3055208796774,37.97861526169167,0 -121.3054656569104,37.97862140829884,0 -121.305001454004,37.97873800562269,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline593</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3049389706756,37.97857836622345,0 -121.3053870757257,37.9784654478324,0 -121.3054093479081,37.978450648738,0 -121.3054187334205,37.97843151233391,0 -121.3054226841776,37.97840876318364,0 -121.3054109354487,37.97838798340026,0 -121.3048261649004,37.97766880163663,0 -121.3048099566111,37.97764985015183,0 -121.3047715718989,37.97763758460144,0 -121.304735108759,37.97763054378359,0 -121.3046889855016,37.9776418929054,0 -121.3045792846811,37.97769528067884,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline2602</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3045425380179,37.97760625836894,0 -121.3046488770007,37.97755768471328,0 -121.3046787364016,37.97751606915525,0 -121.3046709390389,37.97747254024927,0 -121.3046008902902,37.97738255284452,0 -121.3043123827599,37.97703906769679,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline847</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.304402635791,37.97688675661643,0 -121.3055783677495,37.97834473839669,0 -121.305622189014,37.97837153654515,0 -121.3056898490907,37.97838619381027,0 -121.3058005633563,37.97836535491292,0 -121.3061404969424,37.97827763123733,0 -121.3074187758065,37.97795538062855,0 -121.3074605121718,37.97793803340837,0 -121.3074911406036,37.97790202967871,0 -121.3074826050514,37.97787497656717,0 -121.3068413023302,37.97627290011621,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline693</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3069566951767,37.97625063199314,0 -121.3070498187984,37.97648041954398,0 -121.3070729884568,37.97650951878571,0 -121.3071139695743,37.97652349198533,0 -121.3071427619147,37.97652551032889,0 -121.3097238031116,37.97588160922639,0 -121.3097670715098,37.975859435558,0 -121.3097831722302,37.97583118772113,0 -121.3097886068046,37.97580783460877,0 -121.3096852213217,37.97556490568581,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline922</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3098509037744,37.97551966531697,0 -121.3099472893551,37.9757605090065,0 -121.3099656879372,37.97578087133155,0 -121.310027066321,37.97580369355596,0 -121.310082106895,37.97579234120207,0 -121.3132962383017,37.9749898833532,0 -121.3133121937899,37.97497395186145,0 -121.3133475401974,37.97493024791324,0 -121.3132463292308,37.97467208153089,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline577</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3133557614672,37.97464337944363,0 -121.3134510937926,37.97487709307837,0 -121.3134736186075,37.97490019695484,0 -121.3135259558928,37.97492385590166,0 -121.3135736212897,37.97491787285918,0 -121.3167878171133,37.97411488899807,0 -121.3168409139055,37.97408555120479,0 -121.3168635513834,37.97404966505098,0 -121.3168372423409,37.97396969143676,0 -121.3167602881931,37.97379442526041,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline767</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3169666264744,37.97374110560988,0 -121.316978530258,37.97377769323968,0 -121.3169948893077,37.97380097800549,0 -121.3170359144582,37.97382353669881,0 -121.3171090788001,37.97381909229666,0 -121.3174519706151,37.97373454931152,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline903</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3174903996189,37.97382530254527,0 -121.3171574753531,37.97390550563954,0 -121.3171112571097,37.97391709349195,0 -121.3170927274975,37.97393357462496,0 -121.3170714998633,37.9739567948371,0 -121.3170661762803,37.97398454168089,0 -121.3172929107929,37.97454798465319,0 -121.3173171263492,37.97457509963142,0 -121.31737816396,37.97458971422544,0 -121.3174237262145,37.97458337821863,0 -121.3177595425212,37.97450047333136,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline431</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3177927183727,37.97458651879299,0 -121.3174364479054,37.97467716194991,0 -121.3173925345494,37.97470556916484,0 -121.3173761551547,37.97474196612393,0 -121.3174673187596,37.97497213380264,0 -121.3175179011792,37.97504627983516,0 -121.3175849716705,37.9751054317539,0 -121.3176793126771,37.97515426699368,0 -121.3177768169279,37.97518707336054,0 -121.317865544566,37.97520658082495,0 -121.3179362899324,37.97521591459361,0 -121.3180495175912,37.97521757567903,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline31600</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.318122193491,37.97539358131291,0 -121.3177514362779,37.97549059827371,0 -121.3177233544257,37.97550926351972,0 -121.3177002761114,37.97553800885463,0 -121.3176979969602,37.97555995781934,0 -121.3179848739956,37.97626922676017,0 -121.3180041233078,37.97629339607588,0 -121.318041939011,37.97630821843622,0 -121.3180854970983,37.97631050370859,0 -121.3184523641218,37.97622049854947,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline934</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3184915822613,37.97630948757922,0 -121.3181247148441,37.97639949263083,0 -121.3180903164824,37.97641858173376,0 -121.3180739007556,37.97644784445242,0 -121.3180706190354,37.97647410415215,0 -121.3183638214321,37.97721813323102,0 -121.3183950475049,37.97724670674426,0 -121.3184328636422,37.97726152894416,0 -121.3184620576572,37.97725995578663,0 -121.3188408693301,37.97716721958123,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline602</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3188772716463,37.97725667918548,0 -121.3185141005426,37.97734257878419,0 -121.3184725959964,37.97736302892205,0 -121.3184518447862,37.97738893100657,0 -121.3184501176732,37.9774230115509,0 -121.3188496846155,37.9784085998954,0 -121.3189050330547,37.9784944799674,0 -121.3189908492947,37.97856484206593,0 -121.3190773255626,37.97861936658676,0 -121.3191603417034,37.97865616942365,0 -121.3192692996166,37.97869160771661,0 -121.3193920926344,37.97871886593516,0 -121.3194664595181,37.97872431504506,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline3230</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3194975570914,37.97882773817567,0 -121.3194035748799,37.97881673115085,0 -121.3193159426754,37.97880171943964,0 -121.3192194197118,37.97877769843989,0 -121.3191457572993,37.97875667947522,0 -121.3190644737009,37.97872064471127,0 -121.3189831900905,37.97868360879654,0 -121.3189184161462,37.97863956453929,0 -121.3188612627022,37.97860052522834,0 -121.3188282401054,37.9785694933916,0 -121.3188104598475,37.97856849311902,0 -121.3188003007204,37.97858150754382,0 -121.3188066545789,37.97863256209056,0 -121.3188219050138,37.97877271177848,0 -121.3188282670786,37.9789348855456,0 -121.3188270104238,37.97911708107645,0 -121.3188143181961,37.97922820108474,0 -121.3187749758574,37.9796216252771,0 -121.3187457817611,37.97985287493143,0 -121.318722934658,37.98004007679175,0 -121.3187127914245,37.98027733173753,0 -121.3187064573676,37.98050157270648,0 -121.3187177877367,37.98067222505243,0 -121.3187419315689,37.98085041536311,0 -121.3187673439921,37.98100758283944,0 -121.3188278734374,37.98120220986131,0 -121.3190692296347,37.98179583572656,0 -121.3190897456324,37.98182929682476,0 -121.3191269823394,37.98184531435258,0 -121.3191724007387,37.98185029940512,0 -121.3193458452214,37.98180439343378,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline4210</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3193975362866,37.98192519175764,0 -121.3192208216175,37.98196773115319,0 -121.3192003711996,37.9819779752828,0 -121.3191775632631,37.98199547648999,0 -121.319164986115,37.98202365080266,0 -121.3191630370664,37.98204361096494,0 -121.3198733801851,37.98380129241743,0 -121.3198825714756,37.98381744584804,0 -121.3199072208354,37.98383416557101,0 -121.319930655879,37.98384436639066,0 -121.3199797089917,37.98384551164279,0 -121.3201508358917,37.98380337453735,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline1540</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3201876834748,37.98388847827075,0 -121.3200094855447,37.98393605579952,0 -121.3199839262401,37.98394866699525,0 -121.3199668762741,37.98396635978126,0 -121.319959923601,37.98398831739222,0 -121.3199542830314,37.98401049241664,0 -121.3200991515002,37.98436908310559,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline630</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3198973074488,37.9844165465494,0 -121.3197530707375,37.98406944638815,0 -121.3197386237765,37.98404763545162,0 -121.3197112021893,37.98403275682938,0 -121.3196762933138,37.98402509337397,0 -121.3196431897589,37.98402555854393,0 -121.3166339330974,37.98477721126226,0 -121.3166019159681,37.98479445427392,0 -121.3165841402379,37.98481938150984,0 -121.3165736726257,37.98483925625863,0 -121.3165760824342,37.98486001238757,0 -121.3167193668664,37.98521510374722,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline1020</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3165640296077,37.98525074426254,0 -121.3164202636055,37.98489150152202,0 -121.3163955041818,37.98487111281617,0 -121.3163609134283,37.98485629795515,0 -121.3163310918495,37.98485041618684,0 -121.3162997519197,37.984856183665,0 -121.3158639246384,37.98496466015036,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Polygon Measure</name>
+			<styleUrl>#inline637</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3153698449517,37.98372372235502,0 -121.3158907784104,37.98359551462395,0 -121.3163302085274,37.98468809820626,0 -121.3163337767183,37.98469882544797,0 -121.3163282276976,37.98471962561555,0 -121.3163084458066,37.98475073686618,0 -121.3162714854678,37.98477393322675,0 -121.3158357311783,37.98488199019408,0 -121.3153698449517,37.98372372235502,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Polygon Measure</name>
+			<styleUrl>#inline1001</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3196032137292,37.98394130992899,0 -121.3196377001526,37.98392457453121,0 -121.3196699707024,37.98389594371289,0 -121.3196731794186,37.98386371086609,0 -121.3194953557847,37.98340769923944,0 -121.3194622898493,37.98338159054747,0 -121.3194162680888,37.98336364984608,0 -121.3193831726972,37.98336362666896,0 -121.31635550356,37.98412131339713,0 -121.316316207303,37.98414453198966,0 -121.3163031409787,37.98417331115055,0 -121.3162933335656,37.98420141682756,0 -121.3164734644879,37.98464871703794,0 -121.3165020686942,37.98467712090684,0 -121.3165383137323,37.98469708297858,0 -121.3165791298419,37.98469413915812,0 -121.3196032137292,37.98394130992899,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Polygon Measure</name>
+			<styleUrl>#inline655</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3162095571082,37.98399378728448,0 -121.3160393170873,37.98356538365525,0 -121.3160475571733,37.98352760033005,0 -121.316093501301,37.98348639935092,0 -121.3191272123332,37.98273016107975,0 -121.3191652561637,37.98272776549539,0 -121.3192268927274,37.98275876174664,0 -121.3194053408419,37.98319093462395,0 -121.3194038691947,37.98322403965305,0 -121.3193687143494,37.98326847935225,0 -121.3163125363959,37.98403999651273,0 -121.3162577686894,37.98403381994903,0 -121.3162095571082,37.98399378728448,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Polygon Measure</name>
+			<styleUrl>#inline802</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3160566817369,37.98340213567942,0 -121.3190946828056,37.9826411650437,0 -121.3191296227382,37.98261569453254,0 -121.3191482069238,37.98256280803973,0 -121.3189701097567,37.98210573500786,0 -121.3189353759441,37.98207527337511,0 -121.3188604431148,37.98205882253146,0 -121.3158284425483,37.98281170499079,0 -121.3157817360265,37.98284530862488,0 -121.3157653706724,37.98288747030319,0 -121.3159524811647,37.983358649634,0 -121.3159968242895,37.98339625097559,0 -121.3160566817369,37.98340213567942,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Polygon Measure</name>
+			<styleUrl>#inline2790</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3066610410534,37.97967825131258,0 -121.3058041292748,37.97862274798428,0 -121.3057875354115,37.97858530977598,0 -121.3058093367539,37.97854484463555,0 -121.3058499003104,37.97852338885072,0 -121.3074749408275,37.97811605575133,0 -121.3075313084646,37.9781109501352,0 -121.3075911020811,37.97814109858265,0 -121.3077946807535,37.97862866400035,0 -121.3077874810228,37.97866938244816,0 -121.3077412839314,37.97870507971496,0 -121.307652623305,37.97873156789538,0 -121.3075506601843,37.97878041951839,0 -121.3074420333705,37.97888331045969,0 -121.3073792586719,37.9789827223992,0 -121.3073574288814,37.97908039041724,0 -121.3073682438041,37.97918977892979,0 -121.3074851138269,37.97948469571867,0 -121.3074775074083,37.97952906962219,0 -121.3074353114402,37.97956548188541,0 -121.3067878119982,37.97972633708395,0 -121.3067175197527,37.97971987525959,0 -121.3066610410534,37.97967825131258,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Polygon Measure</name>
+			<styleUrl>#inline9101</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3099955163385,37.97655903780129,0 -121.3074363983334,37.97719896025551,0 -121.3073917257287,37.97720452984084,0 -121.3073559747895,37.9771935203603,0 -121.3073261233982,37.97716121124206,0 -121.3071346457029,37.97669757939303,0 -121.3071362854302,37.97666355527515,0 -121.3071499823687,37.976641759909,0 -121.3071846671869,37.97661753844979,0 -121.309771169675,37.97596920769332,0 -121.3098047857422,37.97597289215683,0 -121.309849266272,37.97599025988375,0 -121.3098673437984,37.97600675955494,0 -121.3100582861261,37.97648079321851,0 -121.3100509492625,37.97651510318575,0 -121.31002854577,37.97653526932704,0 -121.3099955163385,37.97655903780129,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Polygon Measure</name>
+			<styleUrl>#inline1212</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3074527885882,37.97729291290999,0 -121.3100349624807,37.97664677449669,0 -121.3100770783052,37.97664500178979,0 -121.3101123687351,37.97665290453629,0 -121.3101270711863,37.97666628441956,0 -121.310204712097,37.97684762259784,0 -121.3102199516162,37.97691116145348,0 -121.310217042241,37.97699053213789,0 -121.3101881180528,37.97706503415651,0 -121.3101326530118,37.97714974079157,0 -121.3100523591045,37.97722769124725,0 -121.309967186684,37.97728493240772,0 -121.3098503373893,37.9773403829169,0 -121.3097172973065,37.97738363522716,0 -121.3076979368384,37.97788927823117,0 -121.3076593897776,37.97788774267652,0 -121.3076123954631,37.97786880517842,0 -121.3075898612609,37.97784178917555,0 -121.3074042607426,37.97738073297707,0 -121.3073999428678,37.97735201512123,0 -121.3074123528886,37.97732277731508,0 -121.3074527885882,37.97729291290999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Polygon Measure</name>
+			<styleUrl>#inline452</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3077170700095,37.97813366116494,0 -121.3079005841984,37.97859604123719,0 -121.3079271168689,37.97862427756203,0 -121.3079648501554,37.97864156477242,0 -121.3080046587874,37.97864008352823,0 -121.3105912700554,37.97799134696231,0 -121.3106249513678,37.97797555533481,0 -121.3106481943453,37.97794887827264,0 -121.3106554070252,37.97791849610947,0 -121.3104596722536,37.97743773453099,0 -121.31043445187,37.97741256501489,0 -121.3103889385189,37.97739734829192,0 -121.3103487091728,37.97740121955191,0 -121.3077558470123,37.97804977115862,0 -121.3077231045224,37.9780812513625,0 -121.3077106555474,37.97810277923939,0 -121.3077170700095,37.97813366116494,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Path Measure</name>
+			<styleUrl>#inline745</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-121.3090462322943,37.97915886219572,0 -121.3108693867351,37.97870199555857,0 -121.3109073748664,37.97868845242236,0 -121.3109244882139,37.97866598947142,0 -121.3109411665035,37.97863626740098,0 -121.3107397014838,37.97812516667668,0 -121.310709119248,37.9780943216763,0 -121.3106690130085,37.97808181351049,0 -121.3106233423439,37.97807816044418,0 -121.3077413917786,37.97880478330306,0 -121.307640274103,37.97884850516481,0 -121.3075680381942,37.97890143312401,0 -121.3075123001704,37.97897104305426,0 -121.3074845352456,37.97902794437534,0 -121.3074736137005,37.97908984704031,0 -121.3074807057423,37.97915011863824,0 -121.3075861962227,37.9794402234658,0 -121.3076099533918,37.9794676169691,0 -121.3076433099562,37.97949245702667,0 -121.3076949958901,37.97949767201512,0 -121.3085364678452,37.97928793058703,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

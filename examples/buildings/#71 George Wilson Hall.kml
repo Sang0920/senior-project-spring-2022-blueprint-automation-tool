@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#71 George Wilson Hall.kml</name>
+	<Style id="inline1490">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline15100">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2900">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1490</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline15100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#71 George Wilson Hall</name>
+		<styleUrl>#inline2900</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.313375356138,37.97961542000971,0 -121.3133208396829,37.97948315807642,0 -121.3131687423402,37.97952020185274,0 -121.3131726389614,37.97953211856227,0 -121.3130703464834,37.97955816614093,0 -121.3130845162266,37.97958719872421,0 -121.3130605414845,37.97959178855942,0 -121.3130847209843,37.97965020737973,0 -121.3131099710557,37.97964665736141,0 -121.3131238506295,37.97967711802356,0 -121.313375356138,37.97961542000971,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

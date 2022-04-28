@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#152.8 Eve Zimmerman Tennis Center.kml</name>
+	<Style id="inline3180">
+		<LineStyle>
+			<color>ff167c5e</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline324">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline635</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3180</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline635">
+		<LineStyle>
+			<color>ff167c5e</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#152.8 Eve Zimmerman Tennis Center</name>
+		<styleUrl>#inline324</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.316521522965,37.97714014566262,0 -121.316400413932,37.97716863853491,0 -121.3163178356728,37.97696639032075,0 -121.3164383985904,37.97693641409824,0 -121.316521522965,37.97714014566262,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

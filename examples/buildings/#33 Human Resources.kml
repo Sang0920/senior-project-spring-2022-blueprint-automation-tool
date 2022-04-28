@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#33 Human Resources.kml</name>
+	<Style id="inline730">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline9200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline730</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4800</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4800">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#33 Human Resources</name>
+		<styleUrl>#inline9200</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3115673693954,37.97945017867773,0 -121.3114205558338,37.97908586540667,0 -121.3113165675372,37.97911441004911,0 -121.3113314532251,37.97914820009747,0 -121.3112985301493,37.97915856963063,0 -121.3113786786942,37.97935586584638,0 -121.3114038947903,37.97935071479323,0 -121.3114341879988,37.97940383419472,0 -121.3112695505028,37.97944686807112,0 -121.3112929872128,37.9794950734835,0 -121.3114515550465,37.97945960803404,0 -121.3114598344516,37.97947684678953,0 -121.3115673693954,37.97945017867773,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

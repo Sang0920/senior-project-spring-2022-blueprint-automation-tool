@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#60 Don and Karen DeRosa University Center.kml</name>
+	<StyleMap id="inline2611">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1310</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline11010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline11010">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1310">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#60 Don and Karen DeRosa University Center</name>
+		<styleUrl>#inline2611</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3128486317725,37.98123259094451,0 -121.3127130092246,37.98112712860549,0 -121.3125900049227,37.98121449085804,0 -121.3125146946934,37.9811529561274,0 -121.3125364783663,37.98113737052275,0 -121.3124922940665,37.98109872013401,0 -121.3124665296734,37.9811170189444,0 -121.3124214321069,37.98108020416988,0 -121.3121205788975,37.98130574949471,0 -121.3121845630564,37.98135645088241,0 -121.312044606964,37.98146059930401,0 -121.3119257897097,37.98136456671983,0 -121.311672389486,37.98155521947583,0 -121.3118391353048,37.98169317836663,0 -121.3119165115681,37.9816370371714,0 -121.3119706780883,37.98168046780413,0 -121.3117608247156,37.98183544463424,0 -121.3118938712748,37.98194392419444,0 -121.3128486317725,37.98123259094451,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

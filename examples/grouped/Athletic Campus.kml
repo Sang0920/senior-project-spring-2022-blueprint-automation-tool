@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Athletic Campus.kml</name>
+	<Style id="inline381">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline893">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline422">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline597</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline428</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline598">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline905</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline893</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline597">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline746">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline916">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4101">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline863">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4290">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline277">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline381</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline916</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline722">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline798</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline423</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline345">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline423">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline798">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline649">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline686">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1081">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline235">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline746</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline345</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline230">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1081</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline5901">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4290</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline686</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline506">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline863</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline649</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline428">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline905">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Athletic Campus</name>
+		<Placemark>
+			<name>#130 Jannsen-Lagorio Gymnasium and Performance Center</name>
+			<styleUrl>#inline230</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3139911364727,37.97691604256214,0 -121.3139764041718,37.97687402347839,0 -121.3136357334239,37.97695655404948,0 -121.3136518431588,37.97699963693106,0 -121.3134838269881,37.97704099051185,0 -121.3135997439753,37.97733308587857,0 -121.3137683231843,37.97729301742459,0 -121.3138269582367,37.9773830624548,0 -121.3140366700266,37.97729729579601,0 -121.3139894644721,37.97723318117364,0 -121.3141963925763,37.97718484585396,0 -121.3141839936563,37.97715441747447,0 -121.3142593144031,37.9771368207485,0 -121.3142240013953,37.97706443978926,0 -121.3143411575705,37.97703403324638,0 -121.3142927427661,37.97691918994128,0 -121.3141073794301,37.9769688553494,0 -121.3140804451178,37.97689060144736,0 -121.3139911364727,37.97691604256214,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#132 South Campus Gymnasium</name>
+			<styleUrl>#inline235</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3140099464727,37.97681097237374,0 -121.3139846429613,37.97675312967361,0 -121.3144117660754,37.97664925586919,0 -121.3143415339554,37.97647202684769,0 -121.3142585949299,37.97649097555948,0 -121.3142470677323,37.97646462501066,0 -121.3137560685586,37.97658514171885,0 -121.3137847456175,37.97665069684244,0 -121.313824753259,37.97664413696851,0 -121.3139028282224,37.97683721208667,0 -121.3140099464727,37.97681097237374,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#134 Pacific Intercollegiate Athletics Center</name>
+			<styleUrl>#inline506</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3142619910452,37.97585466591319,0 -121.3144451063869,37.97629513022262,0 -121.3151661674281,37.9761121566961,0 -121.3152268269044,37.97589888577281,0 -121.3150664976608,37.97582864964693,0 -121.3147313944749,37.9759156255474,0 -121.3146751272408,37.97578899082531,0 -121.314437678992,37.97584667818044,0 -121.3144230158588,37.97581912406226,0 -121.3142619910452,37.97585466591319,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#135 Alex G. Spanos Center</name>
+			<styleUrl>#inline422</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3153039336343,37.97709642250792,0 -121.3156363468159,37.97687761064125,0 -121.3156573006386,37.97678666820506,0 -121.3154828426398,37.97635063777778,0 -121.3154013013786,37.97627938225924,0 -121.3149726924013,37.97625459127352,0 -121.3146716922101,37.97647070208713,0 -121.3146336169156,37.97657330428209,0 -121.3148030471815,37.97699785482321,0 -121.314882305589,37.97706389259909,0 -121.3153039336343,37.97709642250792,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#141 Covered Performance Center</name>
+			<styleUrl>#inline722</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.316221285138,37.97462974455656,0 -121.3163191541439,37.97487137327017,0 -121.3167086433098,37.97477514762662,0 -121.3166074980128,37.97453304722905,0 -121.316221285138,37.97462974455656,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#145 Pacific Aquatics Center</name>
+			<styleUrl>#inline277</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3152696920243,37.97738117361467,0 -121.3150681994502,37.97737172962501,0 -121.3150567880553,37.97755489610638,0 -121.315259497489,37.97756136147783,0 -121.3152696920243,37.97738117361467,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#146 Chris Kjeldsen Pool</name>
+			<styleUrl>#inline5901</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3156527842184,37.97781723517077,0 -121.3153717015652,37.97780824124974,0 -121.3153984809273,37.97734153159382,0 -121.3156768690324,37.9773513197015,0 -121.3156527842184,37.97781723517077,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#153 Roy and Jean Sanders Tennis Clubhouse</name>
+			<styleUrl>#inline598</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3175212502333,37.97692177906058,0 -121.3176186921534,37.97689719557958,0 -121.3177643441436,37.97725497379338,0 -121.3176665478748,37.97728012998451,0 -121.3175212502333,37.97692177906058,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

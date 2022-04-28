@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#135 Alex G. Spanos Center.kml</name>
+	<Style id="inline597">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline428">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline422">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline597</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline428</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#135 Alex G. Spanos Center</name>
+		<styleUrl>#inline422</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3153039336343,37.97709642250792,0 -121.3156363468159,37.97687761064125,0 -121.3156573006386,37.97678666820506,0 -121.3154828426398,37.97635063777778,0 -121.3154013013786,37.97627938225924,0 -121.3149726924013,37.97625459127352,0 -121.3146716922101,37.97647070208713,0 -121.3146336169156,37.97657330428209,0 -121.3148030471815,37.97699785482321,0 -121.314882305589,37.97706389259909,0 -121.3153039336343,37.97709642250792,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

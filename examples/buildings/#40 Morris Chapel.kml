@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#40 Morris Chapel.kml</name>
+	<Style id="inline870">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline14101">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1301">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline870</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline14101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#40 Morris Chapel</name>
+		<styleUrl>#inline1301</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.309217441963,37.9819198394352,0 -121.3091956341299,37.98186520103038,0 -121.3091469723818,37.98187541993911,0 -121.3090545534226,37.9816350582914,0 -121.3090286229327,37.98164056438639,0 -121.3089740918651,37.981512747246,0 -121.3088755823385,37.98153902173124,0 -121.3089015957375,37.98159538864464,0 -121.3088760007349,37.98160173529052,0 -121.3089045782351,37.9816703993465,0 -121.3087797424166,37.9817041254288,0 -121.3087666579342,37.98167134234671,0 -121.3087154078295,37.98168682179546,0 -121.3087279412139,37.98171235127079,0 -121.3086972893432,37.98172364690056,0 -121.3087393466524,37.98182314848445,0 -121.3089977658946,37.98175999367115,0 -121.3090591270915,37.98189905011628,0 -121.3090275286838,37.98190503785922,0 -121.3090521403154,37.981960828589,0 -121.309217441963,37.9819198394352,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

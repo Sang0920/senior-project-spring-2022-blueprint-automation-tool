@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#110 Biological Labroatories.kml</name>
+	<Style id="inline18110">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline16100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline531</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline18110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline531">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#110 Biological Labroatories</name>
+		<styleUrl>#inline16100</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.312204146198,37.97614035637591,0 -121.3122827238789,37.97633195371399,0 -121.3117922701274,37.97645688302402,0 -121.3117162905733,37.97626465533748,0 -121.312204146198,37.97614035637591,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

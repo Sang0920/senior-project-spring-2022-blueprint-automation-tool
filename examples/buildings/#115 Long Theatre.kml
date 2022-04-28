@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#115 Long Theatre.kml</name>
+	<Style id="inline1312">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1590">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1312</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2811</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2811">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#115 Long Theatre</name>
+		<styleUrl>#inline1590</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3131212409267,37.97759186023968,0 -121.3132717423115,37.97750157240219,0 -121.3131302959766,37.97720719508522,0 -121.3130578423575,37.97722551540938,0 -121.313009228994,37.97711554363751,0 -121.3129191282515,37.977139638186,0 -121.3129856552864,37.97731249591681,0 -121.3128691835536,37.97740498806832,0 -121.3128386171075,37.97733396585904,0 -121.3127609692709,37.97735354570919,0 -121.3127908697183,37.97743742857713,0 -121.3128175736699,37.97743543380448,0 -121.3128781073903,37.97756865940062,0 -121.3128490060486,37.97758393474597,0 -121.3128703826733,37.97762655852765,0 -121.3129213933508,37.97761642737687,0 -121.312906676068,37.97758115252027,0 -121.3129425033706,37.97757096890385,0 -121.3131212409267,37.97759186023968,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

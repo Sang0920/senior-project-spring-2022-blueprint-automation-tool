@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#49 Alpha Phi.kml</name>
+	<StyleMap id="inline18000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline16000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline25000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline25000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline16000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#49 Alpha Phi</name>
+		<styleUrl>#inline18000</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3114677614235,37.98184323601937,0 -121.3114308314612,37.98183217966051,0 -121.3114461852683,37.98178298302529,0 -121.3112158667916,37.98173695880784,0 -121.3111430215789,37.98194387775895,0 -121.3113371163135,37.98197834456702,0 -121.3113517720088,37.98193972067533,0 -121.3112940158542,37.98192833989863,0 -121.3113195898356,37.98185676957114,0 -121.3114503532515,37.98188280712527,0 -121.3114677614235,37.98184323601937,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

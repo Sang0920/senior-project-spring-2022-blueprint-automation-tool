@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#120 Pacific Geosciences Center, Reynolds Art Gallery, Pacific Resources Research Center.kml</name>
+	<Style id="inline2310">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline413">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline691</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline691">
+		<LineStyle>
+			<color>ffaa443c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#120 Pacific Geosciences Center, Reynolds Art Gallery, Pacific Resources Research Center</name>
+		<styleUrl>#inline413</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3126220863111,37.97549926769855,0 -121.3122909615168,37.97557600733858,0 -121.3124646442861,37.97599000248283,0 -121.3127846234533,37.97590405705235,0 -121.3126220863111,37.97549926769855,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

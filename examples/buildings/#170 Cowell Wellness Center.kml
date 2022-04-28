@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#170 Cowell Wellness Center.kml</name>
+	<StyleMap id="inline529">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2650</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline562</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline562">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2650">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#170 Cowell Wellness Center</name>
+		<styleUrl>#inline529</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3152969440477,37.98330186647926,0 -121.3152493778795,37.98328004503186,0 -121.3152223317761,37.98330870544989,0 -121.3151865853711,37.98329082318092,0 -121.3150878595636,37.98343293234563,0 -121.3151186137326,37.9834442929918,0 -121.3151018447556,37.9834762235319,0 -121.315145979254,37.98349576440373,0 -121.3151314698963,37.98351798297938,0 -121.3153217029793,37.98359860298142,0 -121.3153396621196,37.98358223696918,0 -121.3153784341012,37.98360657961675,0 -121.3154060781154,37.98357778248686,0 -121.3154352121951,37.98359002427945,0 -121.3155419190841,37.9834537531888,0 -121.3155061725289,37.98343587101697,0 -121.3155269709263,37.98340608443694,0 -121.3154808694445,37.98338648250802,0 -121.3154944520678,37.98336703004766,0 -121.3153136154025,37.98328423019711,0 -121.3152969440477,37.98330186647926,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

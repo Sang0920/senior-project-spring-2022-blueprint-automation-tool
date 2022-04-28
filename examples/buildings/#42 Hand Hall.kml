@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#42 Hand Hall.kml</name>
+	<Style id="inline8111">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2200">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline11100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline8111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#42 Hand Hall</name>
+		<styleUrl>#inline11100</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3110697023826,37.98096083351643,0 -121.3110353824014,37.98087051701714,0 -121.3107924786988,37.98093437592694,0 -121.3108233037563,37.98101661084063,0 -121.3107841955907,37.98102929496461,0 -121.3108633194241,37.98123417286087,0 -121.310883721088,37.98123024703239,0 -121.3109328895111,37.98138547251664,0 -121.3110402860002,37.98136050756008,0 -121.3109698681513,37.9812067917405,0 -121.3109873088893,37.98120195058288,0 -121.3109648234583,37.98114811408583,0 -121.3109420727641,37.98115370036288,0 -121.3109247894338,37.98110724653793,0 -121.3109816541229,37.98109238137623,0 -121.310973148401,37.98106562571891,0 -121.3109198402153,37.9810785016325,0 -121.3108924391631,37.98100674643099,0 -121.3110697023826,37.98096083351643,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

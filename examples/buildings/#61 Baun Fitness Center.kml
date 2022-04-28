@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#61 Baun Fitness Center.kml</name>
+	<StyleMap id="inline13800">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline13110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline12900</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline13110">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline12900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#61 Baun Fitness Center</name>
+		<styleUrl>#inline13800</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3130696248765,37.98075130174921,0 -121.3129951234258,37.98068929063214,0 -121.3130220390902,37.98066816884447,0 -121.31294971983,37.98061490363367,0 -121.3129275022603,37.98063795593227,0 -121.3129099679822,37.98062682609317,0 -121.3128597181209,37.98052062037219,0 -121.3130261806121,37.98047520907203,0 -121.3129753815126,37.98035778866643,0 -121.3123266092309,37.98051662260909,0 -121.3123788399469,37.98064091131986,0 -121.3125301920186,37.98060028019595,0 -121.3127491305557,37.98077815913494,0 -121.3127294957517,37.98079128378071,0 -121.3128480202322,37.98088158923149,0 -121.3129623888873,37.98079750288444,0 -121.3129893862256,37.9808093815609,0 -121.3130696248765,37.98075130174921,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

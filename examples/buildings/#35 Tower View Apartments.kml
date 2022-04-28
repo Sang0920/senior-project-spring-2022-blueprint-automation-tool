@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#35 Tower View Apartments.kml</name>
+	<Style id="inline37000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1060">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline37000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline12200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline12200">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#35 Tower View Apartments</name>
+		<styleUrl>#inline1060</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3088611467019,37.97913502695484,0 -121.3088521240207,37.97911241987026,0 -121.3088820440962,37.97910436350826,0 -121.3088433258514,37.97901140157637,0 -121.3089004143148,37.97899851930979,0 -121.3088921270409,37.9789757298872,0 -121.3085194279491,37.97907260756787,0 -121.308483337778,37.97898217917564,0 -121.3089086297372,37.97887735621138,0 -121.3089999061244,37.97909998148617,0 -121.3088611467019,37.97913502695484,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

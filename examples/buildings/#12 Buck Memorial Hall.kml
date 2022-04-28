@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#12 Buck Memorial Hall.kml</name>
+	<Style id="inline11900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline5011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline11900</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2601</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2601">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#12 Buck Memorial Hall</name>
+		<styleUrl>#inline5011</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3088300557324,37.98020028313432,0 -121.3087644120628,37.98003580988632,0 -121.3086584367463,37.98006416593447,0 -121.3086521581976,37.98004183049214,0 -121.3085270629229,37.98007181115502,0 -121.3085297037266,37.98007842789345,0 -121.3083838444884,37.98011251833861,0 -121.308448422866,37.9802710229017,0 -121.3085951718216,37.98023255662265,0 -121.3086070691897,37.98025246001196,0 -121.3088300557324,37.98020028313432,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

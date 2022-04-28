@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#179 Edward and Alice Long Memorial Hall.kml</name>
+	<Style id="inline939">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1690">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline939</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline891</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline891">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#179 Edward and Alice Long Memorial Hall</name>
+		<styleUrl>#inline1690</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3120060966677,37.98483270601719,0 -121.3121232744516,37.98512505243452,0 -121.3119340655767,37.98516829805049,0 -121.3118412382394,37.9849537469087,0 -121.3113949827398,37.98505911030595,0 -121.3114833540691,37.98528478428774,0 -121.3112754502691,37.98533819612374,0 -121.3110942548369,37.98489797023552,0 -121.3112186792072,37.98486448040354,0 -121.3112167187308,37.98483882570207,0 -121.3112877999249,37.98482005365451,0 -121.3112714819041,37.98476989361468,0 -121.3117946999984,37.98463851935735,0 -121.3118103288604,37.98466357613597,0 -121.3118690127974,37.98464595309242,0 -121.3118606960216,37.98461754099621,0 -121.3119872187421,37.98458104432002,0 -121.3120822627884,37.98481613933789,0 -121.3120060966677,37.98483270601719,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

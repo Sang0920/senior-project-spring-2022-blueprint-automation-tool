@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#1 Pacific House.kml</name>
+	<StyleMap id="inline2112">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline11200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1130</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1130">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline11200">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>#1 Pacific House</name>
+		<styleUrl>#inline2112</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3074807854624,37.98136986273006,0 -121.3074102808088,37.98120503116012,0 -121.3071783923767,37.98125973754025,0 -121.3072161298589,37.98134246725835,0 -121.3072712334198,37.98132973451861,0 -121.3072859401571,37.98135771372702,0 -121.3072315726189,37.98136933380345,0 -121.3072496325278,37.98142345649331,0 -121.3074807854624,37.98136986273006,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

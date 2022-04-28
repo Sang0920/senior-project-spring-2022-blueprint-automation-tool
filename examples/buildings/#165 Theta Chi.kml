@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#165 Theta Chi.kml</name>
+	<Style id="inline633">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2212">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline409">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline633</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2212</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#165 Theta Chi</name>
+		<styleUrl>#inline409</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3171378704481,37.98064776363695,0 -121.3170927205552,37.98065861651977,0 -121.3171073093275,37.98069826204632,0 -121.3170102596118,37.9807199190387,0 -121.3170018993142,37.98068256394911,0 -121.3169452925844,37.98069338289937,0 -121.3168676424213,37.98049516994107,0 -121.3169015155125,37.98048477270994,0 -121.316895354227,37.98046071115446,0 -121.3169700303859,37.98044045484246,0 -121.3169770733769,37.98046325355354,0 -121.3170604617652,37.9804447197418,0 -121.3171378704481,37.98064776363695,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

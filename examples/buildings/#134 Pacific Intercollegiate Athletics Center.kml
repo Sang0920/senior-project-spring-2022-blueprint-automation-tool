@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#134 Pacific Intercollegiate Athletics Center.kml</name>
+	<Style id="inline863">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline649">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline506">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline863</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline649</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>#134 Pacific Intercollegiate Athletics Center</name>
+		<styleUrl>#inline506</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.3142619910452,37.97585466591319,0 -121.3144451063869,37.97629513022262,0 -121.3151661674281,37.9761121566961,0 -121.3152268269044,37.97589888577281,0 -121.3150664976608,37.97582864964693,0 -121.3147313944749,37.9759156255474,0 -121.3146751272408,37.97578899082531,0 -121.314437678992,37.97584667818044,0 -121.3144230158588,37.97581912406226,0 -121.3142619910452,37.97585466591319,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
