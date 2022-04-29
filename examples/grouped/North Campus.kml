@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>North Campus.kml</name>
-	<Style id="inline894">
+	<Style id="inline4380">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -11,7 +11,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline1640">
+	<Style id="inline291">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -20,7 +20,16 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline445">
+	<Style id="inline1160">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2650">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -38,7 +47,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline633">
+	<Style id="inline891">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -47,60 +56,17 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline632">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline3470">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline438">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline7240">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="inline721">
+	<StyleMap id="inline889">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline7100</styleUrl>
+			<styleUrl>#inline8640</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline924</styleUrl>
+			<styleUrl>#inline6570</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="inline418">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline7240</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline426</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline708">
+	<Style id="inline8640">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -109,17 +75,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline553">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline708</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline670</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline670">
+	<Style id="inline519">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -128,7 +84,26 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline1410">
+	<Style id="inline1790">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2880">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline704</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline7840</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline894">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -147,6 +122,98 @@
 			<styleUrl>#inline899</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="inline6570">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline9460">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2160</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1410</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline562">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline719">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline419">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2020">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline16400">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3470">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline587">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline8040</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline641</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline516">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="inline444">
 		<LineStyle>
 			<color>ffb83289</color>
@@ -156,37 +223,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline288">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline704</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline784</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline31110">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline719</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline519</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline385">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline494</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline3280</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline2650">
+	<Style id="inline633">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -195,7 +232,27 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline7100">
+	<StyleMap id="inline534">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline30200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4380</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline3170">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline214</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline444</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline939">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -204,7 +261,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline864">
+	<Style id="inline7840">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -223,7 +280,7 @@
 			<styleUrl>#inline562</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline2020">
+	<Style id="inline4450">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -232,66 +289,14 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline657">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline784">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline3280">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline426">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="inline606">
+	<StyleMap id="inline553">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline1640</styleUrl>
+			<styleUrl>#inline7080</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline419</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline666">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline594">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline763</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline666</styleUrl>
+			<styleUrl>#inline670</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="inline2160">
@@ -303,46 +308,42 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline754">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline1750">
+	<StyleMap id="inline3830">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline894</styleUrl>
+			<styleUrl>#inline4450</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline391</styleUrl>
+			<styleUrl>#inline298</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="inline534">
+	<Style id="inline1410">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline3850">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline3020</styleUrl>
+			<styleUrl>#inline4940</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline438</styleUrl>
+			<styleUrl>#inline32800</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="inline259">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline1790</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline291</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline924">
+	<Style id="inline426">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline32800">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -351,7 +352,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline562">
+	<Style id="inline214">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -360,7 +361,13 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline939">
+	<Style id="inline7240">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline641">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -369,7 +376,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline1160">
+	<Style id="inline7080">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -388,7 +395,7 @@
 			<styleUrl>#inline891</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline298">
+	<Style id="inline30200">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -397,17 +404,17 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline889">
+	<StyleMap id="inline721">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline864</styleUrl>
+			<styleUrl>#inline7100</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline657</styleUrl>
+			<styleUrl>#inline924</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline291">
+	<Style id="inline763">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -416,35 +423,17 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline3020">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline419">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline946">
+	<StyleMap id="inline31110">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline2160</styleUrl>
+			<styleUrl>#inline719</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline1410</styleUrl>
+			<styleUrl>#inline519</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline829">
+	<Style id="inline6320">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -453,7 +442,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline704">
+	<Style id="inline8290">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -462,7 +451,17 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline891">
+	<StyleMap id="inline4180">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline7240</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline426</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline7100">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -471,6 +470,16 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="inline606">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline16400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline419</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="inline409">
 		<Pair>
 			<key>normal</key>
@@ -481,7 +490,7 @@
 			<styleUrl>#inline2212</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline804">
+	<Style id="inline298">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -490,27 +499,17 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline725">
+	<StyleMap id="inline594">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline754</styleUrl>
+			<styleUrl>#inline763</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline1160</styleUrl>
+			<styleUrl>#inline666</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="inline879">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline632</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline2020</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline494">
+	<Style id="inline704">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -519,7 +518,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline763">
+	<Style id="inline8040">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -528,52 +527,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline641">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline519">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline719">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline516">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline3170">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline214</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline444</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="inline899">
 		<LineStyle>
 			<color>ffb83289</color>
@@ -583,7 +536,17 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline214">
+	<StyleMap id="inline259">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1790</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline291</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline670">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -592,224 +555,265 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline587">
+	<Style id="inline754">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline8790">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline804</styleUrl>
+			<styleUrl>#inline6320</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline641</styleUrl>
+			<styleUrl>#inline2020</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="inline7250">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline754</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1160</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline924">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline666">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<StyleMap id="inline11310">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline829</styleUrl>
+			<styleUrl>#inline8290</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#inline516</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline1790">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline391">
-		<LineStyle>
-			<color>ffb83289</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline383">
+	<StyleMap id="inline17500">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline445</styleUrl>
+			<styleUrl>#inline894</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline298</styleUrl>
+			<styleUrl>#inline3911</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="inline4940">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3911">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Folder>
 		<name>North Campus</name>
-		<Placemark>
-			<name>#160.1 University Townhouses</name>
-			<styleUrl>#inline31110</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3187219387465,37.98187753800899,0 -121.3186938802047,37.98181344767043,0 -121.3183149720167,37.9819080094513,0 -121.3183369758466,37.98197084012092,0 -121.3187219387465,37.98187753800899,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.2 University Townhouses</name>
-			<styleUrl>#inline11310</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3186175135623,37.98176392745085,0 -121.3185398630122,37.98178079947567,0 -121.3184063277529,37.9814543974184,0 -121.3184814507684,37.98143369665412,0 -121.3186175135623,37.98176392745085,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.3 University Townhouses</name>
-			<styleUrl>#inline553</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3183377115056,37.9817388859484,0 -121.3182515424572,37.98176299329267,0 -121.3181852555454,37.98160717354355,0 -121.3182731879497,37.98158178174437,0 -121.3183377115056,37.9817388859484,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.4 University Townhouses</name>
-			<styleUrl>#inline383</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.318132764114,37.98145745430906,0 -121.3181073075098,37.98139307106249,0 -121.3184912832657,37.98129902667208,0 -121.3185153493641,37.98136442293311,0 -121.318132764114,37.98145745430906,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.5 University Townhouses</name>
-			<styleUrl>#inline725</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3184670306644,37.98124270908001,0 -121.318441337838,37.98117768472871,0 -121.3180567496643,37.98127325932999,0 -121.3180830196459,37.98133745658735,0 -121.3184670306644,37.98124270908001,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.6 University Townhouses</name>
-			<styleUrl>#inline606</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3183986478025,37.98112158794378,0 -121.3183077816272,37.98114305780992,0 -121.3181894886227,37.98085036480853,0 -121.3182747660847,37.98082808733468,0 -121.3183986478025,37.98112158794378,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.7 University Townhouses</name>
-			<styleUrl>#inline259</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.318116283531,37.98111872176466,0 -121.318004374482,37.9811429172365,0 -121.3179418198794,37.98098970411274,0 -121.318051605231,37.98095973842283,0 -121.318116283531,37.98111872176466,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.8 University Townhouses</name>
-			<styleUrl>#inline946</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3183659254608,37.98074805802554,0 -121.3183406825234,37.98067619913288,0 -121.3178669045823,37.98079871999767,0 -121.3178935425858,37.98086457963149,0 -121.3183659254608,37.98074805802554,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.9 University Townhouses</name>
-			<styleUrl>#inline534</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3181845331422,37.98065183360728,0 -121.3181621363364,37.98058336032825,0 -121.3178148692956,37.98067232325253,0 -121.3178371278578,37.98073788436261,0 -121.3181845331422,37.98065183360728,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.10 University Townhouses</name>
-			<styleUrl>#inline3810</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3183424777033,37.98058628450983,0 -121.3182556327975,37.98060908380025,0 -121.3181327480361,37.98030306274244,0 -121.3182203419689,37.98028229989524,0 -121.3183424777033,37.98058628450983,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.11 University Townhouses</name>
-			<styleUrl>#inline889</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3178876004993,37.98056296605879,0 -121.3177826703305,37.98058989986085,0 -121.3177159926649,37.98043661455328,0 -121.3178227568777,37.98040705362299,0 -121.3178876004993,37.98056296605879,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#160.12 University Townhouses</name>
-			<styleUrl>#inline288</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3177803485933,37.98032834401538,0 -121.3177484787995,37.98026108316866,0 -121.3182639155754,37.98012800725597,0 -121.3182943034528,37.98019400385451,0 -121.3177803485933,37.98032834401538,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
+		<open>1</open>
+		<Folder>
+			<name>#160 University Townhouses</name>
+			<Placemark>
+				<name>#160.1 University Townhouses</name>
+				<styleUrl>#inline31110</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3187219387465,37.98187753800899,0 -121.3186938802047,37.98181344767043,0 -121.3183149720167,37.9819080094513,0 -121.3183369758466,37.98197084012092,0 -121.3187219387465,37.98187753800899,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.2 University Townhouses</name>
+				<styleUrl>#inline11310</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3186175135623,37.98176392745085,0 -121.3185398630122,37.98178079947567,0 -121.3184063277529,37.9814543974184,0 -121.3184814507684,37.98143369665412,0 -121.3186175135623,37.98176392745085,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.3 University Townhouses</name>
+				<styleUrl>#inline553</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3183377115056,37.9817388859484,0 -121.3182515424572,37.98176299329267,0 -121.3181852555454,37.98160717354355,0 -121.3182731879497,37.98158178174437,0 -121.3183377115056,37.9817388859484,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.4 University Townhouses</name>
+				<styleUrl>#inline3830</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.318132764114,37.98145745430906,0 -121.3181073075098,37.98139307106249,0 -121.3184912832657,37.98129902667208,0 -121.3185153493641,37.98136442293311,0 -121.318132764114,37.98145745430906,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.5 University Townhouses</name>
+				<styleUrl>#inline7250</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3184670306644,37.98124270908001,0 -121.318441337838,37.98117768472871,0 -121.3180567496643,37.98127325932999,0 -121.3180830196459,37.98133745658735,0 -121.3184670306644,37.98124270908001,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.6 University Townhouses</name>
+				<styleUrl>#inline606</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3183986478025,37.98112158794378,0 -121.3183077816272,37.98114305780992,0 -121.3181894886227,37.98085036480853,0 -121.3182747660847,37.98082808733468,0 -121.3183986478025,37.98112158794378,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.7 University Townhouses</name>
+				<styleUrl>#inline259</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.318116283531,37.98111872176466,0 -121.318004374482,37.9811429172365,0 -121.3179418198794,37.98098970411274,0 -121.318051605231,37.98095973842283,0 -121.318116283531,37.98111872176466,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.8 University Townhouses</name>
+				<styleUrl>#inline9460</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3183659254608,37.98074805802554,0 -121.3183406825234,37.98067619913288,0 -121.3178669045823,37.98079871999767,0 -121.3178935425858,37.98086457963149,0 -121.3183659254608,37.98074805802554,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.9 University Townhouses</name>
+				<styleUrl>#inline534</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3181845331422,37.98065183360728,0 -121.3181621363364,37.98058336032825,0 -121.3178148692956,37.98067232325253,0 -121.3178371278578,37.98073788436261,0 -121.3181845331422,37.98065183360728,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.10 University Townhouses</name>
+				<styleUrl>#inline3810</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3183424777033,37.98058628450983,0 -121.3182556327975,37.98060908380025,0 -121.3181327480361,37.98030306274244,0 -121.3182203419689,37.98028229989524,0 -121.3183424777033,37.98058628450983,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.11 University Townhouses</name>
+				<styleUrl>#inline889</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3178876004993,37.98056296605879,0 -121.3177826703305,37.98058989986085,0 -121.3177159926649,37.98043661455328,0 -121.3178227568777,37.98040705362299,0 -121.3178876004993,37.98056296605879,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#160.12 University Townhouses</name>
+				<styleUrl>#inline2880</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3177803485933,37.98032834401538,0 -121.3177484787995,37.98026108316866,0 -121.3182639155754,37.98012800725597,0 -121.3182943034528,37.98019400385451,0 -121.3177803485933,37.98032834401538,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
 		<Placemark>
 			<name>#165 Theta Chi</name>
 			<styleUrl>#inline409</styleUrl>
@@ -824,34 +828,37 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark>
-			<name>#166.1 Calaveras Hall</name>
-			<styleUrl>#inline587</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3156397222805,37.98116554405431,0 -121.3155133522052,37.98122423840751,0 -121.3155552786007,37.98128009597318,0 -121.3155216197356,37.9812936220546,0 -121.3155840352245,37.9813694175124,0 -121.3156163219329,37.98136333247398,0 -121.3156547756517,37.98141868805632,0 -121.3149788233934,37.98156997312299,0 -121.3149935048216,37.98162104412994,0 -121.3150160328732,37.98161524626035,0 -121.3150256105717,37.98164351011185,0 -121.3149949843705,37.98165634278144,0 -121.3150183251676,37.98170413842738,0 -121.3150518103134,37.98169907544533,0 -121.3150444845153,37.98166576120903,0 -121.3150893207338,37.98165356776581,0 -121.3151005891753,37.98167302184993,0 -121.3151818448762,37.98165703840385,0 -121.3151702580187,37.98163895300171,0 -121.3152046754346,37.98162525361354,0 -121.3152117356246,37.98164890942824,0 -121.3153293878296,37.98162460556973,0 -121.3153294255623,37.98159957182185,0 -121.3153597993436,37.98159308937515,0 -121.3153714339857,37.98161993934426,0 -121.3154846786818,37.98159543446589,0 -121.3154780030498,37.98157252283674,0 -121.3155081339053,37.9815637904405,0 -121.3155170543243,37.98158803325956,0 -121.3156351552908,37.98156241808574,0 -121.3156261810477,37.98154279845348,0 -121.3156578442758,37.98153187135475,0 -121.3156681406205,37.98155349418995,0 -121.3157888156002,37.98153328454831,0 -121.3157786757261,37.98151208704476,0 -121.315831453126,37.98149494976822,0 -121.315809979993,37.9814302341961,0 -121.3157743294062,37.9814462227064,0 -121.3157691486068,37.98142896350167,0 -121.3158351402286,37.98140004462483,0 -121.3157992008788,37.98134370810884,0 -121.3157677806542,37.98135688519133,0 -121.3156397222805,37.98116554405431,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#166.2 Calaveras Hall</name>
-			<styleUrl>#inline385</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3158690256576,37.98130535210331,0 -121.3159084813283,37.98136823039904,0 -121.3159252897947,37.98136273879596,0 -121.3159321951678,37.9813746823082,0 -121.3159092463657,37.98138850362215,0 -121.3159610260758,37.98145417131851,0 -121.3160808192248,37.98140106042989,0 -121.3160659123392,37.98137874321406,0 -121.3161405948657,37.98134517960045,0 -121.3161628129791,37.98136559037217,0 -121.3162715243231,37.98131729842203,0 -121.3162534294923,37.98129768888958,0 -121.3162827389781,37.98128637106515,0 -121.3163009457603,37.98130628480534,0 -121.3164064696158,37.98125874426964,0 -121.316388312937,37.98123782965691,0 -121.3164216440718,37.98122493276509,0 -121.3164392527206,37.98124663228486,0 -121.3165416069518,37.98120140001028,0 -121.3165269004942,37.98117507931757,0 -121.3166074954893,37.98114280209197,0 -121.3166212562983,37.98116768992682,0 -121.3166921020912,37.98113962030946,0 -121.3166446911219,37.98107559255783,0 -121.3166310439396,37.98108398947272,0 -121.3165989075794,37.98106033430686,0 -121.3166283322339,37.98103909574929,0 -121.3165730602368,37.9809923661637,0 -121.3165496254503,37.98100827763048,0 -121.3165301104284,37.98099163128187,0 -121.3165506013776,37.98097226824913,0 -121.3164634672668,37.98090149099879,0 -121.3164457717225,37.98091707978223,0 -121.3164243770959,37.98089987371345,0 -121.3164463181615,37.98088331434767,0 -121.31635732796,37.98081658926744,0 -121.3163361855657,37.98082735928669,0 -121.3163129614698,37.98080859260325,0 -121.3163341924364,37.98079351481899,0 -121.3162801404812,37.98074782548622,0 -121.316211553755,37.98079681604669,0 -121.3162312190481,37.98081045978346,0 -121.3162139478775,37.98082265341944,0 -121.3161973702358,37.98080830379728,0 -121.3161303505602,37.98086155333109,0 -121.3161851009574,37.98090345514698,0 -121.3162121330149,37.98088935986686,0 -121.3162495689072,37.98092400646574,0 -121.3162281758164,37.98093978089003,0 -121.3163197791724,37.98101019615437,0 -121.3163384705694,37.980995039359,0 -121.3163624549533,37.98101132357222,0 -121.316340201376,37.98103158224953,0 -121.3163956119425,37.9810730032718,0 -121.3164224585639,37.98105499263355,0 -121.3164540200816,37.98108504562002,0 -121.316375339826,37.98112480044308,0 -121.3163462388077,37.98110081396384,0 -121.3162779427442,37.98113183853879,0 -121.3162934851896,37.98115466218879,0 -121.3162214084681,37.98118358735696,0 -121.316205082306,37.98116272107946,0 -121.3160102650785,37.98124637913313,0 -121.3160286931562,37.98127091406113,0 -121.3159572648064,37.98130057989518,0 -121.3159409281819,37.98127764140313,0 -121.3158690256576,37.98130535210331,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
+		<Folder>
+			<name>#166 Calaveras Hall</name>
+			<Placemark>
+				<name>#166.1 Calaveras Hall</name>
+				<styleUrl>#inline587</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3156397222805,37.98116554405431,0 -121.3155133522052,37.98122423840751,0 -121.3155552786007,37.98128009597318,0 -121.3155216197356,37.9812936220546,0 -121.3155840352245,37.9813694175124,0 -121.3156163219329,37.98136333247398,0 -121.3156547756517,37.98141868805632,0 -121.3149788233934,37.98156997312299,0 -121.3149935048216,37.98162104412994,0 -121.3150160328732,37.98161524626035,0 -121.3150256105717,37.98164351011185,0 -121.3149949843705,37.98165634278144,0 -121.3150183251676,37.98170413842738,0 -121.3150518103134,37.98169907544533,0 -121.3150444845153,37.98166576120903,0 -121.3150893207338,37.98165356776581,0 -121.3151005891753,37.98167302184993,0 -121.3151818448762,37.98165703840385,0 -121.3151702580187,37.98163895300171,0 -121.3152046754346,37.98162525361354,0 -121.3152117356246,37.98164890942824,0 -121.3153293878296,37.98162460556973,0 -121.3153294255623,37.98159957182185,0 -121.3153597993436,37.98159308937515,0 -121.3153714339857,37.98161993934426,0 -121.3154846786818,37.98159543446589,0 -121.3154780030498,37.98157252283674,0 -121.3155081339053,37.9815637904405,0 -121.3155170543243,37.98158803325956,0 -121.3156351552908,37.98156241808574,0 -121.3156261810477,37.98154279845348,0 -121.3156578442758,37.98153187135475,0 -121.3156681406205,37.98155349418995,0 -121.3157888156002,37.98153328454831,0 -121.3157786757261,37.98151208704476,0 -121.315831453126,37.98149494976822,0 -121.315809979993,37.9814302341961,0 -121.3157743294062,37.9814462227064,0 -121.3157691486068,37.98142896350167,0 -121.3158351402286,37.98140004462483,0 -121.3157992008788,37.98134370810884,0 -121.3157677806542,37.98135688519133,0 -121.3156397222805,37.98116554405431,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#166.2 Calaveras Hall</name>
+				<styleUrl>#inline3850</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3158690256576,37.98130535210331,0 -121.3159084813283,37.98136823039904,0 -121.3159252897947,37.98136273879596,0 -121.3159321951678,37.9813746823082,0 -121.3159092463657,37.98138850362215,0 -121.3159610260758,37.98145417131851,0 -121.3160808192248,37.98140106042989,0 -121.3160659123392,37.98137874321406,0 -121.3161405948657,37.98134517960045,0 -121.3161628129791,37.98136559037217,0 -121.3162715243231,37.98131729842203,0 -121.3162534294923,37.98129768888958,0 -121.3162827389781,37.98128637106515,0 -121.3163009457603,37.98130628480534,0 -121.3164064696158,37.98125874426964,0 -121.316388312937,37.98123782965691,0 -121.3164216440718,37.98122493276509,0 -121.3164392527206,37.98124663228486,0 -121.3165416069518,37.98120140001028,0 -121.3165269004942,37.98117507931757,0 -121.3166074954893,37.98114280209197,0 -121.3166212562983,37.98116768992682,0 -121.3166921020912,37.98113962030946,0 -121.3166446911219,37.98107559255783,0 -121.3166310439396,37.98108398947272,0 -121.3165989075794,37.98106033430686,0 -121.3166283322339,37.98103909574929,0 -121.3165730602368,37.9809923661637,0 -121.3165496254503,37.98100827763048,0 -121.3165301104284,37.98099163128187,0 -121.3165506013776,37.98097226824913,0 -121.3164634672668,37.98090149099879,0 -121.3164457717225,37.98091707978223,0 -121.3164243770959,37.98089987371345,0 -121.3164463181615,37.98088331434767,0 -121.31635732796,37.98081658926744,0 -121.3163361855657,37.98082735928669,0 -121.3163129614698,37.98080859260325,0 -121.3163341924364,37.98079351481899,0 -121.3162801404812,37.98074782548622,0 -121.316211553755,37.98079681604669,0 -121.3162312190481,37.98081045978346,0 -121.3162139478775,37.98082265341944,0 -121.3161973702358,37.98080830379728,0 -121.3161303505602,37.98086155333109,0 -121.3161851009574,37.98090345514698,0 -121.3162121330149,37.98088935986686,0 -121.3162495689072,37.98092400646574,0 -121.3162281758164,37.98093978089003,0 -121.3163197791724,37.98101019615437,0 -121.3163384705694,37.980995039359,0 -121.3163624549533,37.98101132357222,0 -121.316340201376,37.98103158224953,0 -121.3163956119425,37.9810730032718,0 -121.3164224585639,37.98105499263355,0 -121.3164540200816,37.98108504562002,0 -121.316375339826,37.98112480044308,0 -121.3163462388077,37.98110081396384,0 -121.3162779427442,37.98113183853879,0 -121.3162934851896,37.98115466218879,0 -121.3162214084681,37.98118358735696,0 -121.316205082306,37.98116272107946,0 -121.3160102650785,37.98124637913313,0 -121.3160286931562,37.98127091406113,0 -121.3159572648064,37.98130057989518,0 -121.3159409281819,37.98127764140313,0 -121.3158690256576,37.98130535210331,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
 		<Placemark>
 			<name>#168 Duplicating Services</name>
 			<styleUrl>#inline721</styleUrl>
@@ -882,7 +889,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#171 Monagan Hall</name>
-			<styleUrl>#inline1750</styleUrl>
+			<styleUrl>#inline17500</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -910,7 +917,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#178 Chan Family Health Sciences Learning Center and Clinics Building</name>
-			<styleUrl>#inline879</styleUrl>
+			<styleUrl>#inline8790</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -922,37 +929,40 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark>
+		<Folder>
 			<name>#179 Edward and Alice Long Memorial Hall</name>
-			<styleUrl>#inline1690</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3120060966677,37.98483270601719,0 -121.3121232744516,37.98512505243452,0 -121.3119340655767,37.98516829805049,0 -121.3118412382394,37.9849537469087,0 -121.3113949827398,37.98505911030595,0 -121.3114833540691,37.98528478428774,0 -121.3112754502691,37.98533819612374,0 -121.3110942548369,37.98489797023552,0 -121.3112186792072,37.98486448040354,0 -121.3112167187308,37.98483882570207,0 -121.3112877999249,37.98482005365451,0 -121.3112714819041,37.98476989361468,0 -121.3117946999984,37.98463851935735,0 -121.3118103288604,37.98466357613597,0 -121.3118690127974,37.98464595309242,0 -121.3118606960216,37.98461754099621,0 -121.3119872187421,37.98458104432002,0 -121.3120822627884,37.98481613933789,0 -121.3120060966677,37.98483270601719,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#179.1 Edward and Alice Long Memorial Hall</name>
-			<styleUrl>#inline3170</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.311955878185,37.98532414145058,0 -121.3118843089512,37.98513708371644,0 -121.3115226845446,37.98523127729483,0 -121.3115915598645,37.98541101611732,0 -121.311955878185,37.98532414145058,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
+			<Placemark>
+				<name>#179 Edward and Alice Long Memorial Hall</name>
+				<styleUrl>#inline1690</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3120060966677,37.98483270601719,0 -121.3121232744516,37.98512505243452,0 -121.3119340655767,37.98516829805049,0 -121.3118412382394,37.9849537469087,0 -121.3113949827398,37.98505911030595,0 -121.3114833540691,37.98528478428774,0 -121.3112754502691,37.98533819612374,0 -121.3110942548369,37.98489797023552,0 -121.3112186792072,37.98486448040354,0 -121.3112167187308,37.98483882570207,0 -121.3112877999249,37.98482005365451,0 -121.3112714819041,37.98476989361468,0 -121.3117946999984,37.98463851935735,0 -121.3118103288604,37.98466357613597,0 -121.3118690127974,37.98464595309242,0 -121.3118606960216,37.98461754099621,0 -121.3119872187421,37.98458104432002,0 -121.3120822627884,37.98481613933789,0 -121.3120060966677,37.98483270601719,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#179.1 Edward and Alice Long Memorial Hall</name>
+				<styleUrl>#inline3170</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.311955878185,37.98532414145058,0 -121.3118843089512,37.98513708371644,0 -121.3115226845446,37.98523127729483,0 -121.3115915598645,37.98541101611732,0 -121.311955878185,37.98532414145058,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
 		<Placemark>
 			<name>#180 Rotunda</name>
-			<styleUrl>#inline418</styleUrl>
+			<styleUrl>#inline4180</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>

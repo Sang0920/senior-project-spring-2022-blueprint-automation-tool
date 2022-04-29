@@ -2,7 +2,27 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Athletic Campus.kml</name>
-	<Style id="inline381">
+	<StyleMap id="inline5060">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline863</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline649</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline2301">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1081</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline41010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline649">
 		<LineStyle>
 			<color>ff3dd8fe</color>
 			<width>2</width>
@@ -20,16 +40,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline422">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline597</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline428</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="inline598">
 		<Pair>
 			<key>normal</key>
@@ -40,16 +50,7 @@
 			<styleUrl>#inline893</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline597">
-		<LineStyle>
-			<color>ff3dd8fe</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline746">
+	<Style id="inline4290">
 		<LineStyle>
 			<color>ff3dd8fe</color>
 			<width>2</width>
@@ -67,90 +68,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline4101">
-		<LineStyle>
-			<color>ff3dd8fe</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline863">
-		<LineStyle>
-			<color>ff3dd8fe</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline4290">
-		<LineStyle>
-			<color>ff3dd8fe</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline277">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline381</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline916</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline722">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline798</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline423</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline345">
-		<LineStyle>
-			<color>ff3dd8fe</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline423">
-		<LineStyle>
-			<color>ff3dd8fe</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline798">
-		<LineStyle>
-			<color>ff3dd8fe</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline649">
-		<LineStyle>
-			<color>ff3dd8fe</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline686">
+	<Style id="inline4280">
 		<LineStyle>
 			<color>ff3dd8fe</color>
 			<width>2</width>
@@ -168,47 +86,72 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline235">
+	<Style id="inline41010">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline746">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline686">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2350">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#inline746</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline345</styleUrl>
+			<styleUrl>#inline3450</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="inline230">
+	<Style id="inline3450">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4230">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline422">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline1081</styleUrl>
+			<styleUrl>#inline597</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline4101</styleUrl>
+			<styleUrl>#inline4280</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="inline5901">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline4290</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline686</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline506">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline863</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline649</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline428">
+	<Style id="inline863">
 		<LineStyle>
 			<color>ff3dd8fe</color>
 			<width>2</width>
@@ -226,11 +169,69 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="inline7220">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline798</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4230</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline2770">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3812</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline916</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline3812">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline5901">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4290</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline686</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline597">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline798">
+		<LineStyle>
+			<color>ff3dd8fe</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Folder>
 		<name>Athletic Campus</name>
+		<open>1</open>
 		<Placemark>
 			<name>#130 Jannsen-Lagorio Gymnasium and Performance Center</name>
-			<styleUrl>#inline230</styleUrl>
+			<styleUrl>#inline2301</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -244,7 +245,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#132 South Campus Gymnasium</name>
-			<styleUrl>#inline235</styleUrl>
+			<styleUrl>#inline2350</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -258,7 +259,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#134 Pacific Intercollegiate Athletics Center</name>
-			<styleUrl>#inline506</styleUrl>
+			<styleUrl>#inline5060</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -286,7 +287,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#141 Covered Performance Center</name>
-			<styleUrl>#inline722</styleUrl>
+			<styleUrl>#inline7220</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -300,7 +301,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#145 Pacific Aquatics Center</name>
-			<styleUrl>#inline277</styleUrl>
+			<styleUrl>#inline2770</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>

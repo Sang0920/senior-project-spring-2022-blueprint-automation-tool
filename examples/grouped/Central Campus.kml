@@ -2,1064 +2,17 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Central Campus.kml</name>
-	<Style id="inline16000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline14100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline12400</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline12600</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline31000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1310">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline11120">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline93000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline9800</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline1211">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline1580">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline2010</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline15700</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline12110">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline11100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline8111</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline2200</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline13020">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline001">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline6101">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline251">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline6200">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline13110">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline6900">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline8200">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline780</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline7700</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline12300">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline7200">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1320">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline23110">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1070">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline14101">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline3200">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline5700">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline15400">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline2110">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline5200</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline31000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline1250">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline6900</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline71000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline9800">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1110">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1530">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline21001">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline6700">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline8600">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline1211</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline11600</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline11600">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline1480">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline5110</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline1810</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline1400">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline15400</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline21001</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline960">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline1030</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline10400</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline9700">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline11110</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline12110</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline1330">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline7700">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1270">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline1350">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline6101</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline9900</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline31001">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline13400">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline251</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline2701</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline2211">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline2800">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline14300">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline15100">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline5900">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline13020</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline17100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline360">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline11200">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline5400">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline34000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline6400">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline14600">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline14700">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline4100">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline5001">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline4900">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline2701">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1810">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline5200">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline4001">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline2010">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline420">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline4130</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline10010</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline5011">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline11900</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline2601</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline28100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline360</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline6110</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline8800">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline5500">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline12100">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline6600">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline5700</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline8800</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline10400">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1170">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1080">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline17000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline850">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline10100">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1370">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline12900">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline11010">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1450">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline11500">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline43000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline3500</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline3900">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline35100">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline43000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1130">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline5300">
+	<StyleMap id="inline53000">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#inline31001</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline850</styleUrl>
+			<styleUrl>#inline8500</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline900">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline3110">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline5001</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline2800</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline9900">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline11900">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1520">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline1060">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline37000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline12200</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline650">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline5100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline6700</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline6000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline6110">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline5600">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline4900</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline4710</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline7900">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline13800">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline13110</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline12900</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline1180">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline1360">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline7400</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline5400</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline890">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline1090">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline6400</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline650</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline1050">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1490">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1030">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline12200">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline1440">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline780">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline26000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline4120">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline5800</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline1070</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline4500">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline1500</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline34000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline1280">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline8300</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline2211</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline11400">
+	<Style id="inline93000">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1078,17 +31,7 @@
 			<styleUrl>#inline12300</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="inline8700">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline1330</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline3200</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline15700">
+	<Style id="inline11110">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1097,140 +40,17 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline2611">
+	<StyleMap id="inline2900">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline1310</styleUrl>
+			<styleUrl>#inline14900</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline11010</styleUrl>
+			<styleUrl>#inline151000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="inline2112">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline11200</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline1130</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline9200">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline730</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline4800</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline9400">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline6300">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline17000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline26000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline7400">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline1910">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline9400</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline24100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline4800">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline71000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline3500">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline18000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline16000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline25000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline03">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline5110">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline4600">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline14600</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline14700</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline4710">
+	<Style id="inline1180">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1249,6 +69,127 @@
 			<styleUrl>#inline1050</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="inline9800">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline13020">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline14600">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline9200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline730</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4800</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline23110">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline35100">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1480">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline5110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1810</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline5500">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline6900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline5200">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1280">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline8300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline22110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline9000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline4500">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1500</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline34000</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="inline10200">
 		<Pair>
 			<key>normal</key>
@@ -1259,37 +200,7 @@
 			<styleUrl>#inline1080</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="inline3300">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline5500</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline6200</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline2700">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline9100</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline4100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline1301">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline870</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline14101</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline11110">
+	<Style id="inline121100">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1298,7 +209,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline37000">
+	<Style id="inline780">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1307,187 +218,17 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline25000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline8111">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline440">
+	<StyleMap id="inline11100">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline1180</styleUrl>
+			<styleUrl>#inline8111</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline1170</styleUrl>
+			<styleUrl>#inline22000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline12400">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline8400">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline1370</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline1450</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline2300">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline12100</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline24000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline9100">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline24000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline38000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline1560</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline001</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline2200">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline13900">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline23110</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline35100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline1420">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline1530</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline1270</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline19000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline10100</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline15500</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="inline680">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline3900</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline4001</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline10010">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline4130">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline93000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="inline2900">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline1490</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline15100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline1500">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="inline5800">
+	<Style id="inline3200">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1505,7 +246,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline1560">
+	<Style id="inline9400">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1514,7 +255,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline6000">
+	<Style id="inline4100">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1523,17 +264,45 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline750">
+	<Style id="inline12600">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline9500">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline900</styleUrl>
+			<styleUrl>#inline7900</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline1440</styleUrl>
+			<styleUrl>#inline72000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline730">
+	<StyleMap id="inline11500">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline43000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline35000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1520">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline12200">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1552,7 +321,7 @@
 			<styleUrl>#inline03</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline15500">
+	<Style id="inline5110">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1561,7 +330,709 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline17100">
+	<Style id="inline14300">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline14900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline11700">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline13400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline251</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2701</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline5011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline11900</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2601</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline6110">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4710">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1301">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline870</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline14101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1910">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline9400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline24100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline35000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1370">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline8600">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline12110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline11600</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline14101">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline6400">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline11200">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline9900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline03">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4130">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline13900">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline23110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline35100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4001">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1320">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1130">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline6300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline17000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline26000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline12110">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline82000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline780</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline7700</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline5001">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline71000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1080">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline21120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline11200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1130</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline5600">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4900</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4710</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2701">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline960">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline10300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline104000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1070">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1580">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline20100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline15700</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline28100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline360</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline6110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline27000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline9100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline8700">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1330</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1310">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline25000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline19000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline10100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline15500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline26000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1500">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline5900">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline13020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline17100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline12400">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline6200">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline9100">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline8500">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline11600">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline11120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline93000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline9800</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1560">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline7500">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline9000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline14400</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline72000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline7400">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline8800">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline18000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline16000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline25000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline440">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1180</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline11700</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline12300">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline17000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline420">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline10010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline251">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1810">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline5100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline6700</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline6000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline10010">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline6700">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline34000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline4600">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline14600</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline14700</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline31000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline15400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline210010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline3900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline12100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline240000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline15400">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline14400">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline9700">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline11110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline121100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline5800">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1330">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1579,7 +1050,36 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="inline12600">
+	<StyleMap id="inline33000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline5500</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline6200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline16101">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1520</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline37000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline10100">
 		<LineStyle>
 			<color>ff1d80f9</color>
 			<width>2</width>
@@ -1597,6 +1097,219 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
+	<Style id="inline22000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline890">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline20100">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2800">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline151000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline11010">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline17100">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline4120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline5800</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1070</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline15700">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1350">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline6101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline9900</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline2110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline5200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline31000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline12900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline680">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3900</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline7700">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline22110">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline4800">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline38000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1560</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline15300">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline11400">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline8400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1370</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline14500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1110">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline360">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline14700">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="inline24100">
 		<LineStyle>
 			<color>ff1d80f9</color>
@@ -1606,31 +1319,319 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline950">
+	<Style id="inline5400">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline16000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline13110">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1050">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline001">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline6000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline14500">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline138000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline7900</styleUrl>
+			<styleUrl>#inline13110</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline7200</styleUrl>
+			<styleUrl>#inline12900</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="inline16101">
+	<Style id="inline650">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1360">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#inline1110</styleUrl>
+			<styleUrl>#inline7400</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#inline1520</styleUrl>
+			<styleUrl>#inline5400</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="inline10600">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline37000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline12200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1250">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline6900</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline71000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline12100">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline210010">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline3110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline5001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2800</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline10300">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline31001">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline7900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline26110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1310</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline11010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline12700">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline6101">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline11900">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline43000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline8111">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline240000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline57000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline15500">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1090">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline6400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline650</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline6600">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline57000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline8800</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1420">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline15300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline12700</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline14100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline12400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline12600</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline730">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline104000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Folder>
 		<name>Central Campus</name>
+		<open>1</open>
 		<Placemark>
 			<name>#1 Pacific House</name>
-			<styleUrl>#inline2112</styleUrl>
+			<styleUrl>#inline21120</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1686,7 +1687,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#7 McConchie Hall</name>
-			<styleUrl>#inline5300</styleUrl>
+			<styleUrl>#inline53000</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1882,7 +1883,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#30 West Memorial Hall</name>
-			<styleUrl>#inline8200</styleUrl>
+			<styleUrl>#inline82000</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1894,62 +1895,68 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark>
+		<Folder>
 			<name>#31 Southwest Hall</name>
-			<styleUrl>#inline1480</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.310778160859,37.97961146369549,0 -121.310568169698,37.97909409387537,0 -121.3104228141989,37.97912922311948,0 -121.3104471851527,37.97918736822428,0 -121.310410076105,37.97919932166157,0 -121.3103917592422,37.97915342998391,0 -121.310238267921,37.97919149336528,0 -121.3102561328107,37.97924208207161,0 -121.3102106740552,37.9792506041223,0 -121.3101885987,37.97918363686265,0 -121.3100495342242,37.97921995617622,0 -121.3102563472786,37.97973811499013,0 -121.3103946867901,37.97970289203475,0 -121.3103698638891,37.97964944403017,0 -121.3104273595088,37.97963610298301,0 -121.310448126577,37.97968230394163,0 -121.3105942085994,37.97964607770133,0 -121.3105780682016,37.97959689545524,0 -121.3106147848858,37.97958687324299,0 -121.3106383710286,37.97964888071423,0 -121.310778160859,37.97961146369549,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#31.1 Southwest Hall</name>
-			<styleUrl>#inline680</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3105895099125,37.97953812230776,0 -121.3105394244281,37.97954962583204,0 -121.3104987941673,37.97944783006512,0 -121.3103766669351,37.97947994973245,0 -121.3104185697226,37.97958784883544,0 -121.3103589570243,37.97960171487617,0 -121.3102311080029,37.97929597079354,0 -121.3102787433387,37.97928415804389,0 -121.3103143182337,37.97929459264708,0 -121.3103481687088,37.97938523211872,0 -121.3104614348469,37.97935714384916,0 -121.3104254077035,37.97926979513718,0 -121.3104379200269,37.97924285076673,0 -121.3104710684168,37.9792355474201,0 -121.3105895099125,37.97953812230776,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
+			<Placemark>
+				<name>#31 Southwest Hall</name>
+				<styleUrl>#inline1480</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.310778160859,37.97961146369549,0 -121.310568169698,37.97909409387537,0 -121.3104228141989,37.97912922311948,0 -121.3104471851527,37.97918736822428,0 -121.310410076105,37.97919932166157,0 -121.3103917592422,37.97915342998391,0 -121.310238267921,37.97919149336528,0 -121.3102561328107,37.97924208207161,0 -121.3102106740552,37.9792506041223,0 -121.3101885987,37.97918363686265,0 -121.3100495342242,37.97921995617622,0 -121.3102563472786,37.97973811499013,0 -121.3103946867901,37.97970289203475,0 -121.3103698638891,37.97964944403017,0 -121.3104273595088,37.97963610298301,0 -121.310448126577,37.97968230394163,0 -121.3105942085994,37.97964607770133,0 -121.3105780682016,37.97959689545524,0 -121.3106147848858,37.97958687324299,0 -121.3106383710286,37.97964888071423,0 -121.310778160859,37.97961146369549,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#31.1 Southwest Hall</name>
+				<styleUrl>#inline680</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3105895099125,37.97953812230776,0 -121.3105394244281,37.97954962583204,0 -121.3104987941673,37.97944783006512,0 -121.3103766669351,37.97947994973245,0 -121.3104185697226,37.97958784883544,0 -121.3103589570243,37.97960171487617,0 -121.3102311080029,37.97929597079354,0 -121.3102787433387,37.97928415804389,0 -121.3103143182337,37.97929459264708,0 -121.3103481687088,37.97938523211872,0 -121.3104614348469,37.97935714384916,0 -121.3104254077035,37.97926979513718,0 -121.3104379200269,37.97924285076673,0 -121.3104710684168,37.9792355474201,0 -121.3105895099125,37.97953812230776,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
 			<name>#32 Khoury Hall</name>
-			<styleUrl>#inline38000</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3112753878715,37.97967842090546,0 -121.3112113136237,37.97952012521096,0 -121.3108718872217,37.97960289499991,0 -121.3109393680465,37.97976526254571,0 -121.3112753878715,37.97967842090546,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#32.1 Khoury Hall</name>
-			<styleUrl>#inline750</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3111299232578,37.97951713144292,0 -121.3110975719698,37.97943384733124,0 -121.310898970657,37.97948099143731,0 -121.3109323876848,37.97956471365029,0 -121.3111299232578,37.97951713144292,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
+			<Placemark>
+				<name>#32 Khoury Hall</name>
+				<styleUrl>#inline38000</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3112753878715,37.97967842090546,0 -121.3112113136237,37.97952012521096,0 -121.3108718872217,37.97960289499991,0 -121.3109393680465,37.97976526254571,0 -121.3112753878715,37.97967842090546,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#32.1 Khoury Hall</name>
+				<styleUrl>#inline7500</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3111299232578,37.97951713144292,0 -121.3110975719698,37.97943384733124,0 -121.310898970657,37.97948099143731,0 -121.3109323876848,37.97956471365029,0 -121.3111299232578,37.97951713144292,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
 		<Placemark>
 			<name>#33 Human Resources</name>
 			<styleUrl>#inline9200</styleUrl>
@@ -1980,7 +1987,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#35 Tower View Apartments</name>
-			<styleUrl>#inline1060</styleUrl>
+			<styleUrl>#inline10600</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2006,48 +2013,51 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark>
+		<Folder>
 			<name>#41 Grace Covell Hall</name>
-			<styleUrl>#inline2110</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3104859877579,37.98154595034533,0 -121.3103051115079,37.98109758318975,0 -121.3102690280157,37.98110598438437,0 -121.3102620163433,37.98109743428278,0 -121.3102106029743,37.98110865433134,0 -121.3102112144192,37.98112153499424,0 -121.3101746250969,37.98112876769496,0 -121.3101923654367,37.98117356737962,0 -121.3098483785042,37.98125826424934,0 -121.3098442964598,37.98124501262595,0 -121.3096955858966,37.98128762059993,0 -121.309694679712,37.9812969958996,0 -121.309355645352,37.98138166299645,0 -121.3093449872889,37.9813532215336,0 -121.3092150063384,37.98138557290686,0 -121.3093888653441,37.98182539058185,0 -121.3094427380244,37.98181220514535,0 -121.3094473258871,37.98182662521283,0 -121.3094881518895,37.98181697915443,0 -121.30948321098,37.98180304593598,0 -121.3095237999212,37.98179301118595,0 -121.3094570973153,37.98164658457164,0 -121.3095673364233,37.98162215184442,0 -121.3096082756508,37.98171289177585,0 -121.3102028257496,37.98156471549113,0 -121.31015837994,37.98146970065123,0 -121.3102987024433,37.98143065287742,0 -121.3103525357009,37.98157793216254,0 -121.3104034786355,37.98156944781465,0 -121.3104100197438,37.98158073350263,0 -121.3104436445167,37.98157429828156,0 -121.3104410447233,37.9815606479553,0 -121.3104859877579,37.98154595034533,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#41.1 Grace Covell Hall</name>
-			<styleUrl>#inline10200</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3097491605705,37.98155150040719,0 -121.3096902667653,37.98141275599113,0 -121.3094009223657,37.98148358129978,0 -121.3094616730443,37.98161817012286,0 -121.3097491605705,37.98155150040719,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#41.2 Grace Covell Hall</name>
-			<styleUrl>#inline1420</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3102883814836,37.9814140918208,0 -121.3100601607419,37.98147068530991,0 -121.3100163644238,37.98136976753646,0 -121.3099722445154,37.98138255577665,0 -121.3099567510937,37.98134667493396,0 -121.3102347590921,37.98127681154458,0 -121.3102883814836,37.9814140918208,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
+			<Placemark>
+				<name>#41 Grace Covell Hall</name>
+				<styleUrl>#inline2110</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3104859877579,37.98154595034533,0 -121.3103051115079,37.98109758318975,0 -121.3102690280157,37.98110598438437,0 -121.3102620163433,37.98109743428278,0 -121.3102106029743,37.98110865433134,0 -121.3102112144192,37.98112153499424,0 -121.3101746250969,37.98112876769496,0 -121.3101923654367,37.98117356737962,0 -121.3098483785042,37.98125826424934,0 -121.3098442964598,37.98124501262595,0 -121.3096955858966,37.98128762059993,0 -121.309694679712,37.9812969958996,0 -121.309355645352,37.98138166299645,0 -121.3093449872889,37.9813532215336,0 -121.3092150063384,37.98138557290686,0 -121.3093888653441,37.98182539058185,0 -121.3094427380244,37.98181220514535,0 -121.3094473258871,37.98182662521283,0 -121.3094881518895,37.98181697915443,0 -121.30948321098,37.98180304593598,0 -121.3095237999212,37.98179301118595,0 -121.3094570973153,37.98164658457164,0 -121.3095673364233,37.98162215184442,0 -121.3096082756508,37.98171289177585,0 -121.3102028257496,37.98156471549113,0 -121.31015837994,37.98146970065123,0 -121.3102987024433,37.98143065287742,0 -121.3103525357009,37.98157793216254,0 -121.3104034786355,37.98156944781465,0 -121.3104100197438,37.98158073350263,0 -121.3104436445167,37.98157429828156,0 -121.3104410447233,37.9815606479553,0 -121.3104859877579,37.98154595034533,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#41.1 Grace Covell Hall</name>
+				<styleUrl>#inline10200</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3097491605705,37.98155150040719,0 -121.3096902667653,37.98141275599113,0 -121.3094009223657,37.98148358129978,0 -121.3094616730443,37.98161817012286,0 -121.3097491605705,37.98155150040719,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#41.2 Grace Covell Hall</name>
+				<styleUrl>#inline1420</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3102883814836,37.9814140918208,0 -121.3100601607419,37.98147068530991,0 -121.3100163644238,37.98136976753646,0 -121.3099722445154,37.98138255577665,0 -121.3099567510937,37.98134667493396,0 -121.3102347590921,37.98127681154458,0 -121.3102883814836,37.9814140918208,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
 		<Placemark>
 			<name>#42 Hand Hall</name>
 			<styleUrl>#inline11100</styleUrl>
@@ -2064,7 +2074,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#43 President&apos;s Residence</name>
-			<styleUrl>#inline2700</styleUrl>
+			<styleUrl>#inline27000</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2162,7 +2172,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#60 Don and Karen DeRosa University Center</name>
-			<styleUrl>#inline2611</styleUrl>
+			<styleUrl>#inline26110</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2176,7 +2186,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#61 Baun Fitness Center</name>
-			<styleUrl>#inline13800</styleUrl>
+			<styleUrl>#inline138000</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2230,34 +2240,37 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark>
+		<Folder>
 			<name>#68 Wendell Phillips Center</name>
-			<styleUrl>#inline13900</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3124461154797,37.97918467613873,0 -121.312401739108,37.97906629174489,0 -121.3123039530423,37.97909278173677,0 -121.3123287404499,37.9791482545508,0 -121.3122600973302,37.97916531323707,0 -121.3122215457551,37.97907477548413,0 -121.312295751729,37.9790536682565,0 -121.3122732749111,37.97899488933471,0 -121.3123586509135,37.9789754002491,0 -121.3122437432073,37.97868902831669,0 -121.3122129520056,37.978693973139,0 -121.3122049237949,37.97866732418456,0 -121.3120233665125,37.97870807408381,0 -121.3120366154534,37.97873214193731,0 -121.3119543632379,37.97874813904519,0 -121.3119457795492,37.97872717427263,0 -121.311770770771,37.97877615415003,0 -121.3117847481667,37.97880700245144,0 -121.3117603549668,37.9788125706418,0 -121.3118759234909,37.97909115055703,0 -121.311939923563,37.97907584659887,0 -121.3119644309944,37.97912096330355,0 -121.3120491008827,37.97909955162555,0 -121.3120721109784,37.97914778881761,0 -121.3119111375622,37.97918939702912,0 -121.3119623601505,37.97930482933821,0 -121.3123440281136,37.97921145341559,0 -121.3123382921242,37.97920303739067,0 -121.3123654668104,37.97919544479115,0 -121.3123765524047,37.97920402899668,0 -121.3124461154797,37.97918467613873,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#68.1 Wendell Phillips Center</name>
-			<styleUrl>#inline11120</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-121.3122018852172,37.97897568826058,0 -121.3121386090879,37.97881785395645,0 -121.3119361683161,37.97886892808727,0 -121.3120064198018,37.97902655953621,0 -121.3122018852172,37.97897568826058,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
+			<Placemark>
+				<name>#68 Wendell Phillips Center</name>
+				<styleUrl>#inline13900</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3124461154797,37.97918467613873,0 -121.312401739108,37.97906629174489,0 -121.3123039530423,37.97909278173677,0 -121.3123287404499,37.9791482545508,0 -121.3122600973302,37.97916531323707,0 -121.3122215457551,37.97907477548413,0 -121.312295751729,37.9790536682565,0 -121.3122732749111,37.97899488933471,0 -121.3123586509135,37.9789754002491,0 -121.3122437432073,37.97868902831669,0 -121.3122129520056,37.978693973139,0 -121.3122049237949,37.97866732418456,0 -121.3120233665125,37.97870807408381,0 -121.3120366154534,37.97873214193731,0 -121.3119543632379,37.97874813904519,0 -121.3119457795492,37.97872717427263,0 -121.311770770771,37.97877615415003,0 -121.3117847481667,37.97880700245144,0 -121.3117603549668,37.9788125706418,0 -121.3118759234909,37.97909115055703,0 -121.311939923563,37.97907584659887,0 -121.3119644309944,37.97912096330355,0 -121.3120491008827,37.97909955162555,0 -121.3120721109784,37.97914778881761,0 -121.3119111375622,37.97918939702912,0 -121.3119623601505,37.97930482933821,0 -121.3123440281136,37.97921145341559,0 -121.3123382921242,37.97920303739067,0 -121.3123654668104,37.97919544479115,0 -121.3123765524047,37.97920402899668,0 -121.3124461154797,37.97918467613873,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>#68.1 Wendell Phillips Center</name>
+				<styleUrl>#inline11120</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121.3122018852172,37.97897568826058,0 -121.3121386090879,37.97881785395645,0 -121.3119361683161,37.97886892808727,0 -121.3120064198018,37.97902655953621,0 -121.3122018852172,37.97897568826058,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
 		<Placemark>
 			<name>#70 John Ballantyne Hall</name>
 			<styleUrl>#inline14100</styleUrl>
@@ -2316,7 +2329,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#74 Casa Jackson</name>
-			<styleUrl>#inline950</styleUrl>
+			<styleUrl>#inline9500</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -2414,7 +2427,7 @@
 		</Placemark>
 		<Placemark>
 			<name>#84 Farley House</name>
-			<styleUrl>#inline3300</styleUrl>
+			<styleUrl>#inline33000</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>

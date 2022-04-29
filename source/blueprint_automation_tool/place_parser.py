@@ -67,14 +67,9 @@ class PlaceParser:
 
         # Create a new place for each placemark in the file
         places = []
-        placemarks = []
-        folder = root.find(".//Folder", namespaces)
-        if folder is not None:
-            for elem in folder:
-                if elem.tag.endswith("Placemark"):
-                    placemarks.append(elem)
-        else:
-            placemarks = root.findall(".//Placemark", namespaces)
+
+        placemarks = root.findall(".//Placemark", namespaces)
+
         for placemark in placemarks:
             # Grab name for the placemark
             place_name = placemark.find("name", namespaces).text

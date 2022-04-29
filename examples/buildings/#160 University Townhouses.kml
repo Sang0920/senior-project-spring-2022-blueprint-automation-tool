@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>#160 University Townhouses.kml</name>
+	<Style id="inline704">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline606">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline16400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline419</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline259">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1790</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline291</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline30200">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline6570">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1160">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2160">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3470">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline291">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline516">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline519">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline899">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline11310">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline8290</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline516</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline719">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline8290">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline8640">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1410">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2880">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline704</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline7840</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline298">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline3810">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3470</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline899</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline553">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline7080</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline670</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4450">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline3830">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4450</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline298</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline31110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline719</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline519</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline754">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline419">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline9460">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2160</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1410</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline889">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline8640</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline6570</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4380">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline7840">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1790">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline534">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline30200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4380</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline7080">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline7250">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline754</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1160</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline670">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline16400">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>#160 University Townhouses</name>
+		<Placemark>
+			<name>#160.1 University Townhouses</name>
+			<styleUrl>#inline31110</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3187219387465,37.98187753800899,0 -121.3186938802047,37.98181344767043,0 -121.3183149720167,37.9819080094513,0 -121.3183369758466,37.98197084012092,0 -121.3187219387465,37.98187753800899,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.2 University Townhouses</name>
+			<styleUrl>#inline11310</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3186175135623,37.98176392745085,0 -121.3185398630122,37.98178079947567,0 -121.3184063277529,37.9814543974184,0 -121.3184814507684,37.98143369665412,0 -121.3186175135623,37.98176392745085,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.3 University Townhouses</name>
+			<styleUrl>#inline553</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3183377115056,37.9817388859484,0 -121.3182515424572,37.98176299329267,0 -121.3181852555454,37.98160717354355,0 -121.3182731879497,37.98158178174437,0 -121.3183377115056,37.9817388859484,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.4 University Townhouses</name>
+			<styleUrl>#inline3830</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.318132764114,37.98145745430906,0 -121.3181073075098,37.98139307106249,0 -121.3184912832657,37.98129902667208,0 -121.3185153493641,37.98136442293311,0 -121.318132764114,37.98145745430906,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.5 University Townhouses</name>
+			<styleUrl>#inline7250</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3184670306644,37.98124270908001,0 -121.318441337838,37.98117768472871,0 -121.3180567496643,37.98127325932999,0 -121.3180830196459,37.98133745658735,0 -121.3184670306644,37.98124270908001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.6 University Townhouses</name>
+			<styleUrl>#inline606</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3183986478025,37.98112158794378,0 -121.3183077816272,37.98114305780992,0 -121.3181894886227,37.98085036480853,0 -121.3182747660847,37.98082808733468,0 -121.3183986478025,37.98112158794378,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.7 University Townhouses</name>
+			<styleUrl>#inline259</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.318116283531,37.98111872176466,0 -121.318004374482,37.9811429172365,0 -121.3179418198794,37.98098970411274,0 -121.318051605231,37.98095973842283,0 -121.318116283531,37.98111872176466,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.8 University Townhouses</name>
+			<styleUrl>#inline9460</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3183659254608,37.98074805802554,0 -121.3183406825234,37.98067619913288,0 -121.3178669045823,37.98079871999767,0 -121.3178935425858,37.98086457963149,0 -121.3183659254608,37.98074805802554,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.9 University Townhouses</name>
+			<styleUrl>#inline534</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3181845331422,37.98065183360728,0 -121.3181621363364,37.98058336032825,0 -121.3178148692956,37.98067232325253,0 -121.3178371278578,37.98073788436261,0 -121.3181845331422,37.98065183360728,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.10 University Townhouses</name>
+			<styleUrl>#inline3810</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3183424777033,37.98058628450983,0 -121.3182556327975,37.98060908380025,0 -121.3181327480361,37.98030306274244,0 -121.3182203419689,37.98028229989524,0 -121.3183424777033,37.98058628450983,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.11 University Townhouses</name>
+			<styleUrl>#inline889</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3178876004993,37.98056296605879,0 -121.3177826703305,37.98058989986085,0 -121.3177159926649,37.98043661455328,0 -121.3178227568777,37.98040705362299,0 -121.3178876004993,37.98056296605879,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#160.12 University Townhouses</name>
+			<styleUrl>#inline2880</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3177803485933,37.98032834401538,0 -121.3177484787995,37.98026108316866,0 -121.3182639155754,37.98012800725597,0 -121.3182943034528,37.98019400385451,0 -121.3177803485933,37.98032834401538,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
