@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.9.3](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.9.2...v0.9.3) (2022-04-29)
+
+
+### Bug Fixes
+
+* Replaced MDTopAppBar with MDToolbar ([47dcd40](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/47dcd404bfa3b7b12bb469ebc1b5e9b6097d8a6a))
+
 ### [0.9.2](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.9.1...v0.9.2) (2022-04-25)
 
 
