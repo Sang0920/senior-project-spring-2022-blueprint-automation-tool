@@ -98,6 +98,7 @@ class MainApp(MDApp):
 
         # Set up theming for the application
         self.title = constants.APPLICATION_NAME
+        self.icon = "bat.png"
         self.theme_cls.material_style = "M3"
         self.theme_cls.theme_style = Settings.current_settings["theme_style"]
         self.theme_cls.primary_palette = "Cyan"

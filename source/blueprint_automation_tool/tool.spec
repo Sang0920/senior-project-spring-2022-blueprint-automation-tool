@@ -12,7 +12,7 @@ path = os.path.abspath(".")
 a = Analysis(
     ["__main__.py"],
     pathex=[path],
-    datas=[('main.kv', '.')],
+    datas=[('main.kv', '.'), ('bat.png', '.')],
     hookspath=[kivymd_hooks_path],
     win_no_prefer_redirects=False,
     win_private_assemblies=False,
@@ -33,4 +33,5 @@ exe = EXE(
     upx=True,
     name="blueprint_automation_tool",
     console=False,
+    icon="bat.ico",
 )
