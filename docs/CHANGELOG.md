@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.10.0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.9.3...v0.10.0) (2022-04-30)
+
+
+### Features
+
+* Updated project icons ([a0b8c6f](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/a0b8c6f195aaec080c1a86b3deb8248beff11ebd))
+
+
+### Bug Fixes
+
+* fixed nested folder issue for parsing ([e48c1b0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/e48c1b098d4cd8c96e442ddf0b584fa47ac36df5))
+
 ### [0.9.3](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.9.2...v0.9.3) (2022-04-29)
 
 
