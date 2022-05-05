@@ -185,6 +185,11 @@ class KeyboardHandler:
             the text in the clipboard
         """
 
+        # Empty Clipboard
+        win32clipboard.OpenClipboard()
+        win32clipboard.EmptyClipboard()
+        win32clipboard.CloseClipboard()
+
         # Press Ctrl+C
         self.press("ctrl")
         sleep(0.01)
@@ -197,7 +202,10 @@ class KeyboardHandler:
 
         # Get clipboard data and return
         win32clipboard.OpenClipboard()
-        data = win32clipboard.GetClipboardData()
+        try:
+            data = win32clipboard.GetClipboardData()
+        except TypeError:
+            data = None
         win32clipboard.CloseClipboard()
         return data
 

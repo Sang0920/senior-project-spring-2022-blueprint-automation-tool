@@ -178,4 +178,4 @@ class PlaceParser:
         block_x = floor(distance * sin(bearing))
         block_z = -1 * floor(distance * cos(bearing))
 
-        return (block_x, round(altitude), block_z)
+        return (block_x, round(altitude * scale), block_z)

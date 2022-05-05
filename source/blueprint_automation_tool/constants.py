@@ -62,6 +62,25 @@ DYES = {
     (199, 78, 189): "magenta",
 }
 
+DYE_TO_CHAT = {
+    "white": "white",
+    "light_gray": "gray",
+    "dark_gray": "gray",
+    "black": "white",
+    "brown": "dark_red",
+    "red": "red",
+    "orange": "gold",
+    "yellow": "yellow",
+    "lime": "green",
+    "green": "dark_green",
+    "cyan": "dark_aqua",
+    "light_blue": "aqua",
+    "blue": "blue",
+    "purple": "dark_purple",
+    "pink": "light_purple",
+    "magenta": "light_purple",
+}
+
 # Directories
 
 PROJECT_PATH = os.path.join(os.path.expanduser("~/Documents"), "Project BAT")

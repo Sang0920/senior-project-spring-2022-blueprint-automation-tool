@@ -111,6 +111,7 @@ class GameAutomator:
                     break
                 elif i == max_attempts - 1:
                     raise AutomationException(f"Unable to send message to chat.\n{message}")
+                self.keyboard.select_all()
                 self.keyboard.press_and_release("backspace")
                 self.keyboard.paste(message)
                 sleep(0.05)

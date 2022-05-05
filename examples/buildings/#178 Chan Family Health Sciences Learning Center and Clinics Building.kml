@@ -2,6 +2,16 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>#178 Chan Family Health Sciences Learning Center and Clinics Building.kml</name>
+	<StyleMap id="inline8790">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline63200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2020</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="inline2020">
 		<LineStyle>
 			<color>ffb83289</color>
@@ -11,17 +21,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="inline879">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#inline632</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#inline2020</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="inline632">
+	<Style id="inline20200">
 		<LineStyle>
 			<color>ffb83289</color>
 			<width>2</width>
@@ -30,19 +30,68 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Placemark>
+	<StyleMap id="inline87900">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline6320</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline20200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline6320">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline63200">
+		<LineStyle>
+			<color>ffb83289</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
 		<name>#178 Chan Family Health Sciences Learning Center and Clinics Building</name>
-		<styleUrl>#inline879</styleUrl>
-		<Polygon>
-			<tessellate>1</tessellate>
-			<outerBoundaryIs>
-				<LinearRing>
-					<coordinates>
-						-121.3126178008266,37.985154730323,0 -121.3126123895118,37.98513504845128,0 -121.3127729832274,37.98508896483545,0 -121.3125132076454,37.98445008974002,0 -121.3122291182369,37.98452367930073,0 -121.31222046537,37.98450762371935,0 -121.3121767021433,37.98452051179121,0 -121.3123660096096,37.9850002088173,0 -121.3123105876002,37.98502369631459,0 -121.3124160640287,37.98520307110738,0 -121.3126178008266,37.985154730323,0 
-					</coordinates>
-				</LinearRing>
-			</outerBoundaryIs>
-		</Polygon>
-	</Placemark>
+		<open>1</open>
+		<Placemark>
+			<name>#178 Chan Family Health Sciences Learning Center and Clinics Building</name>
+			<open>1</open>
+			<styleUrl>#inline87900</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3126178008266,37.985154730323,0 -121.3126123895118,37.98513504845128,0 -121.3127729832274,37.98508896483545,0 -121.3125132076454,37.98445008974002,0 -121.3122291182369,37.98452367930073,0 -121.31222046537,37.98450762371935,0 -121.3121767021433,37.98452051179121,0 -121.3123660096096,37.9850002088173,0 -121.3123105876002,37.98502369631459,0 -121.3124160640287,37.98520307110738,0 -121.3126178008266,37.985154730323,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#178 Chan Family Health Sciences Learning Center and Clinics Building Height</name>
+			<styleUrl>#inline8790</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3126178008266,37.985154730323,7.949184 -121.3126123895118,37.98513504845128,7.949184 -121.3127729832274,37.98508896483545,7.949184 -121.3125132076454,37.98445008974002,7.949184 -121.3122291182369,37.98452367930073,7.949184 -121.31222046537,37.98450762371935,7.949184 -121.3121767021433,37.98452051179121,7.949184 -121.3123660096096,37.9850002088173,7.949184 -121.3123105876002,37.98502369631459,7.949184 -121.3124160640287,37.98520307110738,7.949184 -121.3126178008266,37.985154730323,7.949184 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
 </Document>
 </kml>

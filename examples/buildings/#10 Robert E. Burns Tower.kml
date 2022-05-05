@@ -12,15 +12,6 @@
 			<styleUrl>#inline71000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="inline71000">
-		<LineStyle>
-			<color>ff1d80f9</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Style id="inline6900">
 		<LineStyle>
 			<color>ff1d80f9</color>
@@ -30,19 +21,76 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Placemark>
+	<Style id="inline71000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline12500">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline69000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline710000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline69000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline710000">
+		<LineStyle>
+			<color>ff1d80f9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
 		<name>#10 Robert E. Burns Tower</name>
-		<styleUrl>#inline1250</styleUrl>
-		<Polygon>
-			<tessellate>1</tessellate>
-			<outerBoundaryIs>
-				<LinearRing>
-					<coordinates>
-						-121.3086976990987,37.98084462596791,0 -121.3086600344722,37.98075867013163,0 -121.3085574729115,37.98078498417306,0 -121.30859138336,37.98087275324134,0 -121.3086976990987,37.98084462596791,0 
-					</coordinates>
-				</LinearRing>
-			</outerBoundaryIs>
-		</Polygon>
-	</Placemark>
+		<open>1</open>
+		<Placemark>
+			<name>#10 Robert E. Burns Tower</name>
+			<styleUrl>#inline12500</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3086976990987,37.98084462596791,0 -121.3086600344722,37.98075867013163,0 -121.3085574729115,37.98078498417306,0 -121.30859138336,37.98087275324134,0 -121.3086976990987,37.98084462596791,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>#10 Robert E. Burns Tower Height</name>
+			<styleUrl>#inline1250</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-121.3086976990987,37.98084462596791,54.1782 -121.3086600344722,37.98075867013163,54.1782 -121.3085574729115,37.98078498417306,54.1782 -121.30859138336,37.98087275324134,54.1782 -121.3086976990987,37.98084462596791,54.1782 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
 </Document>
 </kml>

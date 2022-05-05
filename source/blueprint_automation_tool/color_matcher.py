@@ -6,7 +6,6 @@ Description:    Takes an hex value and matches it to the closest minecraft dye c
 import math
 
 import constants
-from kivy.logger import Logger
 
 
 def color_to_minecraft_dye(hex_color):
@@ -18,8 +17,6 @@ def color_to_minecraft_dye(hex_color):
     Returns:
         A string of the closest minecraft dye color
     """
-
-    Logger.info(f"Color Converter: Converting {hex_color} to minecraft dye color")
 
     r, g, b = _hex_to_rgb(hex_color)
 
