@@ -15,7 +15,7 @@ Description:    Provides an introduction to the user.
 
 <img alt="Bat" height="100" src="docs/assets/images/bat.svg">
 
-# Project B.A.T
+# Project B.A.T.
 
 **A Google Earth Pro to Minecraft Blueprint Automation Tool**
 
@@ -33,7 +33,7 @@ Description:    Provides an introduction to the user.
 <details>
 <summary>Table of Contents</summary>
 
-- [About Project B.A.T](#about-project-bat)
+- [About Project B.A.T.](#about-project-bat)
   - [Project Description](#project-description)
   - [Features](#features)
 - [Author](#author)
@@ -57,9 +57,9 @@ Description:    Provides an introduction to the user.
 
 </details>
 
-<a id="top_1" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
+<a id="top_1" href="#title_card"><img alt="Back To Top" align="right" src="https://img.shields.io/badge/Back_To_Top-2c2c2c?style=for-the-badge"></a>
 
-## About Project B.A.T
+## About Project B.A.T.
 
 <img alt="Example Screenshot" src="docs/assets/images/user_interface_dark_mode.png" height="300">
 
@@ -75,6 +75,8 @@ that are created by converting places on a ball-shaped Earth to the perfectly fl
 The project also supports multiple block types and automatic color detection to allow users to
 create an organized and color-coded layout that is easy for them to understand.
 
+<img alt="Example Automation" src="docs/assets/video/automation_animation.gif" height="300">
+
 ### Features
 
 - Automatic building of .kml and .kmz files to the Minecraft world
@@ -85,13 +87,13 @@ create an organized and color-coded layout that is easy for them to understand.
   - Reference Points
   - Scale
 
-<a id="top_2" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
+<a id="top_2" href="#title_card"><img alt="Back To Top" align="right" src="https://img.shields.io/badge/Back_To_Top-2c2c2c?style=for-the-badge"></a>
 
 ## Author
 
 Kevin Green - [k_green5@u.pacific.edu](mailto:k_green5@u.pacific.edu)
 
-<a id="top_3" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
+<a id="top_3" href="#title_card"><img alt="Back To Top" align="right" src="https://img.shields.io/badge/Back_To_Top-2c2c2c?style=for-the-badge"></a>
 
 ## Getting Started
 
@@ -205,6 +207,8 @@ Default Value: Dark Mode
 
 Theme for the application. Either changes the application to use a light theme or a dark theme.
 
+<a id="top_4" href="#title_card"><img alt="Back To Top" align="right" src="https://img.shields.io/badge/Back_To_Top-2c2c2c?style=for-the-badge"></a>
+
 ## Project Components
 
 ### Built With
@@ -223,7 +227,7 @@ Theme for the application. Either changes the application to use a light theme o
 
 ![System Architecture](docs/assets/images/system_architecture.png)
 
-<a id="top_4" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
+<a id="top_5" href="#title_card"><img alt="Back To Top" align="right" src="https://img.shields.io/badge/Back_To_Top-2c2c2c?style=for-the-badge"></a>
 
 ## Roadmap
 
@@ -232,7 +236,7 @@ see currently planned features (and known bugs).
 
 Also be sure to checkout [`CHANGELOG.md`](docs/CHANGELOG.md) to see the history of changes for Project B.A.T.
 
-<a id="top_5" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
+<a id="top_6" href="#title_card"><img alt="Back To Top" align="right" src="https://img.shields.io/badge/Back_To_Top-2c2c2c?style=for-the-badge"></a>
 
 ## Acknowledgements
 
@@ -253,7 +257,7 @@ Also be sure to checkout [`CHANGELOG.md`](docs/CHANGELOG.md) to see the history 
 14. Python Software Foundation, “Welcome to Python.org,” Python.org, 2022. [Online]. Available: <https://www.python.org/>. [Accessed: 19-Jan-2022].
 
 
-<a id="top_6" href="#title_card"><img alt="Back To Top" src="https://img.shields.io/badge/Go%20To-Top-555555?style=for-the-badge&labelColor=2c2c2c" align="right"></a>
+<a id="top_7" href="#title_card"><img alt="Back To Top" align="right" src="https://img.shields.io/badge/Back_To_Top-2c2c2c?style=for-the-badge"></a>
 <!--Useful Links
 Table of Unicode Characters:    https://unicode-table.com/en/
 List of Markdown Badges:        https://github.com/Ileriayo/markdown-badges
