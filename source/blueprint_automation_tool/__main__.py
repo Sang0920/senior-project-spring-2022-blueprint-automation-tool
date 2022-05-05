@@ -36,7 +36,7 @@ Config.set("input", "mouse", "mouse,multitouch_on_demand")
 Config.set("kivy", "log_dir", constants.LOGS_PATH)
 Config.set("kivy", "log_name", "kivy_%y-%m-%d_%_.txt")
 Config.set("kivy", "log_enable", 1)
-Logger.setLevel(LOG_LEVELS["debug"])
+Logger.setLevel(LOG_LEVELS["warning"])
 
 Settings = settings.SettingsManager()
 
