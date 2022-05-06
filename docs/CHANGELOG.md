@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v1.0.0...v1.0.1) (2022-05-06)
+
+
+### Documentation
+
+* Updated PowerPoint With Compressed Images ([dbbef9e](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/dbbef9ecef55f87e29ab5bd515785b7fe3e1125e))
+
 ## [1.0.0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.10.0...v1.0.0) (2022-05-05)
 
 
