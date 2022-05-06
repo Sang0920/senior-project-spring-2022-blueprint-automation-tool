@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.0.0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.10.0...v1.0.0) (2022-05-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* Release 1.0
+
+### Features
+
+* Release 1.0 ([bd683e6](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/bd683e632b3986324e5443cf8d802a6f0e85d928))
+
+
+### Bug Fixes
+
+* Formatting on Error Issues ([3b6ceb3](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/3b6ceb3b56d3696d38ae35b5cd1458fa52397b7a))
+* Updating Building Algorithm For Stability ([0046c79](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/0046c79e46046b1964cfb2980851b8546c051776))
+
+
+### Documentation
+
+* Further Presentation Updates ([4b6f4fb](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/4b6f4fb6e4210d32fdabb7f3df9d7bd3a86ad3dd))
+* Updated PowerPoint ([a5be3e6](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/a5be3e69b6d672379a84071e2bc9e53ef9e7c72b))
+* Updating class diagrams ([7b7a1fd](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/7b7a1fd388965038700996b157beb2ce79ac862b))
+* Updating PowerPoint ([d9e9acc](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/commit/d9e9acc7cad16d5edebf23944c2ae4a74d5ec2fd))
+
 ## [0.10.0](https://github.com/comp195/senior-project-spring-2022-blueprint-automation-tool/compare/v0.9.3...v0.10.0) (2022-04-30)
 
 
