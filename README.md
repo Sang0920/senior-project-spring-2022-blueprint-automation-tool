@@ -150,8 +150,10 @@ Follow these steps below for a basic usage of the application.
 1. Start Minecraft and load into the world you would like to build your blueprint.
    - Project B.A.T. works best with the "superflat" world type in game.
 2. Run `blueprint_automation_tool.exe`.
-3. Click the button labeled `Load Reference Point`.
-4. Open the .kml or .kmz file that you wish to use as the reference point for the layout. This
+   - If you get an error or warnings about a virus, you may need to temporarily stop Windows Defender to start the app. This is because Windows
+     sometimes sees the file as a virus because it has no known publisher attached to it.
+4. Click the button labeled `Load Reference Point`.
+5. Open the .kml or .kmz file that you wish to use as the reference point for the layout. This
    point will be set at the world origin.
 5. Clock on the button labeled `Load Place Files`.
 6. Open all the .kml or .kmz files that you wish to have the application build. After opening the
